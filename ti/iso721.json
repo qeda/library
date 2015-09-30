@@ -1,7 +1,8 @@
 {
   "name": "ISO721",
   "description": "Single Channel High-Speed Digital Isolator",
-  "pins": {
+
+  "pinout": {
     "Vcc1": [1, 3],
     "IN"  : 2,
     "GND1": 4,
@@ -9,6 +10,9 @@
     "Vcc2": 8,
     "GND2": [5, 7]
   },
+  "power": ["Vcc1", "GND1", "Vcc2", "Vcc2"],
+  "input": ["IN"],
+  "output": ["OUT"],
 
   "package": ["SOP8", "SOIC8"],
   "SOP8": {
