@@ -1,0 +1,24 @@
+{
+  "abstract": true,
+  "description": "Single Channel High-Speed Digital Isolator",
+
+  "power": ["Vcc1", "GND1", "Vcc2", "Vcc2"],
+  "input": ["IN", "~EN"],
+  "output": "OUT",
+
+  "schematics": {
+    "symbol": "DIL8",
+    "showPinNumbers" : true,
+    "showPinNames" : true
+  },
+
+  "package": ["SOP8", "SOIC8"],
+  "SOP8": {
+    "pattern": "SOP254P1040X485-8"
+  },
+  "SOIC8": {
+    "pattern": "SOIC127P600X175-8"
+  },
+
+  "keywords": ["IC", "isolator", "digital"],
+}

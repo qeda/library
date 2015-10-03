@@ -1,15 +1,16 @@
 {
   "base": "ISO72x",
-  "name": "ISO721",
+  "name": "ISO722",
 
   "pinout": {
     "Vcc1": [1, 3],
     "IN"  : 2,
     "GND1": 4,
     "OUT" : 6,
+    "~EN" : 7,
     "Vcc2": 8,
-    "GND2": [5, 7]
+    "GND2": 5
   },
 
-  "datasheet": "http://www.ti.com/lit/ds/symlink/iso721.pdf"
+  "datasheet": "http://www.ti.com/lit/ds/symlink/iso722.pdf"
 }
