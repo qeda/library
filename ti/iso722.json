@@ -1,6 +1,7 @@
 {
   "base": "ISO72x",
   "name": "ISO722",
+  "alias": "ISO722M",
 
   "pinout": {
     "Vcc1": [1, 3],
