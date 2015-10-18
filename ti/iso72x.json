@@ -2,7 +2,7 @@
   "abstract": true,
   "description": "Single Channel High-Speed Digital Isolator",
 
-  "pinFeatures": {
+  "properties": {
     "in": ["IN", "~EN", "Vcc1",  "Vcc2"],
     "out": "OUT",
     "power": ["Vcc1", "Vcc2"],
