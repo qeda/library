@@ -3,7 +3,7 @@
   "name": "ISO721",
   "alias": "ISO721M",
 
-  "pins": {
+  "pinout": {
     "Vcc1": [1, 3],
     "IN"  : 2,
     "GND1": 4,
