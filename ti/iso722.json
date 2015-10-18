@@ -3,7 +3,7 @@
   "name": "ISO722",
   "alias": "ISO722M",
 
-  "pinout": {
+  "pins": {
     "Vcc1": [1, 3],
     "IN"  : 2,
     "GND1": 4,

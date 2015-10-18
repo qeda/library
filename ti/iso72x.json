@@ -2,11 +2,13 @@
   "abstract": true,
   "description": "Single Channel High-Speed Digital Isolator",
 
-  "power": ["Vcc1", "Vcc2"],
-  "ground": ["GND1", "GND2"],
-  "input": ["IN", "~EN", "Vcc1",  "Vcc2"],
-  "output": "OUT",
-  "inverted": ["~EN"],
+  "pinFeatures": {
+    "in": ["IN", "~EN", "Vcc1",  "Vcc2"],
+    "out": "OUT",
+    "power": ["Vcc1", "Vcc2"],
+    "ground": ["GND1", "GND2"],
+    "inverted": "~EN"
+  },
 
   "schematics": {
     "symbol": "DIL8",
