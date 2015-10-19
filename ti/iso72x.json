@@ -16,7 +16,7 @@
     "showPinNames" : true
   },
 
-  "package": ["SOP8", "SOIC8"],
+  "housing": ["SOP8", "SOIC8"],
 
   "SOP8": {
     "pattern": "SOP254P1040X485-8",
