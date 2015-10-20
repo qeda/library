@@ -20,11 +20,11 @@
 
   "SOP8": {
     "pattern": "SOP254P1040X485-8",
-    "bodyWidth": [6.52, 6.62],
     "bodyLength": [9.45, 9.55],
-    "leadSpan": [10.10, 10.70],
+    "bodyWidth": [6.52, 6.62],
     "leadLength": [1.15, 1.45],
-    "leadWidth": [0.355, 0.555],
+    "leadSpan": [10.10, 10.70],
+    "leadWidth": [0.355, 0.555]
   },
 
   "SOIC8": {
