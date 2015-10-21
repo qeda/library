@@ -8,73 +8,73 @@ Manufacturers
 
 Abbreviation is used in QEDA.js as component preamble. It corresponds to subdirectory name in this repository (except letter case).
 
-Abbreviation | Name
------|-----
-3M | 3M
-4D | 4D
-AAVID | Aavid Thermalloy
-ABRACON | Abracon
-ACTIVESEMI | Active-Semi
-ADESTO | Adesto Technologies
-ADVANCED | Advanced
-ALD | Advanced Linear Devices
-AMD | Advanced Micro Devices
-APT | Advanced Power Technology
-AEL | AEL Crystals
-AEROFLEX | Aeroflex
-AIRBORN | AirBorn
-AKM | AKM
-AKMSEMI | AKM Semiconductor
-AKROS | Akros Silicon
-ALCATEL | Alcatel Components
-ALLEGRO | Allegro Micro
-ALLIANCE | Alliance Memory
-ALPHA | Alpha & Omega
-ALPHANOVA | Alpha Novatech
-ALPS | Alps
-ALTECH | Altech
-ALTERA | Altera
-AMELECTRICAL | American Electrical
-AMTECHCER | American Technical Ceramics
-AMETHERM | Ametherm
-AMGIS | Amgis Toroids
-AMPHENOL | Amphenol
-AMPHENOLAS | Amphenol Advanced Sensors
-AMPHENOLAE | Amphenol Aerospace Operations
+Abbreviation  | Name
+--------------|---------------------------
+3M            | 3M
+4D            | 4D
+AAVID         | Aavid Thermalloy
+ABRACON       | Abracon
+ACTIVESEMI    | Active-Semi
+ADESTO        | Adesto Technologies
+ADVANCED      | Advanced
+ALD           | Advanced Linear Devices
+AMD           | Advanced Micro Devices
+APT           | Advanced Power Technology
+AEL           | AEL Crystals
+AEROFLEX      | Aeroflex
+AIRBORN       | AirBorn
+AKM           | AKM
+AKMSEMI       | AKM Semiconductor
+AKROS         | Akros Silicon
+ALCATEL       | Alcatel Components
+ALLEGRO       | Allegro Micro
+ALLIANCE      | Alliance Memory
+ALPHA         | Alpha & Omega
+ALPHANOVA     | Alpha Novatech
+ALPS          | Alps
+ALTECH        | Altech
+ALTERA        | Altera
+AMELECTRICAL  | American Electrical
+AMTECHCER     | American Technical Ceramics
+AMETHERM      | Ametherm
+AMGIS         | Amgis Toroids
+AMPHENOL      | Amphenol
+AMPHENOLAS    | Amphenol Advanced Sensors
+AMPHENOLAE    | Amphenol Aerospace Operations
 AMPHENOLAOMIL | Amphenol Aerospace Operations [MIL]
-AMPHENOLCA | Amphenol Canada
-AMPHENOLCP | Amphenol Commercial Products
-AMPHENOLCX | Amphenol Connex
-AMPHENOLIO | Amphenol Industrial Operations
+AMPHENOLCA    | Amphenol Canada
+AMPHENOLCP    | Amphenol Commercial Products
+AMPHENOLCX    | Amphenol Connex
+AMPHENOLIO    | Amphenol Industrial Operations
 AMPHENOLIOMIL | Amphenol Industrial Operations [MIL]
-AMPHENOLIS | Amphenol Intercon Systems
-AMPHENOLPCD | Amphenol PCD
-AMPHENOLSS | Amphenol Sine Systems
-AMPHENOLTCS | Amphenol TCS
-AMPHENOLRF | Amphenol-RF Division
-AMPHENOLTE | Amphenol-Tuchel Electronics
-AMSAG | ams AG
-AMST | ams Technologies
-ANALOG | Analog Devices
-ANAREN | Anaren
-ANDON | Andon
-APEM | Apem
-APEXMICRO | Apex Microtechnology
-APIDEV | API Delevan
-APITECH | API Technologies
-ARCHELEC | Arch Electronics
-ARCOL | Arcol
-ARIES | Aries
-ARTESYN | Artesyn Embedded Technologies
-AKMMICRO | Asahi Kasei Microdevices
-ASSMANN | Assmann
-ATMEL | Atmel
-AUK | AUK Contractors Co., Ltd
-AUSTRIA | Austria Micro Systems
-AVAGO | Avago Technologies
-AVED | Aved
-AVX | AVX
-AXSEM | Axsem
+AMPHENOLIS    | Amphenol Intercon Systems
+AMPHENOLPCD   | Amphenol PCD
+AMPHENOLSS    | Amphenol Sine Systems
+AMPHENOLTCS   | Amphenol TCS
+AMPHENOLRF    | Amphenol-RF Division
+AMPHENOLTE    | Amphenol-Tuchel Electronics
+AMSAG         | ams AG
+AMST          | ams Technologies
+ANALOG        | Analog Devices
+ANAREN        | Anaren
+ANDON         | Andon
+APEM          | Apem
+APEXMICRO     | Apex Microtechnology
+APIDEV        | API Delevan
+APITECH       | API Technologies
+ARCHELEC      | Arch Electronics
+ARCOL         | Arcol
+ARIES         | Aries
+ARTESYN       | Artesyn Embedded Technologies
+AKMMICRO      | Asahi Kasei Microdevices
+ASSMANN       | Assmann
+ATMEL         | Atmel
+AUK           | AUK Contractors Co., Ltd
+AUSTRIA       | Austria Micro Systems
+AVAGO         | Avago Technologies
+AVED          | Aved
+AVX           | AVX
+AXSEM         | Axsem
 BELPS | Bel Power Solutions
 BELFUSE | BelFuse
 BIVAR | Bivar
