@@ -10,7 +10,7 @@
     "inverted": "~EN"
   },
 
-  "schematics": {
+  "schematic": {
     "symbol": "DIL8",
     "showPinNumbers" : true,
     "showPinNames" : true
