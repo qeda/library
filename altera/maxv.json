@@ -1,0 +1,19 @@
+{
+  "abstract": true,
+  "description": "Low cost low power CPLD",
+
+  "properties": {
+    "bidir": ["B1IO", "B2IO", "B3IO", "B4IO"],
+    "power": ["VCCINT", "VCCIO1", "VCCIO2", "VCCIO3", "VCCIO4"],
+    "ground": ["GNDINT", "GNDIO"]
+  },
+
+  "schematic": {
+    "symbol": "MultiDIL",
+    "showPinNumbers" : true,
+    "showPinNames" : true
+  },
+
+  "keywords": ["IC", "digital", "CPLD"]
+}
+
