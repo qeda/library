@@ -1,7 +1,7 @@
 {
   "base": "ISO72x",
   "name": "ISO721",
-  "alias": "ISO721M",
+  "suffix": "M",
 
   "pinout": {
     "Vcc1": [1, 3],

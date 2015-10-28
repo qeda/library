@@ -3,17 +3,26 @@
   "description": "Single Channel High-Speed Digital Isolator",
 
   "properties": {
-    "in": ["IN", "~EN", "Vcc1",  "Vcc2"],
+    "in": ["IN", "~EN"],
     "out": "OUT",
     "power": ["Vcc1", "Vcc2"],
     "ground": ["GND1", "GND2"],
     "inverted": "~EN"
   },
 
+  "group": {
+    "DATA1": "IN",
+    "DATA2": ["OUT", "~EN"],
+    "POWER1": ["Vcc1", "GND1"],
+    "POWER2": ["Vcc2", "GND2"]
+  },
+
   "schematic": {
     "symbol": "DIL8",
-    "showPinNumbers" : true,
-    "showPinNames" : true
+    "showPinNumbers": true,
+    "showPinNames": true,
+    "left": ["DATA1", "POWER1"],
+    "right": ["DATA2", "POWER2"],
   },
 
   "housing": ["SOP8", "SOIC8"],
@@ -32,5 +41,5 @@
     "outline": "JEDEC-MS-012AA"
   },
 
-  "keywords": ["IC", "isolator", "digital"]
+  "keywords": ["IC", "digital", "isolator"]
 }

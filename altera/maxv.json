@@ -10,6 +10,10 @@
     "ground": ["GNDINT", "GNDIO"]
   },
 
+  "group": {
+    "JTAG": ["TMS", "TDI", "TCK", "TDO"]
+  },
+
   "schematic": {
     "symbol": "QUAD",
     "showPinNumbers" : true,

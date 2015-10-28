@@ -1,5 +1,7 @@
 {
   "base": "MAXV",
+  "name": "5M1270ZT144",
+  "suffix": ["A5N", "C4N", "C5N", "I5", "I5N"],
 
   "pinout": {
     "B1IO": "1..8, 12..18, 20..24, 27..36",
@@ -24,10 +26,6 @@
     "GNDIO4": "47, 65",
     "VCCINT": "19, 56, 90, 126",
     "GNDINT": "17, 54, 92, 128"
-  },
-
-  "group": {
-    "JTAG": ["TMS", "TDI", "TCK", "TDO"]
   },
 
   "schematic" : {
