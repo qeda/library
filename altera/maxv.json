@@ -4,14 +4,20 @@
 
   "properties": {
     "bidir": ["B1IO", "B2IO", "B3IO", "B4IO"],
+    "in": ["TMS", "TCK", "TDI"],
+    "out": "TDO",
     "power": ["VCCINT", "VCCIO1", "VCCIO2", "VCCIO3", "VCCIO4"],
     "ground": ["GNDINT", "GNDIO"]
   },
 
   "schematic": {
-    "symbol": "MultiDIL",
+    "symbol": "QUAD",
     "showPinNumbers" : true,
-    "showPinNames" : true
+    "showPinNames" : true,
+    "left": ["B1IO", "B2IO", "B3IO", "B4IO", "JTAG"],
+    "right": ["B1IO", "B2IO", "B3IO", "B4IO"],
+    "top": ["VCCINT", "VCCIO1", "VCCIO2", "VCCIO3", "VCCIO4"],
+    "bottom": ["GNDINT", "GNDIO"]
   },
 
   "keywords": ["IC", "digital", "CPLD"]

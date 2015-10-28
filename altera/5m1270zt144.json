@@ -14,25 +14,28 @@
     "TDI": 34,
     "TCK": 35,
     "TDO": 36,
-    "GNDIO": [10, 11, 26, 47, 65, 78, 83, 99, 115, 135],
-    "GNDINT": [17, 54, 92, 128],
-    "VCCIO1": [9, 25],
-    "VCCIO2": [116, 136],
-    "VCCIO3": [82, 100],
-    "VCCIO4": [46, 64],
-    "VCCINT": [19, 56, 90, 126]
+    "VCCIO1": "9, 25",
+    "GNDIO1": "10, 11, 26",
+    "VCCIO2": "116, 136",
+    "GNDIO2": "115, 135",
+    "VCCIO3": "82, 100",
+    "GNDIO3": "78, 83, 99",
+    "VCCIO4": "46, 64",
+    "GNDIO4": "47, 65",
+    "VCCINT": "19, 56, 90, 126",
+    "GNDINT": "17, 54, 92, 128"
   },
 
   "group": {
-    "jtag": ["TMS", "TDI", "TCK", "TDO"]
+    "JTAG": ["TMS", "TDI", "TCK", "TDO"]
   },
 
-  "symbol": {
-    "bank1": ["B1IO", "jtag"],
-    "bank2": "B2IO",
-    "bank3": "B3IO",
-    "bank4": "B4IO",
-    "power": ["VCCINT", "VCCIO1", "VCCIO2", "VCCIO3", "VCCIO4", "GNDINT", "GNDIO"]
+  "schematic" : {
+    "part1": ["B1IO", "VCCIO1", "GNDIO1"],
+    "part2": ["B2IO", "VCCIO2", "GNDIO2"],
+    "part3": ["B3IO", "VCCIO3", "GNDIO3"],
+    "part4": ["B4IO", "VCCIO4", "GNDIO4"],
+    "part5": ["JTAG", "VCCINT", "GNDINT"]
   },
 
   "housing": {
@@ -40,3 +43,4 @@
     "outline": "JEDEC-MS-026BFB"
   }
 }
+
