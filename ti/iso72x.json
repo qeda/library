@@ -22,7 +22,7 @@
     "showPinNumbers": true,
     "showPinNames": true,
     "left": ["DATA1", "POWER1"],
-    "right": ["DATA2", "POWER2"],
+    "right": ["DATA2", "POWER2"]
   },
 
   "housing": ["SOP8", "SOIC8"],
