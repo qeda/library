@@ -21,7 +21,7 @@
     "left": ["B1IO", "B2IO", "B3IO", "B4IO", "JTAG"],
     "right": ["B1IO", "B2IO", "B3IO", "B4IO"],
     "top": ["VCCINT", "VCCIO1", "VCCIO2", "VCCIO3", "VCCIO4"],
-    "bottom": ["GNDINT", "GNDIO"]
+    "bottom": ["GNDINT", "GNDIO1", "GNDIO2", "GNDIO3", "GNDIO4"]
   },
 
   "keywords": ["IC", "digital", "CPLD"]
