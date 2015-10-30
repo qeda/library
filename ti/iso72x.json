@@ -10,7 +10,7 @@
     "inverted": "~EN"
   },
 
-  "group": {
+  "groups": {
     "DATA1": "IN",
     "DATA2": ["OUT", "~EN"],
     "POWER1": ["Vcc1", "GND1"],
@@ -18,7 +18,7 @@
   },
 
   "schematic": {
-    "symbol": "DIL8",
+    "symbol": "DIL",
     "showPinNumbers": true,
     "showPinNames": true,
     "left": ["DATA1", "POWER1"],

@@ -28,12 +28,12 @@
     "GNDINT": "17, 54, 92, 128"
   },
 
-  "schematic" : {
-    "part1": ["B1IO", "VCCIO1", "GNDIO1"],
-    "part2": ["B2IO", "VCCIO2", "GNDIO2"],
-    "part3": ["B3IO", "VCCIO3", "GNDIO3"],
-    "part4": ["B4IO", "VCCIO4", "GNDIO4"],
-    "part5": ["JTAG", "VCCINT", "GNDINT"]
+  "parts": {
+    "Bank 1": ["B1IO", "VCCIO1", "GNDIO1"],
+    "Bank 2": ["B2IO", "VCCIO2", "GNDIO2"],
+    "Bank 3": ["B3IO", "VCCIO3", "GNDIO3"],
+    "Bank 4": ["B4IO", "VCCIO4", "GNDIO4"],
+    "JTAG & Power": ["JTAG", "VCCINT", "GNDINT"]
   },
 
   "housing": {

@@ -10,14 +10,14 @@
     "ground": ["GNDINT", "GNDIO"]
   },
 
-  "group": {
+  "groups": {
     "JTAG": ["TMS", "TDI", "TCK", "TDO"]
   },
 
   "schematic": {
     "symbol": "QUAD",
-    "showPinNumbers" : true,
-    "showPinNames" : true,
+    "showPinNumbers": true,
+    "showPinNames": true,
     "left": ["B1IO", "B2IO", "B3IO", "B4IO", "JTAG"],
     "right": ["B1IO", "B2IO", "B3IO", "B4IO"],
     "top": ["VCCINT", "VCCIO1", "VCCIO2", "VCCIO3", "VCCIO4"],
