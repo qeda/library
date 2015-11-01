@@ -15,7 +15,7 @@
   },
 
   "schematic": {
-    "symbol": "QUAD",
+    "symbol": "IC",
     "showPinNumbers": true,
     "showPinNames": true,
     "left": ["B1IO", "B2IO", "B3IO", "B4IO", "JTAG"],
@@ -26,4 +26,3 @@
 
   "keywords": ["IC", "digital", "CPLD"]
 }
-
