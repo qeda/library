@@ -3,7 +3,7 @@
   "description": "Low cost low power CPLD",
 
   "properties": {
-    "bidir": ["B1IO", "B2IO", "B3IO", "B4IO"],
+    "bidir": ["IO1", "IO2", "IO3", "IO4"],
     "in": ["TMS", "TCK", "TDI"],
     "out": "TDO",
     "power": ["VCCINT", "VCCIO1", "VCCIO2", "VCCIO3", "VCCIO4"],
@@ -18,8 +18,8 @@
     "symbol": "IC",
     "showPinNumbers": true,
     "showPinNames": true,
-    "left": ["B1IO", "B2IO", "B3IO", "B4IO", "JTAG"],
-    "right": ["B1IO", "B2IO", "B3IO", "B4IO"],
+    "left": ["IO1", "IO2", "IO3", "IO4", "JTAG"],
+    "right": ["IO1", "IO2", "IO3", "IO4"],
     "top": ["VCCINT", "VCCIO1", "VCCIO2", "VCCIO3", "VCCIO4"],
     "bottom": ["GNDINT", "GNDIO1", "GNDIO2", "GNDIO3", "GNDIO4"]
   },
