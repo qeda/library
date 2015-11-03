@@ -25,23 +25,12 @@
     "right": ["DATA2", "POWER2"]
   },
 
-  "housing": ["SOP8", "SOIC8"],
-
-  "SOP8": {
-    "pattern": "SOP",
-    "bodyLength": [9.45, 9.55],
-    "bodyWidth": [6.52, 6.62],
-    "height": [4.85],
-    "leadCount": 8,
-    "leadLength": [1.15, 1.45],
-    "leadSpan": [10.10, 10.70],
-    "leadWidth": [0.355, 0.555],
-    "pitch": 2.54
-  },
+  "housing": "SOIC8",
 
   "SOIC8": {
     "pattern": "SOIC",
-    "outline": "JEDEC-MS-012AA"
+    "outline": "JEDEC-MS-012AA",
+    "suffix": ["D", "MD"]
   },
 
   "keywords": ["IC", "digital", "isolator"]
