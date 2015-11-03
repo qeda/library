@@ -37,7 +37,7 @@
   },
 
   "housing": {
-    "pattern": "QFP50P2200X2200X160-144",
+    "pattern": "QFP",
     "outline": "JEDEC-MS-026BFB"
   }
 }
