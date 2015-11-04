@@ -3,9 +3,9 @@ name: ISO721
 
 pinout:
   Vcc1: 1, 3
-  IN  : 2
+  IN: 2
   GND1: 4
-  OUT : 6
+  OUT: 6
   Vcc2: 8
   GND2: 5, 7
 
