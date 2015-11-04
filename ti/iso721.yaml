@@ -1,0 +1,26 @@
+base: ISO72x
+name: ISO721
+
+pinout:
+  Vcc1: 1, 3
+  IN  : 2
+  GND1: 4
+  OUT : 6
+  Vcc2: 8
+  GND2: 5, 7
+
+housing: &SOP8, &SOIC8
+
+*SOP8:
+  pattern: SOP
+  bodyLength: 9.45-9.55
+  bodyWidth: 6.52-6.62
+  height: 4.85
+  leadCount: 8
+  leadLength: 1.15-1.45
+  leadSpan: 10.10-10.70
+  leadWidth: 0.355-0.555
+  pitch: 2.54
+  suffix: DUB
+
+datasheet: http://www.ti.com/lit/ds/symlink/iso721.pdf
