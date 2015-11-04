@@ -9,9 +9,9 @@ pinout:
   Vcc2: 8
   GND2: 5, 7
 
-housing: &SOP8, &SOIC8
+housing: SOP8, SOIC8
 
-*SOP8:
+SOP8:
   pattern: SOP
   bodyLength: 9.45-9.55
   bodyWidth: 6.52-6.62

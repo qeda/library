@@ -21,9 +21,9 @@ schematic:
   left: DATA1, POWER1
   right: DATA2, POWER2
 
-housing: &SOIC8
+housing: SOIC8
 
-*SOIC8:
+SOIC8:
   pattern: SOIC
   outline: JEDEC-MS-012AA
   suffix: D, MD
