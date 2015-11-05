@@ -25,7 +25,7 @@ housing: SOIC8
 
 SOIC8:
   pattern: SOIC
-  outline: JEDEC-MS-012AA
+  outline: JEDEC MS-012 AA
   suffix: D, MD
 
 keywords: IC, digital, isolator

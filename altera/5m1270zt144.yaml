@@ -141,4 +141,4 @@ parts:
 
 housing:
   pattern: QFP
-  outline: JEDEC-MS-026BFB
+  outline: JEDEC MS-026 BFB
