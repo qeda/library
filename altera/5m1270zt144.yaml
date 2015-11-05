@@ -3,10 +3,14 @@ name: 5M1270ZT144
 suffix: A5N, C4N, C5N, I5, I5N
 
 pinout:
-  IO1: 1-8, 12-16, 18, 20-24, 27-32
-  IO2: 109-114, 117-125, 127, 129-134, 137-144
-  IO3: 73-77, 79-81, 84-89, 91, 93-98, 101-108
-  IO4: 37-45, 48-53, 55, 57-63, 66-72
+  BANK1:
+    IO: 1-8, 12-16, 18, 20-24, 27-32
+  BANK2:
+    IO: 109-114, 117-125, 127, 129-134, 137-144
+  BANK3:
+    IO: 73-77, 79-81, 84-89, 91, 93-98, 101-108
+  BANK4:
+    IO: 37-45, 48-53, 55, 57-63, 66-72
 
   CLK0: 18
   CLK1: 20
@@ -19,114 +23,120 @@ pinout:
     TCK: 35
     TDO: 36
 
-  OE: 60
-  CLRn: 61
+  DEV:
+    OE: 60
+    CLRn: 61
 
-  L1p: 2
-  L1n: 3
-  L2p: 4
-  L2n: 5
-  L3p: 7
-  L3n: 8
-  L4p: 13
-  L4n: 14
-  L5p: 15
-  L5n: 16
-  L6p: 21
-  L6n: 22
-  L7p: 23
-  L7n: 24
-  L8p: 29
-  L8n: 30
-  L9p: 31
-  L9n: 32
+  DIFFIO:
+    L1p: 2
+    L1n: 3
+    L2p: 4
+    L2n: 5
+    L3p: 7
+    L3n: 8
+    L4p: 13
+    L4n: 14
+    L5p: 15
+    L5n: 16
+    L6p: 21
+    L6n: 22
+    L7p: 23
+    L7n: 24
+    L8p: 29
+    L8n: 30
+    L9p: 31
+    L9n: 32
 
-  R1p: 107
-  R1n: 106
-  R2p: 105
-  R2n: 104
-  R3p: 102
-  R3n: 101
-  R4p: 98
-  R4n: 97
-  R5p: 96
-  R5n: 95
-  R6p: 94
-  R6n: 93
-  R7p: 88
-  R7n: 87
-  R8p: 86
-  R8n: 85
-  R9p: 84
-  R9n: 81
-  R10p: 80
-  R10n: 79
-  R11p: 77
-  R11n: 76
-  R12p: 74
-  R12n: 73
+    R1p: 107
+    R1n: 106
+    R2p: 105
+    R2n: 104
+    R3p: 102
+    R3n: 101
+    R4p: 98
+    R4n: 97
+    R5p: 96
+    R5n: 95
+    R6p: 94
+    R6n: 93
+    R7p: 88
+    R7n: 87
+    R8p: 86
+    R8n: 85
+    R9p: 84
+    R9n: 81
+    R10p: 80
+    R10n: 79
+    R11p: 77
+    R11n: 76
+    R12p: 74
+    R12n: 73
 
-  T1p: 141
-  T1n: 140
-  T2p: 139
-  T2n: 138
-  T3p: 133
-  T3n: 132
-  T4p: 130
-  T4n: 129
-  T5p: 127
-  T5n: 125
-  T6p: 124
-  T6n: 123
-  T7p: 122
-  T7n: 121
-  T8p: 118
-  T8n: 117
-  T9p: 110
-  T9n: 109
+    T1p: 141
+    T1n: 140
+    T2p: 139
+    T2n: 138
+    T3p: 133
+    T3n: 132
+    T4p: 130
+    T4n: 129
+    T5p: 127
+    T5n: 125
+    T6p: 124
+    T6n: 123
+    T7p: 122
+    T7n: 121
+    T8p: 118
+    T8n: 117
+    T9p: 110
+    T9n: 109
 
-  B1p: 38
-  B1n: 39
-  B2p: 40
-  B2n: 41
-  B3p: 43
-  B3n: 44
-  B4p: 48
-  B4n: 49
-  B5p: 50
-  B5n: 51
-  B6p: 52
-  B6n: 53
-  B7p: 55
-  B7n: 57
-  B8p: 58
-  B8n: 59
-  B9p: 60
-  B9n: 61
-  B10p: 62
-  B10n: 63
-  B11p: 66
-  B11n: 67
-  B12p: 71
-  B12n: 72
+    B1p: 38
+    B1n: 39
+    B2p: 40
+    B2n: 41
+    B3p: 43
+    B3n: 44
+    B4p: 48
+    B4n: 49
+    B5p: 50
+    B5n: 51
+    B6p: 52
+    B6n: 53
+    B7p: 55
+    B7n: 57
+    B8p: 58
+    B8n: 59
+    B9p: 60
+    B9n: 61
+    B10p: 62
+    B10n: 63
+    B11p: 66
+    B11n: 67
+    B12p: 71
+    B12n: 72
 
   VCCIO1: 9, 25
-  GNDIO1: 10, 11, 26
+  GNDIO1:
+    GNDIO: 10, 11, 26
   VCCIO2: 116, 136
-  GNDIO2: 115, 135
+  GNDIO2:
+    GNDIO: 115, 135
   VCCIO3: 82, 100
-  GNDIO3: 78, 83, 99
+  GNDIO3:
+    GNDIO: 78, 83, 99
   VCCIO4: 46, 64
-  GNDIO4: 47, 65
+  GNDIO4:
+    GNDIO: 47, 65
 
   VCCINT: 19, 56, 90, 126
   GNDINT: 17, 54, 92, 128
 
 parts:
-  Bank 1: JTAG, IO1, VCCIO1, GNDIO1
-  Bank 2: IO2, VCCIO2, GNDIO2
-  Bank 3: IO3, VCCIO3, GNDIO3
-  Bank 4: IO4, VCCIO4, GNDIO4
+  Bank 1: JTAG, BANK1, VCCIO1, GNDIO1
+  Bank 2: BANK2, VCCIO2, GNDIO2
+  Bank 3: BANK3, VCCIO3, GNDIO3
+  Bank 4: BANK4, VCCIO4, GNDIO4
   Power: VCCINT, GNDINT
 
 housing:
