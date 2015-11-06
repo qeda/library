@@ -15,9 +15,9 @@ schematic:
   symbol: IC
   showPinNumbers: true
   showPinNames: true
-  left: BANK1-4, JTAG
-  right: BANK1-4
-  top: VCCINT, VCCIO1-4
-  bottom: GNDINT, GNDIO1-4
+  left: BANK1-4, JTAG, VCCINT
+  right: BANK1-4, GNDINT
+  top: VCCIO1-4
+  bottom: GNDIO1-4
 
 keywords: IC, digital, CPLD
