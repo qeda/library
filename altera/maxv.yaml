@@ -13,8 +13,6 @@ joint:
 
 schematic:
   symbol: IC
-  showPinNumbers: true
-  showPinNames: true
   left: BANK1-4, JTAG, VCCINT
   right: BANK1-4, GNDINT
   top: VCCIO1-4

@@ -16,8 +16,6 @@ groups:
 
 schematic:
   symbol: IC
-  showPinNumbers: true
-  showPinNames: true
   left: DATA1, POWER1
   right: DATA2, POWER2
 
