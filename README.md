@@ -11,9 +11,15 @@ Abbreviation is used in QEDA.js as component preamble. It corresponds to subdire
 Abbreviation            | Name
 ------------------------|---------------------------
 [ALTERA](./altera/)     | Altera
+[ST](./st/)             | STMicroelectronics
 [TI](./ti/)             | Texas Instruments
 
 Legal Notice
 ============
 
 All trademarks and registered trademarks are the property of their respective owners.
+
+License
+=======
+
+Source code is licensed under [MIT license](./LICENSE.md).
