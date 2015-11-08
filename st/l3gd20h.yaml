@@ -1,4 +1,5 @@
 name: L3GD20H
+description: Three-axis digital output gyroscope
 
 pinout:
   Vdd_IO: 1
@@ -40,13 +41,13 @@ schematic:
 
 housing:
   pattern: QFN
+
+  pitch: 0.5
   bodyLength: 2.85-3.15
   bodyWidth: 2.85-3.15
   height: 1
-  leadCount: 16
-  leadCount1: 5
-  leadCount2: 3
+  pullBack: 0.1
+  rowCount: 5
+  columnCount: 3
   leadLength: 0.29-0.41
   leadWidth: 0.19-0.31
-  pitch: 0.5
-  pullBack: 0.1
