@@ -19,11 +19,10 @@ pinout:
     VSOUT: B8
     O/E: A9
   FILT: D10
-  POWER:
-    Vd: E7, F7
-    Vdd: D4, D5
-    PVdd: F9, G9
-    DVdd: G6, G7
+  Vd: E7, F7
+  Vdd: D4, D5
+  PVdd: F9, G9
+  DVdd: G6, G7
   GND: C9, C10, D6, D7, D9, E4, E9, E10, F4, H10, J1, K3, K6, K9
   CONTROL:
     SDA: A10
@@ -35,18 +34,25 @@ pinout:
     MCL: G10
   AUDIO:
     S/PDIF: J7
-    I2S0-3: J6-J3
-    MCLK: J2
+    I2S0-3, MCLK: J6-J2
     SCLK: G4
     LRCLK: G5
   DE: B7
   RTERM: J8
 
+properties:
+  in: PD, Rx0+, Rx0-, Rx1+, Rx1-, Rx2+, Rx2-, Rx3+, Rx3-, RxC, RxC, SCL, DDC_SCL, MCL, DE
+  out: D23-0, DCLK, HSOUT, VSOUT, O/E, S/PDIF, I2S0-3, MCLK, SCLK, LRCLK
+  bidir: SDA, DDC_SDA, MDA
+  power: Vd, Vdd, PVdd, DVdd
+  ground: GND
+  analog: FILT, RTERM
+
 schematic:
   symbol: IC
   left: PD, VIDEO, FILT, CONTROL, HDCP, AUDIO, DE
   right: OUTPUTS, RTERM
-  top: POWER
+  top: Vd, Vdd, PVdd, DVdd
   bottom: GND
 
 housing:
@@ -56,7 +62,7 @@ housing:
   rowCount: 10
   columnCount: 10
   leadCount: 76
-  lead: 0.25-0.35 
+  lead: 0.25-0.35
 
   bodyWidth: 5.90-6.10
   bodyLength: 5.90-6.10
