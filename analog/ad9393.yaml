@@ -13,7 +13,7 @@ pinout:
     RxC+: K2
     RxC-: K1
   OUTPUTS:
-    D23-0: B6, A6, B5, A5, B4, A4, B3, A3, A2, A1, B1, B2, C1, C2, D1, D2, E1, E2, F1, F2, G1, G2, H1, H2
+    D23-0: B6, A6, B5, A5, B4, A4, B3, A3-A1, B1-H2
     DCLK: A7
     HSOUT: A8
     VSOUT: B8
@@ -25,13 +25,13 @@ pinout:
   DVdd: G6, G7
   GND: C9, C10, D6, D7, D9, E4, E9, E10, F4, H10, J1, K3, K6, K9
   CONTROL:
-    SDA: A10
     SCL: B10
+    SDA: A10
   HDCP:
     DDC_SCL: H9
     DDC_SDA: J9
-    MDA: F10
     MCL: G10
+    MDA: F10
   AUDIO:
     S/PDIF: J7
     I2S0-3, MCLK: J6-J2

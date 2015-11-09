@@ -11,6 +11,7 @@ Abbreviation is used in QEDA.js as component preamble. It corresponds to subdire
 Abbreviation            | Name
 ------------------------|---------------------------
 [ALTERA](./altera/)     | Altera
+[ANALOG](./analog/)     | Analog Devices
 [ST](./st/)             | STMicroelectronics
 [TI](./ti/)             | Texas Instruments
 
