@@ -1,0 +1,63 @@
+name: AD9393
+description: Low power HDMI display interface
+
+pinout:
+  PD: B9
+  VIDEO:
+    Rx0+: K5
+    Rx0-: K4
+    Rx1+: K8
+    Rx1-: K7
+    Rx2+: J10
+    Rx2-: K10
+    RxC+: K2
+    RxC-: K1
+  OUTPUTS:
+    D23-0: B6, A6, B5, A5, B4, A4, B3, A3, A2, A1, B1, B2, C1, C2, D1, D2, E1, E2, F1, F2, G1, G2, H1, H2
+    DCLK: A7
+    HSOUT: A8
+    VSOUT: B8
+    O/E: A9
+  FILT: D10
+  POWER:
+    Vd: E7, F7
+    Vdd: D4, D5
+    PVdd: F9, G9
+    DVdd: G6, G7
+  GND: C9, C10, D6, D7, D9, E4, E9, E10, F4, H10, J1, K3, K6, K9
+  CONTROL:
+    SDA: A10
+    SCL: B10
+  HDCP:
+    DDC_SCL: H9
+    DDC_SDA: J9
+    MDA: F10
+    MCL: G10
+  AUDIO:
+    S/PDIF: J7
+    I2S0-3: J6-J3
+    MCLK: J2
+    SCLK: G4
+    LRCLK: G5
+  DE: B7
+  RTERM: J8
+
+schematic:
+  symbol: IC
+  left: PD, VIDEO, FILT, CONTROL, HDCP, AUDIO, DE
+  right: OUTPUTS, RTERM
+  top: POWER
+  bottom: GND
+
+housing:
+  pattern: BGA
+
+  pitch: 0.5
+  rowCount: 10
+  columnCount: 10
+  leadCount: 76
+  lead: 0.25-0.35 
+
+  bodyWidth: 5.90-6.10
+  bodyLength: 5.90-6.10
+  height: 1.40
