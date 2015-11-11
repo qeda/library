@@ -1,8 +1,5 @@
 base: 5602
+name: 245602670001829H+
 
 pinout: 1-70
 
-housing:
-  type: receptacle
-
-keywords: connector, receptacle
