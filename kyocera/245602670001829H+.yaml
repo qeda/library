@@ -1,0 +1,8 @@
+base: 5602
+
+pinout: 1-70
+
+housing:
+  type: receptacle
+
+keywords: connector, receptacle

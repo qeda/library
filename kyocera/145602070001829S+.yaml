@@ -1,0 +1,9 @@
+base: 5602
+
+pinout: 1-70
+
+housing:
+  type: plug
+  boss: true
+
+keywords: connector, plug

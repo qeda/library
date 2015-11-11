@@ -1,0 +1,8 @@
+abstract: true
+
+schematic:
+  symbol: connector
+
+housing:
+  pattern: Kyocera/5602
+
