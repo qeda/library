@@ -1,8 +1,7 @@
-base: 145602
+base: '145602'
 name: 145602070001829S+
 
 pinout: 1-70
 
 housing:
   boss: true
-
