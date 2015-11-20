@@ -62,7 +62,7 @@ housing:
   rowCount: 10
   columnCount: 10
   leadCount: 76
-  lead: 0.25-0.35
+  leadSize: 0.25-0.35
 
   bodyWidth: 5.90-6.10
   bodyLength: 5.90-6.10
