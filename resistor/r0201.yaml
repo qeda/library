@@ -1,0 +1,14 @@
+name: R0201
+description: Chip resistor 0.6x0.3 mm
+
+schematic:
+  symbol: resistor
+
+housing:
+  pattern: chip
+  length: 0.52-0.68
+  width: 0.27-0.33
+  height: 0.2-0.26
+  leadLength: 0.1-0.2
+
+keywords: resistor

@@ -1,0 +1,14 @@
+name: R0603
+description: Chip resistor 1.6x0.8 mm
+
+schematic:
+  symbol: resistor
+
+housing:
+  pattern: chip
+  length: 1.5-1.7
+  width: 0.7-0.9
+  height: 0.35-0.55
+  leadLength: 0.15-0.45
+
+keywords: resistor

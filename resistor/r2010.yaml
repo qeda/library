@@ -1,0 +1,14 @@
+name: R2010
+description: Chip resistor 4.9x2.4 mm
+
+schematic:
+  symbol: resistor
+
+housing:
+  pattern: chip
+  length: 4.75-5.05
+  width: 2.25-2.55
+  height: 0.45-0.65
+  leadLength: 0.25-0.75
+
+keywords: resistor

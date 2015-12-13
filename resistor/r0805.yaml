@@ -1,0 +1,14 @@
+name: R0805
+description: Chip resistor 2x1.25 mm
+
+schematic:
+  symbol: resistor
+
+housing:
+  pattern: chip
+  length: 1.85-2.15
+  width: 1.1-1.4
+  height: 0.45-0.65
+  leadLength: 0.15-0.65
+
+keywords: resistor
