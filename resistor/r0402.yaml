@@ -6,8 +6,8 @@ schematic:
 
 housing:
   pattern: chip
-  length: 0.9-1.1
-  width: 0.45-0.55
+  bodyLength: 0.9-1.1
+  bodyWidth: 0.45-0.55
   height: 0.3-0.4
   leadLength: 0.1-0.3
 
