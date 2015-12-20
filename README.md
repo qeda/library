@@ -12,6 +12,7 @@ Abbreviation            | Name
 ------------------------|---------------------------
 [ALTERA](./altera/)     | Altera
 [ANALOG](./analog/)     | Analog Devices
+[KYOCERA](./kyocera/)   | Kyocera
 [ST](./st/)             | STMicroelectronics
 [TI](./ti/)             | Texas Instruments
 
