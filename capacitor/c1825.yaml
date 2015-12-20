@@ -1,0 +1,14 @@
+name: C1825
+description: Chip capacitor 4.5x6.4 mm
+
+schematic:
+  symbol: capacitor
+
+housing:
+  pattern: chip
+  bodyLength: 4.2-4.8
+  bodyWidth: 6-6.8
+  height: 1.4-1.8
+  leadLength: 0.25-0.95
+
+keywords: capacitor

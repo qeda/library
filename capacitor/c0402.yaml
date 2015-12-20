@@ -1,0 +1,14 @@
+name: C0402
+description: Chip capacitor 1x0.5 mm
+
+schematic:
+  symbol: capacitor
+
+housing:
+  pattern: chip
+  bodyLength: 0.95-1.05
+  bodyWidth: 0.45-0.55
+  height: 0.5-0.6
+  leadLength: 0.2-0.4
+
+keywords: capacitor

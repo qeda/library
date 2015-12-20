@@ -1,0 +1,14 @@
+name: C0603
+description: Chip capacitor 1.6x0.8 mm
+
+schematic:
+  symbol: capacitor
+
+housing:
+  pattern: chip
+  bodyLength: 1.45-1.75
+  bodyWidth: 0.65-0.95
+  height: 0.78-0.92
+  leadLength: 0.2-0.5
+
+keywords: capacitor

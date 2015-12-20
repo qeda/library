@@ -1,12 +1,12 @@
 QEDA Library
 ============
 
-Library of ready-for-use electronic components for [QEDA.js](https://github.com/qeda/qeda).
+Library of ready-for-use electronic components for [QEDA](https://github.com/qeda/qeda).
 
 Manufacturers
 =============
 
-Abbreviation is used in QEDA.js as component preamble. It corresponds to subdirectory name in this repository (except letter case).
+Abbreviation is used in QEDA as component preamble. It corresponds to subdirectory name in this repository (except letter case).
 
 Abbreviation            | Name
 ------------------------|---------------------------

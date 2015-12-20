@@ -1,0 +1,14 @@
+name: C2225
+description: Chip capacitor 5.6x6.4 mm
+
+schematic:
+  symbol: capacitor
+
+housing:
+  pattern: chip
+  bodyLength: 5.2-6
+  bodyWidth: 6-6.8
+  height: 1.25-1.55
+  leadLength: 0.25-0.95
+
+keywords: capacitor

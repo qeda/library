@@ -1,0 +1,14 @@
+name: C0805
+description: Chip capacitor 2x1.25 mm
+
+schematic:
+  symbol: capacitor
+
+housing:
+  pattern: chip
+  bodyLength: 1.8-2.2
+  bodyWidth: 1.05-1.45
+  height: 1.1-1.4
+  leadLength: 0.25-0.75
+
+keywords: capacitor
