@@ -1,0 +1,16 @@
+name: KMR2
+description: Microminiature SMT Top Actuated Pushbutton
+
+suffix: 11LFS, 13LFG, 21LFS, 23GLFG, 31LFS, 33GLFG, 31ULCLFS, 32LFS, 32ULCLFS, 41LFS, 43GLFG, 41ULCLFS, 42LFS, 42ULCLFS
+
+pinout: 1-4
+
+schematic:
+  symbol: pushbutton
+  left: 1, 3
+  right: 2, 4
+
+housing:
+  pattern: CK/KMR2
+
+keywords: pushbutton
