@@ -1,0 +1,108 @@
+name: TPS65217
+description: Single-Chip PMIC for Battery-Powered Systems
+suffix: A, B, C, D
+
+pinout:
+  IN:
+    AC: 10
+    USB: 12
+
+  OUT:
+    SYS: 7, 8
+    BAT: 4, 5
+    BAT_SENSE: 6
+    TS: 11
+
+  MUX:
+    MUX_IN: 14
+    MUX_OUT: 16
+
+  BIAS:
+    INT_LDO: 48
+    BYPASS: 47
+
+  CONTROL:
+    PWR_EN: 9
+    PB_IN: 25
+    nRESET: 44
+
+  DIGITAL:
+    VIO: 18
+    PGOOD: 26
+    LDO_PGOOD: 46
+    nWAKEUP: 13
+    nINT: 45
+
+  I2C:
+    SCL: 28
+    SDA: 27
+
+  WLED:
+    L4: 37
+    FB_WLED: 38
+    ISINK1: 34
+    ISINK2: 33
+    ISET1: 35
+    ISET2: 36
+
+  LDO:
+    VINLDO: 2
+    VLDO1: 3
+    VLDO2: 1
+
+  DCDC1:
+    VIN_DCDC1: 21
+    L1: 20
+    VDCDC1: 19
+
+  DCDC2:
+    VIN_DCDC2: 22
+    L2: 23
+    VDCDC2: 24
+
+  DCDC3:
+    VIN_DCDC3: 32
+    L3: 31
+    VDCDC3: 29
+
+  LOADSW:
+    LS1_IN: 39
+    LS1_OUT: 40
+    LS2_IN: 42
+    LS2_OUT: 43
+
+  GND:
+    AGND: 41
+    PGND: 30
+    PowerPad: 49
+
+  NC: 15, 17
+
+properties:
+  power: AC, USB, SYS, BAT
+  nc: NC
+  ground: AGND, PGND, PowerPad
+  input: AC, BAT_SENSE, FB_LED, ISET1, ISET2, ISINK1, ISINK2, LS1_IN, LS2_IN, MUX_IN, nRESET, PB_IN, PWR_EN, SCL, TS, USB, VINLDO, VIN_DCDC1, VIN_DCDC2, VIN_DCDC3, VIO
+  output: BYPASS, INT_LDO, L1-4, LDO_PGOOD, LS1_OUT, LS2_OUT, MUX_OUT, nINT, nWAKEUP, PGOOD, SYS, VLDO1, VLDO2
+  inverted: nINT, nRESET, nWAKEUP
+
+schematic:
+  symbol: IC
+  left: IN, MUX, BIAS, CONTROL, I2C, WLED, LDO, NC
+  right: OUT, DIGITAL, DCDC1-3, LOADSW
+  bottom: GND
+
+housing:
+  pattern: QFN
+
+  bodyWidth: 5.85-6.15
+  bodyLength: 5.85-6.15
+  height: 0.8-1
+  rowCount: 12
+  columnCount: 12
+  pitch: 0.4
+  leadLength: 0.3-0.5
+  leadWidth: 0.14-0.26
+  tabWidth: 3.95-4.15
+  tabLength: 3.95-4.15
+  tabOffset: -0.225, -0.225
