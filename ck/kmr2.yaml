@@ -3,12 +3,17 @@ description: Microminiature SMT Top Actuated Pushbutton
 
 suffix: 11LFS, 13LFG, 21LFS, 23GLFG, 31LFS, 33GLFG, 31ULCLFS, 32LFS, 32ULCLFS, 41LFS, 43GLFG, 41ULCLFS, 42LFS, 42ULCLFS
 
-pinout: 1-4
+pinout:
+  CONT1: 1, 3
+  CONT2: 2, 4
+  CASE: 5
 
 schematic:
   symbol: pushbutton
-  left: 1, 3
-  right: 2, 4
+  enclosure: true
+  left: CONT1
+  right: CONT2
+  bottom: CASE
 
 housing:
   pattern: CK/KMR2
