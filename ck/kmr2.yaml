@@ -8,9 +8,11 @@ pinout:
   CONT2: 2, 4
   CASE: 5
 
+properties:
+  passive: CONT1-2, CASE
+
 schematic:
   symbol: pushbutton
-  enclosure: true
   left: CONT1
   right: CONT2
   bottom: CASE
