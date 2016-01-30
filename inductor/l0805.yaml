@@ -1,0 +1,14 @@
+name: L0805
+description: Chip inductor 2x1.25 mm
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: chip
+  bodyLength: 1.8-2.2
+  bodyWidth: 1.05-1.45
+  height: 0.65-1.05
+  leadLength: 0.3-0.7
+
+keywords: inductor
