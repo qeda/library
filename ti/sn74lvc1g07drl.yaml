@@ -1,0 +1,14 @@
+name: SN74LVC1G07DRL
+base: SN74LVC1G07DBV
+
+housing:
+  pattern: SOT
+  bodyWidth: 1.1-1.3
+  bodyLength: 1.5-1.7
+  height: 0.5-0.6
+  leadCount: 5
+  leadSpan: 1.5-1.7
+  leadWidth: 0.15-0.25
+  leadLength: 0.2-0.4
+  leadHeight: 0.08-0.18
+  pitch: 0.5

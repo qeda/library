@@ -1,0 +1,16 @@
+abstract: true
+description: Single Buffer/Driver With Open-Drain Output
+
+properties:
+  in: A
+  out: Y
+  power: Vcc
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  top: Vcc
+  left: A, NC
+  right: Y
+  bottom: GND

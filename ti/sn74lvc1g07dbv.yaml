@@ -1,0 +1,13 @@
+name: SN74LVC1G07DBV
+base: SN74LVC1G07
+
+pinout:
+  A: 2
+  Y: 4
+  Vcc: 5
+  GND: 3
+  NC: 1
+
+housing:
+  pattern: SOT
+  outline: JEDEC MO-178 AA
