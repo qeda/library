@@ -1,0 +1,14 @@
+name: L1008
+description: Chip inductor 2.5x2 mm
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: chip
+  bodyLength: 2.3-2.7
+  bodyWidth: 1.8-2.2
+  height: 1-1.2
+  leadLength: 0.4-0.8
+
+keywords: inductor

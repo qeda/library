@@ -1,0 +1,14 @@
+name: L0806
+description: Chip inductor 2x1.6 mm
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: chip
+  bodyLength: 1.85-2.15
+  bodyWidth: 1.45-1.75
+  height: 0.8-1
+  leadLength: 0.3-0.7
+
+keywords: inductor
