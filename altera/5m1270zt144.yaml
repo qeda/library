@@ -140,5 +140,4 @@ parts:
   Power: VCCINT, GNDINT
 
 housing:
-  pattern: QFP
   outline: JEDEC MS-026 BFB

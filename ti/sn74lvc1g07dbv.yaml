@@ -9,5 +9,4 @@ pinout:
   NC: 1
 
 housing:
-  pattern: SOT
   outline: JEDEC MO-178 AA

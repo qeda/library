@@ -2,5 +2,4 @@ name: SN74LVC1G07DCK
 base: SN74LVC1G07DBV
 
 housing:
-  pattern: SOT
   outline: JEDEC MO-203 AA
