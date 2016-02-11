@@ -13,8 +13,8 @@ properties:
 
 schematic:
   symbol: pushbutton
-  left: CONT1
-  right: CONT2
+  left: S1
+  right: S2
   bottom: CASE
 
 housing:
