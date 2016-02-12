@@ -1,0 +1,32 @@
+name: MIC29301
+description: High-Current Low-Dropout Regulator
+
+pinout:
+  EN: 1
+  IN: 2
+  GND: 3, 6
+  OUT: 4
+  FLG: 5
+
+properties:
+  in: EN, IN
+  out: OUT, FLG
+  power: IN, OUT
+  ground: GND
+
+housing: TO-263
+
+TO-263:
+  bodyWidth: 8.392-9.169
+  bodyLength: 10.058-10.668
+  pitch: 1.702
+  leadCount: 5
+  leadWidth: 0.66-0.914
+  leadLength: 2.286-2.794
+  leadSpan: 14.605-15.875
+  tabWidth: 7.747
+  tabLength: 6.502
+  height: 4.318-4.597
+  suffix: U
+
+keywords: IC, LDO

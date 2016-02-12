@@ -14,6 +14,7 @@ Abbreviation            | Name
 [ANALOG](./analog/)     | Analog Devices
 [CK](./ck/)             | C&K Components
 [KYOCERA](./kyocera/)   | Kyocera
+[MICREL](./micrel/)     | Micrel
 [ST](./st/)             | STMicroelectronics
 [TI](./ti/)             | Texas Instruments
 
