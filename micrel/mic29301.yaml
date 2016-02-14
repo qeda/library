@@ -14,9 +14,16 @@ properties:
   power: IN, OUT
   ground: GND
 
+schematic:
+  symbol: IC
+  left: EN, IN
+  right: FLG, OUT
+  bottom: GND
+
 housing: TO-263
 
 TO-263:
+  pattern: PAK
   bodyWidth: 8.392-9.169
   bodyLength: 10.058-10.668
   pitch: 1.702
@@ -24,8 +31,10 @@ TO-263:
   leadWidth: 0.66-0.914
   leadLength: 2.286-2.794
   leadSpan: 14.605-15.875
-  tabWidth: 7.747
-  tabLength: 6.502
+  tabWidth: 10.058-10.668
+  tabLength: 7.747
+  tabLedge: 1.143-1.676
+  tabHeight: 1.143-1.397
   height: 4.318-4.597
   suffix: U
 
