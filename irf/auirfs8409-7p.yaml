@@ -1,0 +1,21 @@
+name: AUIRFS8409-7P
+description: HEXFET Power MOSFET
+
+pinout:
+  G: 1
+  S: 2, 3, 5-7
+  D: 8
+
+properties:
+  in: G
+  passive: S, D
+
+schematic:
+  symbol: FET
+  options: n, enhancement, bulk, diode
+  left: G
+  top: D
+  bottom: S
+
+housing:
+  outline: JEDEC TO-263 CB
