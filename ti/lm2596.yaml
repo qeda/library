@@ -1,0 +1,39 @@
+name: LM2596
+
+pinout:
+  VIN: 1
+  OUT: 2
+  GND: 3, 6
+  FB: 4
+  ~ON~/OFF: 5
+
+properties:
+  power: VIN, OUT
+  ground: GND
+  in: VIN, ~ON~/OFF
+  out: FB
+
+schematic:
+  symbol: IC
+  left: VIN, ~ON~/OFF
+  right: OUT, FB
+  bottom: GND
+
+housing: TO-263
+
+TO-263:
+  pattern: PAK
+  pitch: 1.7
+  bodyWidth: 8.39-8.89
+  bodyLength: 10.04-10.41
+  height: 4.65
+  leadCount: 5
+  leadWidth: 0.71-0.97
+  leadLength: 1.98-1.98
+  leadSpan: 14.35-14.35
+  tabWidth: 10.04-10.41
+  tabLength: 6.35
+  tabLedge: 1.27
+  suffix: S
+
+keywords: IC, analog, DCDC
