@@ -1,10 +1,10 @@
-name: AUIRFS8409-7P
+name: IRFL014N
 description: HEXFET Power MOSFET
 
 pinout:
   G: 1
-  D: 8
-  S: 2, 3, 5-7
+  D: 2, 4
+  S: 3
 
 properties:
   in: G
@@ -15,6 +15,6 @@ schematic:
   options: n, bulk, diode
 
 housing:
-  outline: JEDEC TO-263 CB
+  outline: JEDEC TO-261 AA
 
 keywords: FET
