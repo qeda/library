@@ -16,8 +16,8 @@ properties:
 
 schematic:
   symbol: IC
-  left: IN, OFF
-  right: OUT, GATE, nFGD
+  left: OFF, nFGD
+  right: OUT, GATE, IN
   bottom: GND
 
 housing:

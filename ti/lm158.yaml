@@ -1,0 +1,58 @@
+name: LM158
+descrition: Dual Operational Amplifier
+
+pinout:
+  1OUT: 1
+  1IN-: 2
+  1IN+: 3
+  GND: 4
+  2IN+: 5
+  2IN-: 6
+  2OUT: 7
+  VCC: 8
+
+properties:
+  power: VCC
+  ground: GND
+  in: 1IN+, 1IN-, 2IN+, 2IN-
+  out: 1OUT, 2OUT
+
+schematic:
+  symbol: IC
+  left: 1IN+, 1IN-, 2IN+, 2IN-
+  right: 1OUT, 2OUT
+  top: VCC
+  bottom: GND
+
+parts:
+  OpAmp 1: 1IN+, 1IN-, 1OUT
+  OpAmp 2: 2IN+, 2IN-, 2OUT
+  Power: VCC, GND
+
+housing: VSSOP, SOIC, SO, TSSOP
+
+VSSOP:
+  outline: JEDEC MO-187 AA
+  suffix: DGK
+
+SOIC:
+  outline: JEDEC MS-012 AA
+  suffix: D
+
+SO:
+  pattern: SOP
+  bodyWidth: 5-5.6
+  bodyLength: 5.9-6.5
+  height: 2
+  leadCount: 8
+  leadLength: 0.55-0.95
+  leadSpan: 7.4-8.2
+  leadWidth: 0.35-0.51
+  pitch: 1.27
+  suffix: PS
+
+TSSOP:
+  outline: JEDEC MO-153 AA
+  suffix: PW
+
+keywords: IC, analog, OpAmp
