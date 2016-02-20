@@ -1,0 +1,26 @@
+name: LM5050-2
+descrition: High Side OR-ing FET Controller
+
+pinout:
+  nFGD: 1
+  GND: 2
+  OFF: 3
+  IN: 4
+  GATE: 5
+  OUT: 6
+
+properties:
+  ground: GND
+  in: IN, OFF
+  out: OUT, GATE, nFGD
+
+schematic:
+  symbol: IC
+  left: IN, OFF
+  right: OUT, GATE, nFGD
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-193 AA
+
+keywords: IC, analog, controller
