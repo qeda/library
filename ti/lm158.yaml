@@ -1,5 +1,6 @@
 name: LM158
 descrition: Dual Operational Amplifier
+alias: LM158A
 
 pinout:
   1OUT: 1
