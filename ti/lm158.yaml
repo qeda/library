@@ -16,13 +16,12 @@ properties:
   ground: GND
   in: 1IN+, 1IN-, 2IN+, 2IN-
   out: 1OUT, 2OUT
+  inverted: 1IN-, 2IN-
 
 schematic:
   symbol: IC
-  left: 1IN+, 1IN-, 2IN+, 2IN-
-  right: 1OUT, 2OUT
-  top: VCC
-  bottom: GND
+  left: 1IN+, 1IN-, 2IN+, 2IN-, VCC
+  right: 1OUT, 2OUT, GND
 
 parts:
   OpAmp 1: 1IN+, 1IN-, 1OUT
