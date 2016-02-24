@@ -16,6 +16,7 @@ Abbreviation            | Name
 [IRF](./irf/)           | International Rectifier
 [KYOCERA](./kyocera/)   | Kyocera
 [MICREL](./micrel/)     | Micrel
+[ONSEMI](./onsemi/)     | ON Semiconductor
 [ST](./st/)             | STMicroelectronics
 [TI](./ti/)             | Texas Instruments
 
