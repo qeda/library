@@ -7,7 +7,7 @@ schematic:
 
 housing:
   pattern: molded
-  polarized: true
+  options: polarized
   bodyWidth: 2.29-2.92
   bodyLength: 4.06-4.57
   height: 1.97-2.2
@@ -15,4 +15,4 @@ housing:
   leadWidth: 1.27-1.63
   leadLength: 0.76-1.52
 
-keywords: diode, molded, schottky
+keywords: diode, schottky
