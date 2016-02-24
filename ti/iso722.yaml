@@ -1,5 +1,6 @@
 base: ISO72x
 name: ISO722
+datasheet: http://www.ti.com/lit/ds/symlink/iso722.pdf
 
 pinout:
   Vcc1: 1, 3
@@ -9,5 +10,3 @@ pinout:
   ~EN: 7
   Vcc2: 8
   GND2: 5
-
-datasheet: http://www.ti.com/lit/ds/symlink/iso722.pdf
