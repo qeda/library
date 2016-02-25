@@ -1,0 +1,21 @@
+name: MMBT3904L
+description: General Purpose NPN Transistor
+prefix: S
+
+pinout:
+  B: 1
+  E: 2
+  C: 3
+
+properties:
+  in: B
+  passive: C, E
+
+schematic:
+  symbol: transistor
+  options: npn
+
+housing:
+  outline: JEDEC TO-236 AB
+
+keywords: transistor, NPN
