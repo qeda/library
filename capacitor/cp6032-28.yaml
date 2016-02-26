@@ -1,0 +1,17 @@
+name: CP6032-28
+description: Polarized capacitor 6x3.2 mm (C case)
+
+schematic:
+  symbol: capacitor
+  options: polarized
+
+housing:
+  pattern: molded
+  options: polarized
+  bodyLength: 5.7-6.3
+  bodyWidth: 2.9-3.5
+  height: 2.2-2.8
+  leadWidth: 2.1-2.3
+  leadLength: 1-1.6
+
+keywords: capacitor
