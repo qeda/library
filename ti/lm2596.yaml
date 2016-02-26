@@ -1,5 +1,5 @@
 name: LM2596
-descrition: Step-Down Voltage Regulator
+description: Step-Down Voltage Regulator
 
 pinout:
   VIN: 1

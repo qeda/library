@@ -1,5 +1,5 @@
 name: LM5050-2
-descrition: High Side OR-ing FET Controller
+description: High Side OR-ing FET Controller
 
 pinout:
   nFGD: 1
