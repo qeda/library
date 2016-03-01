@@ -2,4 +2,4 @@ KYOCERA
 =======
 
 * **Kyocera**
-* http://global.kyocera.com/
+* http://global.kyocera.com
