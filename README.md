@@ -13,6 +13,7 @@ Abbreviation            | Name
 [ALTERA](./altera/)     | Altera
 [ANALOG](./analog/)     | Analog Devices
 [CK](./ck/)             | C&K Components
+[ECS](./ecs/)           | ECS International
 [IRF](./irf/)           | International Rectifier
 [KYOCERA](./kyocera/)   | Kyocera
 [MICREL](./micrel/)     | Micrel

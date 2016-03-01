@@ -1,0 +1,16 @@
+name: CSM-7
+description: SMD Quartz Crystal
+
+schematic:
+  symbol: crystal
+
+housing:
+  pattern: crystal
+  bodyLength: 11.3-11.5
+  bodyWidth: 4.8-4.8
+  height: 4.3
+  leadWidth: 0.51-0.75
+  leadLength: 4.4-4.4
+  leadSpan: 13.2-13.2
+
+keywords: crystal
