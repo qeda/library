@@ -16,6 +16,7 @@ Abbreviation            | Name
 [ECS](./ecs/)           | ECS International
 [IRF](./irf/)           | International Rectifier
 [KYOCERA](./kyocera/)   | Kyocera
+[MAXIM](./maxim/)       | Maxim Integrated
 [MICREL](./micrel/)     | Micrel
 [ONSEMI](./onsemi/)     | ON Semiconductor
 [ST](./st/)             | STMicroelectronics
