@@ -1,0 +1,14 @@
+name: D-MMA
+description: MiniMelf Diode (MMA)
+
+schematic:
+  symbol: diode
+
+housing:
+  pattern: MELF
+  options: polarized
+  bodyDiameter: 1.3-1.4
+  bodyLength: 3.4-3.6
+  leadLength: 0.65-0.85
+
+keywords: diode

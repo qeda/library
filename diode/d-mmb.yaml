@@ -1,0 +1,14 @@
+name: D-MMB
+description: Melf Diode (MMB)
+
+schematic:
+  symbol: diode
+
+housing:
+  pattern: MELF
+  options: polarized
+  bodyDiameter: 2-2.2
+  bodyLength: 5.65-5.8
+  leadLength: 1-1.2
+
+keywords: diode
