@@ -20,6 +20,7 @@ Abbreviation            | Name
 [MICREL](./micrel/)     | Micrel
 [ONSEMI](./onsemi/)     | ON Semiconductor
 [ST](./st/)             | STMicroelectronics
+[VISHAY](./vishay/)     | Vishay
 [TI](./ti/)             | Texas Instruments
 
 Legal Notice

@@ -1,0 +1,22 @@
+name: BAT42W
+description: Small Signal Schottky Diode
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  pattern: SOD
+  options: polarized
+  bodyWidth: 1.4-1.7
+  bodyLength: 2.55-2.85
+  height: 1-1.35
+  leadWidth: 0.45-0.65
+  leadLength: 0.25-0.45
+  leadSpan: 3.55-3.85
+
+  padWidth: 0.85
+  padHeight: 0.85
+  padSpace: 2.5
+
+keywords: diode, schottky
