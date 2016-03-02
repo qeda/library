@@ -1,0 +1,11 @@
+name: PMEG3030BEP
+description: 3 A low Vf MEGA Schottky barrier rectifier
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: NXP SOD128
+
+keywords: diode, schottky

@@ -18,6 +18,7 @@ Abbreviation            | Name
 [KYOCERA](./kyocera/)   | Kyocera
 [MAXIM](./maxim/)       | Maxim Integrated
 [MICREL](./micrel/)     | Micrel
+[NXP](./nxp/)           | NXP Semiconductors
 [ONSEMI](./onsemi/)     | ON Semiconductor
 [ST](./st/)             | STMicroelectronics
 [VISHAY](./vishay/)     | Vishay
