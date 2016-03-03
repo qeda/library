@@ -1,0 +1,21 @@
+name: XT60PB
+description: Battery Connector
+
+pinout:
+  -: 1
+  +: 2
+
+schematic:
+  symbol: connector
+  options: single
+
+housing:
+  pattern: connector
+  options: TH, polarized
+  bodyWidth: 16
+  bodyLength: 8.4
+  height: 16
+  leadDiameter: 4.5
+  pitch: 7
+  rowCount: 1
+  columnCount: 2
