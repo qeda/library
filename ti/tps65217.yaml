@@ -105,4 +105,4 @@ housing:
   leadWidth: 0.14-0.26
   tabWidth: 3.95-4.15
   tabLength: 3.95-4.15
-  tabOffset: -0.225, -0.225
+  tabPosition: -0.225, -0.225
