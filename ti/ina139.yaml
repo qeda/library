@@ -1,0 +1,32 @@
+name: INA139
+description: High-Side Measurement Current Shunt Monitor
+datasheet: http://www.ti.com/lit/ds/symlink/ina139.pdf
+
+pinout:
+  OUT: 1
+  GND: 2
+  VIN+: 3
+  VIN-: 4
+  V+: 5
+
+properties:
+  power: V+
+  ground: GND
+  in: VIN+, VIN-
+  out: OUT
+
+schematic:
+  symbol: IC
+  left: VIN+, VIN-
+  right: OUT
+  top: V+
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-178 AA
+
+  padWidth: 1
+  padHeight: 0.55
+  padDistance: 2.7
+
+keywords: IC, analog, OpAmp

@@ -1,0 +1,3 @@
+base: INA139
+name: INA169
+datasheet: http://www.ti.com/lit/ds/symlink/ina169.pdf
