@@ -11,7 +11,7 @@ schematic:
 
 housing:
   pattern: connector
-  options: TH, polarized
+  options: TH
   bodyWidth: 16
   bodyLength: 8.4
   height: 16
@@ -19,3 +19,4 @@ housing:
   pitch: 7
   rowCount: 1
   columnCount: 2
+  padSpace: 0.5
