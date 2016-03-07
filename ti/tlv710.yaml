@@ -1,0 +1,42 @@
+name: TLV710
+description: Dual, 200mA, Low-Iq Low-Dropout Regulator for Portable Devices
+
+pinout:
+  EN1: 1
+  IN: 2
+  EN2: 3
+  GND: 4
+  OUT2: 5
+  OUT1: 6
+
+properties:
+  in: IN, EN1-2
+  out: OUT1-2
+  power: IN, OUT1-2
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: IN, EN1-2
+  right: OUT1-2
+  bottom: GND
+
+housing:
+  pattern: SON
+  bodyWidth: 1.45-1.55
+  bodyLength: 1.45-1.55
+  height: 0.7-0.8
+  leadWidth: 0.2-0.3
+  leadLength: 0.4-0.6
+  leadLength2: 0.5-0.7
+  leadHeight: 0.2
+  leadCount: 6
+  pitch: 0.5
+
+
+  padWidth: 0.75
+  padWidth2: 0.85
+  padHeight: 0.28
+  padSpace: 0.4
+
+keywords: IC, analog, LDO
