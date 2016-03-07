@@ -13,4 +13,8 @@ housing:
   leadLength: 4.4
   leadSpan: 13.2
 
+  padWidth: 5.5
+  padHeight: 2
+  padSpace: 4
+
 keywords: crystal

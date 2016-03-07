@@ -23,4 +23,10 @@ schematic:
 housing:
   outline: JEDEC TO-253
 
+  padWidth1: 1.31
+  padHeight1: 0.55
+  padWidth2: 1.31
+  padHeight2: 0.94
+  padDistance: 2
+
 keywords: IC, digital

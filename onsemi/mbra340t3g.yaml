@@ -15,4 +15,8 @@ housing:
   leadWidth: 1.27-1.63
   leadLength: 0.76-1.52
 
+  padWidth: 2
+  padHeight: 2
+  padDistance: 4
+
 keywords: diode, schottky

@@ -18,4 +18,8 @@ schematic:
 housing:
   outline: JEDEC TO-236 AB
 
+  padWidth: 0.9
+  padHeight: 0.8
+  padDistance: 2
+
 keywords: transistor, NPN

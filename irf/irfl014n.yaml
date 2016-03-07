@@ -17,4 +17,10 @@ schematic:
 housing:
   outline: JEDEC TO-261 AA
 
+  padWidth1: 2
+  padHeight1: 1.5
+  padWidth2: 2
+  padHeight2: 3.8
+  padDistance: 6.3
+
 keywords: FET
