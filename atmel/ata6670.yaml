@@ -1,0 +1,51 @@
+name: ATA6670
+description: Dual LIN Transceiver
+
+pinout:
+  SERIAL1:
+    RXD1: 1
+    TXD1: 3
+  LIN1: 13
+  EN1: 2
+  VS1: 14
+  GND1: 12
+
+  SERIAL2:
+    RXD2: 4
+    TXD2: 7
+  LIN2: 9
+  EN2: 5
+  WAKE2: 6
+  INH2: 11
+  VS2: 10
+  GND2: 8
+
+  PAD: 15
+
+properties:
+  in: TXD1-2, EN1-2, WAKE2
+  out: RXD1-2, INH2
+  bidir: LIN1-2
+  power: VS1-2
+  ground: GND1-2, PAD
+
+schematic:
+  symbol: IC
+  left: SERIAL1, EN1, SERIAL2, EN2, WAKE2
+  right: LIN1-2, INH2
+  top: VS1-2
+  bottom: GND1-2, PAD
+
+housing:
+  pattern: SON
+  bodyWidth: 2.9-3.1
+  bodyLength: 4.4-4.6
+  height: 0.8-0.9
+  leadWidth: 0.25-0.35
+  leadLength: 0.35-0.45
+  leadCount: 14
+  pitch: 0.65
+  tabWidth: 1.5-1.7
+  tabLength: 3.8-4
+
+keywords: IC, digital, transceiver

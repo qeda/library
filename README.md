@@ -12,6 +12,7 @@ Abbreviation            | Name
 ------------------------|---------------------------
 [ALTERA](./altera/)     | Altera
 [ANALOG](./analog/)     | Analog Devices
+[ATMEL](./atmel/)       | Atmel
 [CK](./ck/)             | C&K Components
 [ECS](./ecs/)           | ECS International
 [IRF](./irf/)           | International Rectifier
