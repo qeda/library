@@ -33,7 +33,6 @@ housing:
   leadCount: 6
   pitch: 0.5
 
-
   padWidth: 0.75
   padWidth2: 0.85
   padHeight: 0.28
