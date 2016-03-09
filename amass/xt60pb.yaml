@@ -2,21 +2,24 @@ name: XT60PB
 description: Battery Connector
 
 pinout:
-  -: 1
-  +: 2
+  +: 1
+  -: 2
 
 schematic:
   symbol: connector
   options: single
 
 housing:
-  pattern: connector
-  options: TH
-  bodyWidth: 16
-  bodyLength: 8.4
+  pattern: custom
+
+  bodyWidth: 8.4
+  bodyLength: 16
   height: 16
-  leadDiameter: 4.5
-  pitch: 7
-  rowCount: 1
-  columnCount: 2
-  padSpace: 0.5
+  silkscreen: M -4.2 6 -2.2 8 M 4.2 6 2.2 8
+
+  drillDiameter: 5
+  padWidth: 6
+  padHeight: 6
+  padPosition: 0, -3.5, 0, 3.5
+
+  courtyard: 1
