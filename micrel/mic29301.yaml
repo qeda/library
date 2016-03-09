@@ -16,8 +16,8 @@ properties:
 
 schematic:
   symbol: IC
-  left: EN, IN
-  right: FLG, OUT
+  left: IN, EN
+  right: OUT, FLG
   bottom: GND
 
 housing: TO-263
