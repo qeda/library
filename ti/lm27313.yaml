@@ -1,0 +1,31 @@
+name: LM27313
+description: 1.6-MHz Boost Converter With 30-V Internal FET Switch
+
+pinout:
+  SW: 1
+  GND: 2
+  FB: 3
+  ~SHDN: 4
+  VIN: 5
+
+properties:
+  in: FB, ~SHDN
+  passive: SW
+  power: VIN
+  ground: GND
+  inverted: ~SHDN
+
+schematic:
+  symbol: IC
+  left: VIN, ~SHDN
+  right: SW, FB
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-178 AA
+
+  padWidth: 1
+  padHeight: 0.55
+  padDistance: 2.7
+
+keywords: IC, analog, DC-DC

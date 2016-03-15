@@ -1,0 +1,60 @@
+name: MAX764C
+description: High-Efficiency, Low Iq DC-DC Inverter
+alias: MAX764E
+
+pinout:
+  OUT: 1
+  FB: 2
+  SHDN: 3
+  REF: 4
+  GND: 5
+  V+: 6, 7
+  LX: 8
+
+properties:
+  in: SHDN, FB
+  out: OUT, REF
+  passive: LX
+  power: V+
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: SHDN, REF, FB
+  right: LX, OUT
+  top: V+
+  bottom: GND
+
+housing: SO, DIP
+
+SO:
+  pattern: SOP
+  suffix: S
+
+  bodyWidth: 3.8-4
+  bodyLength: 4.8-5
+  height: 1.35-1.75
+
+  leadWidth: 0.35-0.49
+  leadLength: 0.4-1.27
+  leadHeight: 0.19-0.25
+  leadSpan: 5.8-6.2
+  leadCount: 8
+  pitch: 1.27
+
+DIP:
+  pattern: DIP
+  suffix: P
+
+  bodyWidth: 6.1-7.87
+  bodyLength: 8.84-9.91
+  height: 5.08
+
+  leadWidth: 0.41-0.56
+  leadLength: 2.92-3.81
+  leadHeight: 0.2-0.3
+  leadSpan: 7.62-8.26
+  leadCount: 8
+  pitch: 2.54
+
+keywords: IC, analog, DC-DC
