@@ -1,0 +1,39 @@
+name: ADG508A
+description: 8-Channel Analog Multiplexer
+
+pinout:
+  SOURCE:
+    S1-8: 4-7, 12-9
+  ADDRESS:
+    A0-2: 1, 16, 15
+  EN: 2
+  D: 8
+  VDD: 13
+  VSS: 3
+  GND: 14
+
+properties:
+  in: EN, A0-2
+  bidir: S1-8, D
+  power: VDD, VSS
+  ground: GND
+  analog: FILT, RTERM
+
+schematic:
+  symbol: IC
+  left: SOURCE, EN
+  right: D, ADDRESS
+  top: VDD, VSS
+  bottom: GND
+
+housing: DIP, SOIC
+
+DIP:
+  outline: JEDEC MS-001 AB
+  suffix: KN
+
+SOIC:
+  outline: JEDEC MS-012 AC
+  suffix: KR
+
+keywords: IC, analog, multiplexer
