@@ -1,0 +1,50 @@
+name: SN74HC4851
+description: 8-Channel Analog Multiplexer/Demultiplexer with Injection-Current Effect Control
+suffix: Q1
+
+pinout:
+  SOURCE:
+    Y0-7: 13-15, 12, 1, 5, 2, 4
+  ADDRESS:
+    A: 11
+    B: 10
+    C: 9
+  INH: 6
+  COM: 3
+  VCC: 16
+  GND: 8
+  NC: 7
+
+properties:
+  in: INH, A, B, C
+  bidir: Y0-7, COM
+  power: VCC
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: SOURCE, INH
+  right: COM, ADDRESS, NC
+  top: VCC
+  bottom: GND
+
+housing: SOIC, TSSOP
+
+SOIC:
+  outline: JEDEC MS-012 AC
+  suffix: D
+
+  padWidth: 1.5
+  padHeight: 0.55
+  padDistance: 5.4
+
+TSSOP:
+  outline: JEDEC MO-153 AB
+  suffix: PW
+
+  padWidth: 1.55
+  padHeight: 0.3
+  padDistance: 5.6
+
+keywords: IC, analog, multiplexer
