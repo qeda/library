@@ -17,7 +17,6 @@ properties:
   bidir: S1-8, D
   power: VDD, VSS
   ground: GND
-  analog: FILT, RTERM
 
 schematic:
   symbol: IC
