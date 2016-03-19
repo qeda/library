@@ -8,22 +8,24 @@ Manufacturers
 
 Abbreviation is used in QEDA as component preamble. It corresponds to subdirectory name in this repository (except letter case).
 
-Abbreviation            | Name
-------------------------|---------------------------
-[ALTERA](./altera/)     | Altera
-[ANALOG](./analog/)     | Analog Devices
-[ATMEL](./atmel/)       | Atmel
-[CK](./ck/)             | C&K Components
-[ECS](./ecs/)           | ECS International
-[IRF](./irf/)           | International Rectifier
-[KYOCERA](./kyocera/)   | Kyocera
-[MAXIM](./maxim/)       | Maxim Integrated
-[MICREL](./micrel/)     | Micrel
-[NXP](./nxp/)           | NXP Semiconductors
-[ONSEMI](./onsemi/)     | ON Semiconductor
-[ST](./st/)             | STMicroelectronics
-[VISHAY](./vishay/)     | Vishay
-[TI](./ti/)             | Texas Instruments
+Abbreviation                            | Name
+----------------------------------------|---------------------------------------
+[ALTERA](./altera/)                     | Altera
+[AMASS](./amass/)                       | Amass
+[ANALOG](./analog/)                     | Analog Devices
+[ATMEL](./atmel/)                       | Atmel
+[CK](./ck/)                             | C&K Components
+[ECS](./ecs/)                           | ECS International
+[HARTING](./harting/)                   | Harting
+[IRF](./irf/)                           | International Rectifier
+[KYOCERA](./kyocera/)                   | Kyocera
+[MAXIM](./maxim/)                       | Maxim Integrated
+[MICREL](./micrel/)                     | Micrel
+[NXP](./nxp/)                           | NXP Semiconductors
+[ONSEMI](./onsemi/)                     | ON Semiconductor
+[ST](./st/)                             | STMicroelectronics
+[VISHAY](./vishay/)                     | Vishay
+[TI](./ti/)                             | Texas Instruments
 
 Legal Notice
 ============
