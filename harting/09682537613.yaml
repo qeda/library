@@ -1,0 +1,30 @@
+name: '09682537613'
+description: D-Sub STD 15P FEM angled board locks
+
+pinout: 1-17
+
+schematic:
+  symbol: connector
+  left: 1-8
+  right: 9-15
+  top: 16
+  bottom: 17
+
+housing:
+  pattern: custom
+  bodyWidth: 39.2
+  bodyLength: 12
+  height: 12.55
+  bodyPosition: 0, -3.5
+
+  drillDiameter1: 1.2
+  rowCount1: 2
+  rowPitch1: 2.84
+
+  columnCount1: 8, 7
+  columnPitch1: 2.77
+
+  drillDiameter2: 3.1
+  padPosition2: -16.65, 0, 16.65, 0
+
+keywords: connector, female
