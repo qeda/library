@@ -1,0 +1,19 @@
+name: SRR0603
+description: Shielded Power Inductor
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: molded
+  bodyWidth: 6.3-6.7
+  bodyLength: 6.3-6.7
+  height: 3.3
+  leadWidth: 1.8-2.2
+  leadLength: 0.6-0.8
+
+  padWidth: 1.5
+  padHeight: 2.5
+  padSpace: 4.5
+
+keywords: inductor

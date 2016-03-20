@@ -14,6 +14,7 @@ Abbreviation                            | Name
 [AMASS](./amass/)                       | Amass
 [ANALOG](./analog/)                     | Analog Devices
 [ATMEL](./atmel/)                       | Atmel
+[BOURNS](./bourns/)                     | Bourns
 [CK](./ck/)                             | C&K Components
 [ECS](./ecs/)                           | ECS International
 [HARTING](./harting/)                   | Harting
