@@ -1,0 +1,35 @@
+name: AD8515A
+description: 1.8 V Low Power CMOS Rail-to-Rail Input/Output Operational Amplifier
+
+pinout:
+  OUT: 1
+  V-: 2
+  IN:
+    +IN: 3
+    -IN: 4
+  V+: 5
+
+properties:
+  power: V+, V-
+  in: +IN, -IN
+  out: OUT
+  inverted: -IN
+
+schematic:
+  symbol: IC
+  left: IN
+  right: OUT
+  top: V+
+  bottom: V-
+
+housing: SC70, SOT-23
+
+SC70:
+  outline: JEDEC MO-203 AA
+  suffix: KS
+
+SOT-23:
+  outline: JEDEC MO-178 AA
+  suffix: RJ
+
+keywords: IC, analog, OpAmp
