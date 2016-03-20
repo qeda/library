@@ -53,5 +53,7 @@ SON:
   padWidth: 0.95
   padHeight: 0.28
   padSpace: 1.9
+  viaDiameter: 0.3
+  viaPosition: -0.35, -0.75, -0.35, 0.75, 0, 0, 0.35, -0.75, 0.35, 0.75
 
 keywords: IC, analog, LDO, regulator
