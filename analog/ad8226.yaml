@@ -1,0 +1,38 @@
+name: AD8226
+description: Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier
+alias: AD8226A, AD8226B
+
+pinout:
+  -IN: 1
+  RG: 2, 3
+  +IN: 4
+  -VS: 5
+  REF: 6
+  VOUT: 7
+  +VS: 8
+
+properties:
+  power: +VS, -VS
+  in: +IN, -IN, REF
+  out: VOUT
+  passive: RG
+  inverted: -IN
+
+schematic:
+  symbol: IC
+  left: +IN, RG, -IN
+  right: VOUT, REF
+  top: +VS
+  bottom: -VS
+
+housing: MSOP, SOIC
+
+MSOP:
+  outline: JEDEC MO-187 AA
+  suffix: RM
+
+SOIC:
+  outline: JEDEC MS-012 AA
+  suffix: R
+
+keywords: IC, analog, OpAmp
