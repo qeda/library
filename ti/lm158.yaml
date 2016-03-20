@@ -4,11 +4,13 @@ alias: LM158A
 
 pinout:
   1OUT: 1
-  1IN-: 2
-  1IN+: 3
+  1IN:
+    1IN+: 3
+    1IN-: 2
   GND: 4
-  2IN+: 5
-  2IN-: 6
+  2IN:
+    2IN+: 5
+    2IN-: 6
   2OUT: 7
   VCC: 8
 
@@ -21,13 +23,12 @@ properties:
 
 schematic:
   symbol: IC
-  left: 1IN+, 1IN-, 2IN+, 2IN-, VCC
+  left: 1IN, 2IN, VCC
   right: 1OUT, 2OUT, GND
 
 parts:
-  OpAmp 1: 1IN+, 1IN-, 1OUT
-  OpAmp 2: 2IN+, 2IN-, 2OUT
-  Power: VCC, GND
+  OpAmp 1: 1IN, 1OUT, VCC, GND
+  OpAmp 2: 2IN, 2OUT
 
 housing: VSSOP, SOIC, SO, TSSOP
 
