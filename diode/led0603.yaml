@@ -1,0 +1,15 @@
+name: LED0603
+description: Chip LED 1.6x0.8 mm
+
+schematic:
+  symbol: LED
+
+housing:
+  pattern: chip
+  option: polarized
+  bodyLength: 1.5-1.7
+  bodyWidth: 0.7-0.9
+  height: 0.7-0.9
+  leadLength: 0.3
+
+keywords: LED
