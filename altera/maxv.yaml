@@ -1,5 +1,6 @@
-abstract: true
+variation: 5M1270ZT144
 description: Low cost low power CPLD
+keywords: IC, digital, CPLD
 
 properties:
   bidir: IO
@@ -17,5 +18,3 @@ schematic:
   right: BANK1-4, GNDINT
   top: VCCIO1-4
   bottom: GNDIO1-4
-
-keywords: IC, digital, CPLD
