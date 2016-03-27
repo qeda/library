@@ -1,0 +1,80 @@
+name: SN74AHC125
+description: Quadruple 2-Input Positive-NAND Gates
+
+pinout:
+  IN1:
+    1A: 2
+    ~1OE: 1
+  1Y: 3
+  IN2:
+    2A: 5
+    ~2OE: 4
+  2Y: 6
+  IN3:
+    3A: 9
+    ~3OE: 10
+  3Y: 8
+  IN4:
+    4A: 12
+    ~4OE: 13
+  4Y: 11
+
+  VCC: 14
+  GND: 7
+
+properties:
+  in: 1A, 2A, 3A, 4A, ~1OE, ~2OE, ~3OE, ~4OE
+  out: 1Y, 2Y, 3Y, 4Y
+  power: VCC
+  ground: GND
+  inverted: ~1OE, ~2OE, ~3OE, ~4OE
+
+schematic:
+  symbol: IC
+  top: VCC
+  left: IN1-4
+  right: 1Y, 2Y, 3Y, 4Y
+  bottom: GND
+
+housing: SOIC, SSOP, TVSOP, PDIP, SO, TSSOP
+
+SOIC:
+  outline: JEDEC MS-012 AB
+  suffix: D
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4
+
+SSOP:
+  outline: JEDEC MO-150 AB
+  suffix: DB
+
+TVSOP:
+  outline: JEDEC MO-194 AA
+  suffix: DGV
+
+PDIP:
+  outline: JEDEC MS-001 AA
+  suffix: N
+
+SO:
+  pattern: SOP
+  bodyWidth: 5-5.6
+  bodyLength: 9.9-10.5
+  height: 2
+  leadWidth: 0.35-0.51
+  leadLength: 0.55-1.05
+  leadSpan: 7.4-8.2
+  leadCount: 14
+  suffix: NS
+
+TSSOP:
+  outline: JEDEC MO-153 AB-1
+  suffix: PW
+
+  padWidth: 1.6
+  padHeight: 0.35
+  padDistance: 5.6
+
+keywords: IC, digital, gate
