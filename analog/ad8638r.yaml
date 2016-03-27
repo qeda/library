@@ -1,0 +1,21 @@
+base: AD8638
+name: AD8638AR
+
+pinout:
+  IN:
+    +IN: 3
+    -IN: 2
+  OUT: 6
+  NC: 1, 5, 8
+  V+: 7
+  V-: 4
+
+housing: SOIC, MSOP
+
+SOIC:
+  outline: JEDEC MS-012 AA
+  suffix: ''
+
+MSOP:
+  outline: JEDEC MO-187 AA
+  suffix: M

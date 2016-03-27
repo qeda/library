@@ -1,0 +1,26 @@
+name: BNX012-01
+description: Noise Suppressor for DC Power Lines
+
+pinout:
+  B: 1
+  CB: 2
+  PSG: 3
+  CG: 4-6
+
+properties:
+  passive: B, CB, PSG, CG
+
+schematic:
+  symbol: IC
+  left: B, PSG
+  right: CB, CG
+
+housing:
+  pattern: custom
+
+  bodyWidth: 10.8-11.2
+  bodyLength: 11.8-12.2
+  drillDiameter: 1.1
+  padPosition: -2.5, -2.5, 2.5, -2.5, -2.5, 2.5, 2.5, 2.5, 0, -5, 0, 0
+
+keywords: IC, analog, filter

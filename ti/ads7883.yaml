@@ -1,0 +1,37 @@
+name: ADS7883
+description: 12-Bit, 3-MSPS, microPOWER, Miniature SAR Analog-to-Digital Converter
+alias: ADS7883S, ADS7883SB
+
+pinout:
+  VIN: 3
+  SPI:
+    ~CS: 6
+    SCLK: 4
+    SDO: 5
+  VDD: 1
+  GND: 2
+
+properties:
+  in: VIN, ~CS, SCLK
+  out: SDO
+  power: VDD
+  ground: GND
+  inverted: ~CS
+
+schematic:
+  symbol: IC
+  left: VIN
+  right: SPI
+  top: VDD
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-178 AB
+  leadWidth: 0.25-0.5
+  suffix: DBV
+
+  padWidth: 1.05
+  padHeight: 0.6
+  padDistance: 2.7
+
+keywords: IC, analog, ADC

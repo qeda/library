@@ -1,0 +1,13 @@
+base: AD8638
+name: AD8638ARJ
+
+pinout:
+  IN:
+    +IN: 3
+    -IN: 4
+  OUT: 1
+  V+: 5
+  V-: 2
+
+housing:
+  outline: JEDEC MO-178 AA
