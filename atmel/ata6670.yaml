@@ -1,5 +1,7 @@
 name: ATA6670
 description: Dual LIN Transceiver
+datasheet: http://www.atmel.com/Images/Atmel-9204-LIN-Networking-ATA6670_Datasheet.pdf
+keywords: IC, digital, transceiver
 
 pinout:
   SERIAL1:
@@ -48,5 +50,3 @@ housing:
   pitch: 0.65
   tabWidth: 1.5-1.7
   tabLength: 3.8-4
-
-keywords: IC, digital, transceiver

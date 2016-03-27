@@ -1,5 +1,7 @@
 name: ATtiny25
 description: 8-bit AVR Microcontroller
+datasheet: http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf
+keywords: IC, digital, microcontroller, MCU
 
 pinout:
   PORT:
@@ -33,5 +35,3 @@ schematic:
 
 housing:
   outline: JEDEC MS-001 BA
-
-keywords: IC, digital, microcontroller, MCU
