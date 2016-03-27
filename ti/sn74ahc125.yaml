@@ -67,6 +67,7 @@ SO:
   leadLength: 0.55-1.05
   leadSpan: 7.4-8.2
   leadCount: 14
+  pitch: 1.27
   suffix: NS
 
 TSSOP:
