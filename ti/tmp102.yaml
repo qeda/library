@@ -1,0 +1,42 @@
+name: TMP102AIDRL
+description: Low-Power Digital Temperature Sensor With SMBus and Two-Wire Serial Interface
+datasheet: http://www.ti.com/lit/ds/symlink/tmp102.pdf
+keywords: IC, digital, temperature, sensor
+
+pinout:
+  I2C:
+    SCL: 1
+    SDA: 6
+  ALERT: 3
+  ADD0: 4
+  V+: 5
+  GND: 2
+
+properties:
+  in: SCL, ADD0
+  out: ALERT
+  bidir: SDA
+  power: V+
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: ADD0, ALERT
+  right: I2C
+  top: V+
+  bottom: GND
+
+housing:
+  pattern: SOTFL
+  bodyWidth: 1.1-1.3
+  bodyLength: 1.5-1.7
+  height: 0.5-0.6
+  pitch: 0.5
+  leadWidth: 0.15-0.25
+  leadLength: 0.2-0.4
+  leadSpan: 1.5-1.7
+  leadCount: 6
+
+  padWidth: 0.45
+  padHeight: 0.3
+  padSpace: 0.9
