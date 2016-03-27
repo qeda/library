@@ -1,6 +1,8 @@
 name: AD822
 description: Single-Supply, Rail-to-Rail Low Power FET-Input Op Amp
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD822.pdf
 alias: AD822A, AD822B
+keywords: IC, analog, OpAmp
 
 pinout:
   OUT1: 1
@@ -44,5 +46,3 @@ SOIC:
 MSOP:
   outline: JEDEC MO-187 AA
   suffix: RM
-
-keywords: IC, analog, OpAmp

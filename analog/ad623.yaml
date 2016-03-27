@@ -1,5 +1,7 @@
 name: AD623
 description: Single-Supply, Rail-to-Rail, Low Cost Instrumentation Amplifier
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf
+keywords: IC, analog, OpAmp
 alias: AD623A, AD623B
 
 pinout:
@@ -40,5 +42,3 @@ SOIC:
 MSOP:
   outline: JEDEC MO-187 AA
   suffix: RM
-
-keywords: IC, analog, OpAmp

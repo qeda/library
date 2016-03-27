@@ -1,5 +1,7 @@
 name: AD9393
 description: Low power HDMI display interface
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD9393.pdf
+keywords: IC, digital, receiver, converter
 
 pinout:
   PD: B9
@@ -67,5 +69,3 @@ housing:
   bodyWidth: 5.90-6.10
   bodyLength: 5.90-6.10
   height: 1.40
-
-keywords: IC, digital, receiver, converter

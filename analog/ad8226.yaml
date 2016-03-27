@@ -1,6 +1,8 @@
 name: AD8226
 description: Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8226.pdf
 alias: AD8226A, AD8226B
+keywords: IC, analog, OpAmp
 
 pinout:
   -IN: 1
@@ -34,5 +36,3 @@ MSOP:
 SOIC:
   outline: JEDEC MS-012 AA
   suffix: R
-
-keywords: IC, analog, OpAmp

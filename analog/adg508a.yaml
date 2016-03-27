@@ -1,5 +1,7 @@
 name: ADG508A
 description: 8-Channel Analog Multiplexer
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADG508A_509A.pdf
+keywords: IC, analog, multiplexer
 
 pinout:
   SOURCE:
@@ -34,5 +36,3 @@ DIP:
 SOIC:
   outline: JEDEC MS-012 AC
   suffix: KR
-
-keywords: IC, analog, multiplexer

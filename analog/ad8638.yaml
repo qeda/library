@@ -1,5 +1,6 @@
 variation: AD8638R, AD8638RJ
 description: 16 V Auto-Zero, Rail-to-Rail Output Operational Amplifier
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8638_8639.pdf
 keywords: IC, analog, OpAmp
 
 properties:

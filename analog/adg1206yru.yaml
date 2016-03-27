@@ -1,5 +1,5 @@
+base: ADG1206
 name: ADG1206YRU
-description: Low Capacitance, 16-Channel ±15 V/+12 V Multiplexer (TSSOP)
 
 pinout:
   SOURCE:
@@ -13,21 +13,5 @@ pinout:
   GND: 12
   NC: 2, 3, 13
 
-properties:
-  in: EN, A0-3
-  passive: S1-16, D
-  power: VDD, VSS
-  ground: GND
-  nc: NC
-
-schematic:
-  symbol: IC
-  left: SOURCE, EN
-  right: D, ADDRESS, NC
-  top: VDD, VSS
-  bottom: GND
-
 housing:
   outline: JEDEC MO-153 AE
-
-keywords: IC, analog, multiplexer

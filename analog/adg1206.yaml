@@ -1,0 +1,18 @@
+variation: ADG1206YRU
+description: Low Capacitance, 16-Channel ±15 V/+12 V Multiplexer (TSSOP)
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADG1206_1207.pdf
+keywords: IC, analog, multiplexer
+
+properties:
+  in: EN, A0-3
+  passive: S1-16, D
+  power: VDD, VSS
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: SOURCE, EN
+  right: D, ADDRESS, NC
+  top: VDD, VSS
+  bottom: GND
