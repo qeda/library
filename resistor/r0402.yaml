@@ -1,5 +1,6 @@
 name: R0402
 description: Chip resistor 1x0.5 mm
+keywords: resistor
 
 schematic:
   symbol: resistor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 0.45-0.55
   height: 0.3-0.4
   leadLength: 0.1-0.3
-
-keywords: resistor

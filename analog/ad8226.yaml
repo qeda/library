@@ -1,7 +1,7 @@
 name: AD8226
+alias: AD8226A, AD8226B
 description: Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8226.pdf
-alias: AD8226A, AD8226B
 keywords: IC, analog, OpAmp
 
 pinout:

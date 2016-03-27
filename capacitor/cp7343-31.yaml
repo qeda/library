@@ -1,5 +1,6 @@
 name: CP7343-31
 description: Polarized capacitor 7.3x4.3 mm (D case)
+keywords: capacitor
 
 schematic:
   symbol: capacitor
@@ -13,5 +14,3 @@ housing:
   height: 2.5-3.1
   leadWidth: 2.3-2.5
   leadLength: 1-1.6
-
-keywords: capacitor

@@ -1,5 +1,6 @@
 name: L0603
 description: Chip inductor 1.6x0.8 mm
+keywords: inductor
 
 schematic:
   symbol: inductor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 0.65-0.95
   height: 0.65-0.95
   leadLength: 0.2-0.6
-
-keywords: inductor

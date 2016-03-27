@@ -1,5 +1,6 @@
 name: D-MMU
 description: MicroMelf Diode (MMU)
+keywords: diode
 
 schematic:
   symbol: diode
@@ -10,5 +11,3 @@ housing:
   bodyDiameter: 1-1.1
   bodyLength: 2.1-2.2
   leadLength: 0.35-0.45
-
-keywords: diode

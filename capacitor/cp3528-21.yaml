@@ -1,5 +1,6 @@
 name: CP3528-21
 description: Polarized capacitor 3.5x2.8 mm (B case)
+keywords: capacitor
 
 schematic:
   symbol: capacitor
@@ -13,5 +14,3 @@ housing:
   height: 1.7-2.1
   leadWidth: 2.1-2.3
   leadLength: 0.5-0.9
-
-keywords: capacitor

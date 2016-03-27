@@ -1,5 +1,7 @@
 name: MBRA340T3G
 description: Surface Mount Schottky Power Rectifier
+datasheet: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF
+keywords: diode, schottky
 
 schematic:
   symbol: diode
@@ -18,5 +20,3 @@ housing:
   padWidth: 2
   padHeight: 2
   padDistance: 4
-
-keywords: diode, schottky

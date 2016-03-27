@@ -1,5 +1,6 @@
 name: M1
 description: Surface Mount Rectifier
+keywords: diode
 
 schematic:
   symbol: diode
@@ -7,5 +8,3 @@ schematic:
 housing:
   outline: JEDEC DO-214 AC
   options: polarized
-
-keywords: diode

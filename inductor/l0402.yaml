@@ -1,5 +1,6 @@
 name: L0402
 description: Chip inductor 1x0.5 mm
+keywords: inductor
 
 schematic:
   symbol: inductor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 0.45-0.55
   height: 0.45-0.55
   leadLength: 0.15-0.35
-
-keywords: inductor

@@ -1,8 +1,8 @@
 name: AD623
+alias: AD623A, AD623B
 description: Single-Supply, Rail-to-Rail, Low Cost Instrumentation Amplifier
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf
 keywords: IC, analog, OpAmp
-alias: AD623A, AD623B
 
 pinout:
   RG:

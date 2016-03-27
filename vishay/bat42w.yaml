@@ -1,5 +1,7 @@
 name: BAT42W
 description: Small Signal Schottky Diode
+datasheet: http://www.vishay.com/docs/85661/bat42w.pdf
+keywords: diode, schottky
 
 schematic:
   symbol: diode
@@ -18,5 +20,3 @@ housing:
   padWidth: 0.85
   padHeight: 0.85
   padSpace: 2.5
-
-keywords: diode, schottky

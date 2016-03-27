@@ -1,5 +1,6 @@
 name: L1206
 description: Chip inductor 3.2x1.6 mm
+keywords: inductor
 
 schematic:
   symbol: inductor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 1.4-1.8
   height: 0.9-1.3
   leadLength: 0.4-1
-
-keywords: inductor

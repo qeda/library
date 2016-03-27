@@ -1,5 +1,7 @@
 name: CSM-7
 description: SMD Quartz Crystal
+datasheet: http://www.ecsxtal.com/store/pdf/csm_7.pdf
+keywords: crystal
 
 schematic:
   symbol: crystal
@@ -16,5 +18,3 @@ housing:
   padWidth: 5.5
   padHeight: 2
   padSpace: 4
-
-keywords: crystal

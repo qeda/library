@@ -1,5 +1,6 @@
 name: SRR0603
 description: Shielded Power Inductor
+keywords: inductor
 
 schematic:
   symbol: inductor
@@ -15,5 +16,3 @@ housing:
   padWidth: 1.5
   padHeight: 2.5
   padSpace: 4.5
-
-keywords: inductor

@@ -1,5 +1,7 @@
 name: MIC29301
 description: High-Current Low-Dropout Regulator
+datasheet: http://micrel.com/_PDF/mic29150.pdf
+keywords: IC, LDO
 
 pinout:
   EN: 1
@@ -37,5 +39,3 @@ TO-263:
   tabHeight: 1.143-1.397
   height: 4.318-4.597
   suffix: U
-
-keywords: IC, LDO

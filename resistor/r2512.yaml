@@ -1,5 +1,6 @@
 name: R2512
 description: Chip resistor 6.35x3.2 mm
+keywords: resistor
 
 schematic:
   symbol: resistor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 3.05-3.35
   height: 0.45-0.65
   leadLength: 0.25-0.75
-
-keywords: resistor

@@ -1,5 +1,7 @@
 name: AUIRFS8409-7P
 description: HEXFET Power MOSFET
+datasheet: http://www.irf.com/product-info/datasheets/data/auirfs8409-7p.pdf
+keywords: FET
 
 pinout:
   G: 1
@@ -16,5 +18,3 @@ schematic:
 
 housing:
   outline: JEDEC TO-263 CB
-
-keywords: FET

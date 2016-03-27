@@ -1,5 +1,6 @@
 name: C1210
 description: Chip capacitor 3.2x2.5 mm
+keywords: capacitor
 
 schematic:
   symbol: capacitor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 2.3-2.7
   height: 1.9-2.3
   leadLength: 0.25-0.75
-
-keywords: capacitor

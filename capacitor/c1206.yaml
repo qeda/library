@@ -1,5 +1,6 @@
 name: C1206
 description: Chip capacitor 3.2x1.6 mm
+keywords: capacitor
 
 schematic:
   symbol: capacitor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 1.4-1.8
   height: 1.4-1.8
   leadLength: 0.25-0.75
-
-keywords: capacitor

@@ -1,6 +1,8 @@
 name: MAX764C
-description: High-Efficiency, Low Iq DC-DC Inverter
 alias: MAX764E
+description: High-Efficiency, Low Iq DC-DC Inverter
+datasheet: https://datasheets.maximintegrated.com/en/ds/MAX764-MAX766.pdf
+keywords: IC, analog, DC-DC
 
 pinout:
   OUT: 1
@@ -56,5 +58,3 @@ DIP:
   leadSpan: 7.62-8.26
   leadCount: 8
   pitch: 2.54
-
-keywords: IC, analog, DC-DC

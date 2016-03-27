@@ -1,7 +1,7 @@
 name: AD822
+alias: AD822A, AD822B
 description: Single-Supply, Rail-to-Rail Low Power FET-Input Op Amp
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD822.pdf
-alias: AD822A, AD822B
 keywords: IC, analog, OpAmp
 
 pinout:

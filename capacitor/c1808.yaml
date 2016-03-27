@@ -1,5 +1,6 @@
 name: C1808
 description: Chip capacitor 4.7x2 mm
+keywords: capacitor
 
 schematic:
   symbol: capacitor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 1.8-2.2
   height: 0.85-1.15
   leadLength: 0.25-0.95
-
-keywords: capacitor

@@ -1,5 +1,6 @@
 name: LQH88P
 description: Power Inductor
+keywords: inductor
 
 schematic:
   symbol: inductor
@@ -12,5 +13,3 @@ housing:
   leadWidth: 5
   leadLength: 1.7-2.1
   leadHeight: 0.3
-
-keywords: inductor

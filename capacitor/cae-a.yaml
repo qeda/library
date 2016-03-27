@@ -1,5 +1,6 @@
 name: CAE-A
 description: Aluminum electrolytic capacitor case A
+keywords: capacitor
 
 schematic:
   symbol: capacitor
@@ -14,5 +15,3 @@ housing:
   leadWidth: 0.45-0.65
   leadLength: 1.3-1.7
   leadSpace: 0.4-0.8
-
-keywords: capacitor

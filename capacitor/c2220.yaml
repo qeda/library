@@ -1,5 +1,6 @@
 name: C2220
 description: Chip capacitor 5.7x5 mm
+keywords: capacitor
 
 schematic:
   symbol: capacitor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 4.6-5.4
   height: 1.8-2.2
   leadLength: 0.25-0.95
-
-keywords: capacitor

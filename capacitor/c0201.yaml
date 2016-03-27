@@ -1,5 +1,6 @@
 name: C0201
 description: Chip capacitor 0.6x0.3 mm
+keywords: capacitors
 
 schematic:
   symbol: capacitor
@@ -10,5 +11,3 @@ housing:
   bodyWidth: 0.27-0.33
   height: 0.27-0.33
   leadLength: 0.1-0.2
-
-keywords: capacitors

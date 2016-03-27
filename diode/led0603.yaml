@@ -1,5 +1,6 @@
 name: LED0603
 description: Chip LED 1.6x0.8 mm
+keywords: LED
 
 schematic:
   symbol: LED
@@ -11,5 +12,3 @@ housing:
   bodyWidth: 0.7-0.9
   height: 0.7-0.9
   leadLength: 0.3
-
-keywords: LED

@@ -1,5 +1,6 @@
 name: SS32
 description: Surface Mount Schottky Barrier Rectifier
+keywords: diode, schottky
 
 schematic:
   symbol: diode
@@ -8,5 +9,3 @@ schematic:
 housing:
   outline: JEDEC DO-214 AB
   options: polarized
-
-keywords: diode, schottky

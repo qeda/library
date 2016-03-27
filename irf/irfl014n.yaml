@@ -1,5 +1,7 @@
 name: IRFL014N
 description: HEXFET Power MOSFET
+datasheet: http://www.irf.com/product-info/datasheets/data/irfl014n.pdf
+keywords: FET
 
 pinout:
   G: 1
@@ -22,5 +24,3 @@ housing:
   padWidth2: 2
   padHeight2: 3.8
   padDistance: 6.3
-
-keywords: FET

@@ -1,5 +1,7 @@
 name: MAX6421
 description: Low-Power Reset Circuit
+datasheet: https://datasheets.maximintegrated.com/en/ds/MAX6340-MAX6426.pdf
+keywords: IC, digital, reset
 
 pinout:
   GND: 1
@@ -28,5 +30,3 @@ housing:
   padWidth2: 1.31
   padHeight2: 0.94
   padDistance: 2
-
-keywords: IC, digital
