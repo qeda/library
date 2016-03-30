@@ -1,0 +1,30 @@
+name: AD8468W
+description: Rail-to-Rail, Fast, Low Power 2.5 V to 5.5 V, Single-Supply TTL/CMOS Comparator
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8468.pdf
+keywords: IC, analog, comparator
+
+pinout:
+  IN:
+    VP: 3
+    VN: 4
+  Q: 1
+  SDN: 5
+  VCC: 6
+  GND: 2
+
+properties:
+  in: VP, VN, SDN
+  out: Q
+  power: VCC
+  ground: GND
+  inverted: VN
+
+schematic:
+  symbol: IC
+  left: IN
+  right: Q, SDN
+  top: VCC
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-203 AB
