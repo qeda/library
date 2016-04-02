@@ -1,6 +1,6 @@
 name: R1206
 description: Chip resistor 3.1x1.55 mm
-keywords: resistor
+keywords: resistor, 1/4W
 
 schematic:
   symbol: resistor

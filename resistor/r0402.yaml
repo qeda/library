@@ -1,6 +1,6 @@
 name: R0402
 description: Chip resistor 1x0.5 mm
-keywords: resistor
+keywords: resistor, 1/16W
 
 schematic:
   symbol: resistor

@@ -1,6 +1,6 @@
 name: R2512
 description: Chip resistor 6.35x3.2 mm
-keywords: resistor
+keywords: resistor, 1W
 
 schematic:
   symbol: resistor

@@ -1,6 +1,6 @@
 name: R1210
 description: Chip resistor 3.1x2.6 mm
-keywords: resistor
+keywords: resistor, 1/2W
 
 schematic:
   symbol: resistor
