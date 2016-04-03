@@ -1,5 +1,8 @@
 name: TLV710
+suffix: 1828, 3318
 description: Dual, 200mA, Low-Iq Low-Dropout Regulator for Portable Devices
+datasheet: http://www.ti.com/lit/ds/symlink/tlv7101828.pdf
+keywords: IC, analog, LDO
 
 pinout:
   EN1: 1
@@ -28,14 +31,12 @@ housing:
   height: 0.7-0.8
   leadWidth: 0.2-0.3
   leadLength: 0.4-0.6
-  leadLength2: 0.5-0.7
+  leadLength1: 0.5-0.7
   leadHeight: 0.2
   leadCount: 6
   pitch: 0.5
 
   padWidth: 0.75
-  padWidth2: 0.85
+  padWidth1: 0.85
   padHeight: 0.28
   padSpace: 0.4
-
-keywords: IC, analog, LDO
