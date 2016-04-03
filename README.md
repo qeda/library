@@ -28,6 +28,7 @@ Abbreviation                            | Name
 [ST](./st/)                             | STMicroelectronics
 [VISHAY](./vishay/)                     | Vishay
 [TI](./ti/)                             | Texas Instruments
+[YAGEO](./yageo/)                       | Yageo
 
 Legal Notice
 ============

@@ -1,0 +1,21 @@
+name: TC124-JR-07
+decription: Array Chip Resistor
+keywords: resistor, array
+
+pinout: 1-8
+
+schematic:
+  symbol: IC
+  left: 1-4
+  right: 8-5
+
+housing:
+  pattern: chip-array
+  options: concave
+  bodyWidth: 0.9-1.1
+  bodyLength: 1.9-2.1
+  height: 0.35-0.55
+  leadWidth: 0.4-0.5
+  leadLength: 0.15-0.45
+  leadCount: 8
+  pitch: 0.5
