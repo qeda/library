@@ -1,27 +1,32 @@
-name: ACPL-K71T
+name: ACPL-K74T
 description: Automotive High Speed Low Power Digital Optocoupler
 datasheet: http://docs.avagotech.com/docs/AV02-2180EN
 keywords: IC, analog, optocoupler
 
 pinout:
-  AN: 1
-  CAT: 2
-  OUT: 7
+  AN1: 1
+  CAT1: 2
+  OUT1: 7
+  AN2: 4
+  CAT2: 3
+  OUT2: 6
   VDD: 8
   GND: 5
-  NC: 3, 4, 6
 
 properties:
-  out: OUT
-  passive: AN, CAT
+  out: OUT1-2
+  passive: AN1-2, CAT1-2
   power: VDD
   ground: GND
-  nc: NC
+
+parts:
+  OC1: AN1, CAT1, OUT1, VDD, GND
+  OC2: AN2, CAT2, OUT2
 
 schematic:
   symbol: IC
-  left: AN, CAT, NC
-  right: VDD, OUT, GND
+  left: AN1-2, CAT1-2
+  right: VDD, OUT1-2, GND
 
 housing:
   pattern: SOP
