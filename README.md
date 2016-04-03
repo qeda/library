@@ -14,6 +14,7 @@ Abbreviation                            | Name
 [AMASS](./amass/)                       | Amass
 [ANALOG](./analog/)                     | Analog Devices
 [ATMEL](./atmel/)                       | Atmel
+[AVAGO](./avago/)                       | Avago Technologies
 [BOURNS](./bourns/)                     | Bourns
 [CK](./ck/)                             | C&K Components
 [ECS](./ecs/)                           | ECS International

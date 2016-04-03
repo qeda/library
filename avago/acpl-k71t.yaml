@@ -1,0 +1,39 @@
+name: ACPL-K71T
+description: Automotive High Speed Low Power Digital Optocoupler
+datasheet: http://docs.avagotech.com/docs/AV02-2180EN
+keywords: IC, analog, optocoupler
+
+pinout:
+  LEDA: 1
+  LEDC: 2
+  V+: 8
+  V-: 5
+  OUT: 7
+  NC: 3, 4, 6
+
+properties:
+  out: OUT
+  passive: LEDA, LEDC
+  power: V+, V-
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: LEDA, LEDC, NC
+  right: V+, OUT, V-
+
+housing:
+  pattern: SOP
+  units: inches
+  bodyWidth: 0.263-0.273
+  bodyLength: 0.22-0.24
+  height: 0.12-0.13
+  leadWidth: 0.01-0.02
+  leadLength: 0.0285-0.0395
+  leadSpan: 0.443-0.463
+  leadCount: 8
+  pitch: 0.05
+
+  padWidth: 0.075
+  padHeight: 0.025
+  padSpan: 0.498
