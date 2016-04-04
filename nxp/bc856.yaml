@@ -1,0 +1,25 @@
+name: BC856
+alias: BC856A, BC856B
+description: PNP General Purpose Transistor
+datasheet: http://www.nxp.com/documents/data_sheet/BC856_BC857_BC858.pdf
+keywords: transistor, NPN
+
+pinout:
+  B: 1
+  E: 2
+  C: 3
+
+properties:
+  in: B
+  passive: C, E
+
+schematic:
+  symbol: transistor
+  options: pnp
+
+housing:
+  outline: JEDEC TO-236 AB
+
+  padWidth: 0.7
+  padHeight: 0.6
+  padDistance: 2
