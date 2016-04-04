@@ -1,0 +1,10 @@
+name: BAS521
+description: Single High Voltage Switching Diode
+keywords: diode
+
+schematic:
+  symbol: diode
+
+housing:
+  outline: JEITA SC-79
+  options: polarized

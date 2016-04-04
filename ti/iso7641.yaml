@@ -1,20 +1,20 @@
 base: ISO764x
-name: ISO7640FM
+name: ISO7641FM
 
 pinout:
   LEFT:
     INA: 3
     INB: 4
     INC: 5
-    IND: 6
+    OUTD: 6
+  EN1: 7
   VCC1: 1
   GND1: 2, 8
   RIGHT:
     OUTA: 14
     OUTB: 13
     OUTC: 12
-    OUTD: 11
-  EN: 10
+    IND: 11
+  EN2: 10
   VCC2: 16
   GND2: 9, 15
-  NC: 7

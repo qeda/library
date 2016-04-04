@@ -1,4 +1,4 @@
-name: AD8468W
+name: AD8468WB
 description: Rail-to-Rail, Fast, Low Power 2.5 V to 5.5 V, Single-Supply TTL/CMOS Comparator
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8468.pdf
 keywords: IC, analog, comparator
@@ -28,3 +28,4 @@ schematic:
 
 housing:
   outline: JEDEC MO-203 AB
+  suffix: KS

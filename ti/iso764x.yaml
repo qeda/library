@@ -1,0 +1,20 @@
+abstract: true
+description: Low-Power Quad-Channel Digital Isolator
+datasheet: http://www.ti.com/lit/ds/symlink/iso7640fm.pdf
+keywords: IC, digital, isolator
+
+properties:
+  in: INA, INB, INC, IND, EN, EN1-2
+  out: OUTA, OUTB, OUTC, OUTD
+  power: VCC1-2
+  ground: GND1-2
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: VCC1, LEFT, NC, EN1, GND1
+  right: VCC2, RIGHT, EN, EN2, GND2
+
+housing:
+  outline: JEDEC MS-013 AA
+  suffix: DW

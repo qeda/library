@@ -1,0 +1,3 @@
+base: ADR38x
+name: ADR380A
+description: Precision Low Drift 2.048 V SOT-23 Voltage Reference

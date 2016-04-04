@@ -1,0 +1,41 @@
+name: AD8208WB
+alias: AD8208WH
+description: High Voltage, Precision Difference Amplifier
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8208.pdf
+keywords: IC, analog, OpAmp
+
+pinout:
+  IN:
+    +IN: 8
+    -IN: 1
+  OUT: 5
+  A:
+    A1-2: 3, 4
+  VS: 6
+  GND: 2
+  NC: 7
+
+properties:
+  in: +IN, -IN, A2
+  out: OUT, A1
+  power: VS
+  ground: GND
+  inverted: -IN
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: IN, A
+  right: OUT, NC
+  top: VS
+  bottom: GND
+
+housing: MSOP, SOIC
+
+MSOP:
+  outline: JEDEC MO-187 AA
+  suffix: RM
+
+SOIC:
+  outline: JEDEC MS-012 AA
+  suffix: R

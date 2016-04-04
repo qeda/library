@@ -1,0 +1,18 @@
+abstact: true
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADR380_381.pdf
+keywords: IC, analog, reference
+
+pinout:
+  VIN: 1
+  GND: 3
+  VOUT: 2
+
+schematic:
+  symbol: IC
+  left: VIN
+  right: VOUT
+  bottom: GND
+
+housing:
+  outline: JEDEC TO-236 AB
+  suffix: RT
