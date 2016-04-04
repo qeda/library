@@ -1,0 +1,20 @@
+name: IRFS4310
+description: HEXFET Power MOSFET
+datasheet: http://www.irf.com/product-info/datasheets/data/irfs4310.pdf
+keywords: FET
+
+pinout:
+  G: 1
+  D: 4
+  S: 3
+
+properties:
+  in: G
+  passive: S, D
+
+schematic:
+  symbol: FET
+  options: n, bulk, diode
+
+housing:
+  outline: JEDEC TO-263 AB

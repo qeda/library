@@ -1,0 +1,37 @@
+name: IR2113S
+suffix: -1, -2
+description: High and Low Side Driver
+datasheet: http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+keywords: IC, analog, driver
+
+pinout:
+  CONTROL:
+    VDD: 11
+    HIN: 12
+    SD: 13
+    LIN: 14
+    VSS: 15
+  HISIDE:
+    HO: 8
+    VB: 7
+    VS: 6
+  LOSIDE:
+    VCC: 3
+    COM: 2
+    LO: 1
+  NC: 4, 5, 9, 10, 16
+
+properties:
+  in: HIN, SD, LIN
+  out: HO, LO
+  power: VDD, VB, VS, VCC
+  ground: VSS, COM
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: CONTROL, NC
+  right: HISIDE, LOSIDE
+
+housing:
+  outline: JEDEC MS-013 AA

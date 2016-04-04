@@ -1,0 +1,37 @@
+name: IRF4905S
+description: HEXFET Power MOSFET
+datasheet: http://www.irf.com/product-info/datasheets/data/irf4905s.pdf
+keywords: FET
+
+pinout:
+  G: 1
+  D: 4
+  S: 3
+
+properties:
+  in: G
+  passive: S, D
+
+schematic:
+  symbol: FET
+  options: p, bulk, diode
+
+housing:
+  pattern: PAK
+  bodyWidth: 8.68
+  bodyLength: 10.29-10.54
+  height: 4.2-4.69
+  leadWidth: 0.69-0.93
+  leadLength: 1.14-1.39
+  leadSpan: 14.73-15.49
+  leadCount: 3
+  pitch: 2.54
+  tabWidth: 10.29-10.54
+  tabLength: 7.58-7.87
+  tabLedge: 1.4
+
+  padWidth1: 3.81
+  padHeight1: 2.08
+  padWidth2: 8.89
+  padHeight2: 11.43
+  padSpan: 17.78
