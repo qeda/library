@@ -1,0 +1,38 @@
+name: ISO7640FM
+description: Low-Power Quad-Channel Digital Isolator
+datasheet: http://www.ti.com/lit/ds/symlink/iso7640fm.pdf
+keywords: IC, digital, isolator
+
+pinout:
+  LEFT:
+    INA: 3
+    INB: 4
+    INC: 5
+    IND: 6
+  VCC1: 1
+  GND1: 2, 8
+  RIGHT:
+    OUTA: 14
+    OUTB: 13
+    OUTC: 12
+    OUTD: 11
+  EN: 10
+  VCC2: 16
+  GND2: 9, 15
+  NC: 7
+
+properties:
+  in: INA, INB, INC, IND, EN
+  out: OUTA, OUTB, OUTC, OUTD
+  power: VCC1-2
+  ground: GND1-2
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: VCC1, LEFT, NC, GND1
+  right: VCC2, RIGHT, EN, GND2
+
+housing:
+  outline: JEDEC MS-013 AA
+  suffix: DW

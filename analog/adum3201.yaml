@@ -1,0 +1,28 @@
+name: ADuM3201
+description: Dual-Channel, Digital Isolator, Enhanced System-Level ESD Reliability
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM3200_3201.pdf
+keywords: IC, analog, isolator
+
+pinout:
+  VDD1: 1
+  VOA: 2
+  VIB: 3
+  GND1: 4
+  VDD2: 8
+  VIA: 7
+  VOB: 6
+  GND2: 5
+
+properties:
+  in: VIA, VIB
+  out: VOA, VOB
+  power: VDD1-2
+  ground: GND1-2
+
+schematic:
+  symbol: IC
+  left: VDD1, VOA, VIB, GND1
+  right: VDD2, VIA, VOB, GND2
+
+housing:
+  outline: JEDEC MS-012 AA

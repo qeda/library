@@ -1,0 +1,66 @@
+name: CD4010B
+description: CMOS Hex Buffer/Converter
+datasheet: http://www.ti.com/lit/ds/symlink/cd4010b.pdf
+keywords: IC, analog, buffer, converter
+
+pinout:
+  INPUT:
+    A: 3
+    B: 5
+    C: 7
+    D: 9
+    E: 11
+    F: 14
+  OUTPUT:
+    G=A: 2
+    H=B: 4
+    I=C: 6
+    J=D: 10
+    K=E: 12
+    L=F: 15
+  VCC: 1
+  VDD: 16
+  VSS: 8
+  NC: 13
+
+properties:
+  in: A, B, C, D, E, F
+  out: G=A, H=B, I=C, J=D, K=E, L=F
+  power: VCC, VDD
+  ground: VSS
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: VCC, INPUT, VSS
+  right: VDD, OUTPUT, NC
+
+housing: SOIC, SO, TSSOP
+
+SOIC:
+  outline: JEDEC MS-012 AC
+  suffix: M96
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4
+
+SO:
+  pattern: SOP
+  suffix: NS
+  bodyWidth: 5-5.6
+  bodyLength: 9.9-10.5
+  height: 2
+  leadWidth: 0.35-0.51
+  leadLength: 0.55-1.05
+  leadSpan: 7.4-8.2
+  leadCount: 16
+  pitch: 1.27
+
+TSSOP:
+  outline: JEDEC MO-153 AB
+  suffix: PW
+
+  padWidth: 1.6
+  padHeight: 0.35
+  padDistance: 5.6

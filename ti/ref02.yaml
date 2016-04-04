@@ -1,0 +1,41 @@
+name: REF02
+alias: REF02A, REF02B
+description: +5V Precision Voltage Reference
+datasheet: http://www.ti.com/lit/ds/symlink/ref02.pdf
+keywords: IC, analog, reference
+
+pinout:
+  VIN: 2
+  Temp: 3
+  VOUT: 6
+  Trim: 5
+  GND: 4
+  NC: 1, 7, 8
+
+properties:
+  in: VIN
+  out: VOUT, Temp
+  passive: Trim
+  power: VIN, VOUT
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: VIN, NC
+  right: VOUT, Trim, Temp
+  bottom: GND
+
+housing: PDIP, SOIC
+
+PDIP:
+  outline: JEDEC MS-001 BA
+  suffix: P
+
+SOIC:
+  outline: JEDEC MS-012 AA
+  suffix: U
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4
