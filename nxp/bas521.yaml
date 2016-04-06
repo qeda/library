@@ -8,3 +8,7 @@ schematic:
 housing:
   outline: JEITA SC-79
   options: polarized
+
+  padWidth: 0.8
+  padHeight: 0.6
+  padDistance: 1.1
