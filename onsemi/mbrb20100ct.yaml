@@ -1,0 +1,33 @@
+name: MBRB20100CTG
+description: Schottky Barrier Rectifier, 20 A, 100 V
+datasheet: http://www.onsemi.com/pub_link/Collateral/MBRB20100CT-D.PDF
+keywords: diode, schottky
+
+pinout:
+  A1: 1
+  A2: 3
+  C: 4
+
+schematic:
+  symbol: twin-diode
+  options: schottky
+
+housing:
+  pattern: PAK
+  bodyWidth: 8.64-9.65
+  bodyLength: 9.65-10.29
+  height: 4.06-4.83
+  leadWidth: 0.51-0.89
+  leadLength: 2.29-2.79
+  leadSpan: 14.60-15.88
+  leadCount: 3
+  pitch: 2.54
+  tabWidth: 8.64-9.65
+  tabLength: 7.11-8.13
+  tabLedge: 1.14-1.40
+
+  padWidth1: 3.504
+  padHeight1: 1.016
+  padWidth2: 8.38
+  padHeight2: 10.49
+  padSpan: 16.155
