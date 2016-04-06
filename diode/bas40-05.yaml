@@ -1,0 +1,7 @@
+base: BAS40
+name: BAS40-05
+
+pinout:
+  A1: 1
+  C: 3
+  A2: 2

@@ -1,0 +1,10 @@
+variation: BAS40-04, BAS40-05, BAS40-06
+description: Small Signal Schottky Diodes, Dual
+keywords: diode, schottky
+
+schematic:
+  symbol: twin-diode
+  options: schottky
+
+housing:
+  outline: JEDEC TO-236 AB

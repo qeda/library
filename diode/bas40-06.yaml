@@ -1,0 +1,7 @@
+base: BAS40
+name: BAS40-06
+
+pinout:
+  C1: 1
+  A: 3
+  C2: 2
