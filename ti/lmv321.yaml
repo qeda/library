@@ -1,0 +1,45 @@
+name: LMV321
+alias: LMV321Q1, LMV321Q3
+suffix: /NOPB
+description: General Purpose, Low-Voltage, Rail-to-Rail Output Operational Amplifier
+datasheet: http://www.ti.com/lit/ds/symlink/lmv321.pdf
+keywords: IC, analog, OpAmp
+
+pinout:
+  IN:
+    +IN: 1
+    -IN: 3
+  OUT: 4
+  V+: 5
+  V-: 2
+
+properties:
+  in: +IN, -IN
+  out: OUT
+  power: V+, V-
+  inverted: -IN
+
+schematic:
+  symbol: IC
+  left: IN
+  right: OUT
+  top: V+
+  bottom: V-
+
+housing: SOT-23, SC-70
+
+SOT-23:
+  outline: JEDEC MO-178 AA
+  suffix: M5, M5X
+
+  padWidth: 1.05
+  padHeight: 0.6
+  padDistance: 2.7
+
+SC-70:
+  outline: JEDEC MO-203 AA
+  suffix: M7, M7X
+
+  padWidth: 0.9
+  padHeight: 0.4
+  padDistance: 2.2
