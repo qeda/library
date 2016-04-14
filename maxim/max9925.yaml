@@ -5,8 +5,8 @@ keywords: IC, analog, comparator
 
 pinout:
   INPUT:
-    IN+: 1
     IN-: 2
+    IN+: 1
   OUTPUT:
     OUT: 3
     COUT: 7

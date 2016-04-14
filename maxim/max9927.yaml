@@ -6,8 +6,8 @@ keywords: IC, analog, comparator
 
 pinout:
   INPUT1:
-    IN1+: 16
     IN1-: 15
+    IN1+: 16
   OUTPUT1:
     OUT1: 13
     COUT1: 4
@@ -16,8 +16,8 @@ pinout:
   EXT1: 2
 
   INPUT2:
-    IN2+: 9
     IN2-: 10
+    IN2+: 9
   OUTPUT2:
     OUT2: 12
     COUT2: 5
