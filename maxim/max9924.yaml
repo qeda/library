@@ -25,6 +25,7 @@ properties:
   power: VCC
   ground: GND
   nc: NC
+  inverted: IN-
 
 schematic:
   symbol: IC

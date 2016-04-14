@@ -34,6 +34,7 @@ properties:
   passive: BIAS1-2
   power: VCC
   ground: GND
+  inverted: IN1-, IN2-
 
 parts:
   OpAmp 1: INPUT1, OUTPUT1, INT_THRS1, EXT1, BIAS1, VCC, GND

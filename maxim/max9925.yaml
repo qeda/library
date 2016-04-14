@@ -24,6 +24,7 @@ properties:
   passive: BIAS
   power: VCC
   ground: GND
+  inverted: IN-
 
 schematic:
   symbol: IC
