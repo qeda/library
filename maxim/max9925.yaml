@@ -1,0 +1,40 @@
+name: MAX9925AUB+
+description: Variable Reluctance Sensor Interfaces with Differential Input and Adaptive Peak Threshold
+datasheet: https://datasheets.maximintegrated.com/en/ds/MAX9924-MAX9927.pdf
+keywords: IC, analog, comparator
+
+pinout:
+  INPUT:
+    IN+: 1
+    IN-: 2
+  COUT: 7
+  ZERO_EN: 6
+  INT_THRS: 9
+  EXT: 8
+  BIAS: 4
+  NC: 3
+
+  VCC: 10
+  GND: 5
+
+properties:
+  in: IN+, IN-, ZERO_EN, INT_THRS, EXT
+  out: COUT
+  passive: BIAS
+  power: VCC
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: INPUT, ZERO_EN, INT_THRS, EXT
+  right: COUT, BIAS, NC
+  top: VCC
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-187 BA
+
+  padWidth: 1.4
+  padHeight: 0.28
+  padDistance: 4.28
