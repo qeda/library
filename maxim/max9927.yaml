@@ -41,8 +41,8 @@ parts:
 
 schematic:
   symbol: IC
-  left: INPUT1-2, INT_THRS1-2, EXT1-2
-  right: OUTPUT1-2, BIAS1-2
+  left: INPUT1-2, BIAS1-2
+  right: OUTPUT1-2, EXT1-2, INT_THRS1-2
   top: VCC
   bottom: GND
 

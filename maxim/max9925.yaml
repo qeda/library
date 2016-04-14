@@ -27,8 +27,8 @@ properties:
 
 schematic:
   symbol: IC
-  left: INPUT, ZERO_EN, INT_THRS, EXT
-  right: COUT, BIAS, NC
+  left: INPUT, BIAS, ZERO_EN
+  right: COUT, EXT, INT_THRS, NC
   top: VCC
   bottom: GND
 
