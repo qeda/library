@@ -1,4 +1,5 @@
-name: MAX9925AUB+
+name: MAX9924UAUB+
+alias: MAX9924UAUB/V+
 description: Variable Reluctance Sensor Interfaces with Differential Input and Adaptive Peak Threshold
 datasheet: https://datasheets.maximintegrated.com/en/ds/MAX9924-MAX9927.pdf
 keywords: IC, analog, comparator
@@ -7,28 +8,28 @@ pinout:
   INPUT:
     IN+: 1
     IN-: 2
-  OUTPUT:
-    OUT: 3
-    COUT: 7
+  COUT: 7
   ZERO_EN: 6
   INT_THRS: 9
   EXT: 8
   BIAS: 4
+  NC: 3
 
   VCC: 10
   GND: 5
 
 properties:
   in: IN+, IN-, ZERO_EN, INT_THRS, EXT
-  out: OUT, COUT
+  out: COUT
   passive: BIAS
   power: VCC
   ground: GND
+  nc: NC
 
 schematic:
   symbol: IC
   left: INPUT, BIAS, ZERO_EN
-  right: OUTPUT, EXT, INT_THRS, NC
+  right: COUT, EXT, INT_THRS, NC
   top: VCC
   bottom: GND
 
