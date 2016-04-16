@@ -1,0 +1,11 @@
+base: MAX607x
+name: MAX6071AAUT
+alias: MAX6071BAUT
+
+pinout:
+  IN: 4
+  EN: 3
+  OUTF: 6
+  GNDF: 1
+  OUTS: 5
+  GNDS: 2

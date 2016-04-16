@@ -1,0 +1,11 @@
+base: MAX607x
+name: MAX6070AUT
+alias: MAX6070BUT
+
+pinout:
+  IN: 4
+  EN: 3
+  FILTER: 1
+  OUTF: 6
+  OUTS: 5
+  GND: 2
