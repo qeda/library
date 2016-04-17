@@ -1,0 +1,57 @@
+name: DAC104S085CI
+alias: DAC104S085QI
+description: 10-Bit Micro Power QUAD Digital-to-Analog Converter with Rail-to-Rail Output
+datasheet: http://www.ti.com/lit/ds/symlink/dac104s085.pdf
+keywords: IC, analog, DAC
+
+pinout:
+  SPI:
+    ~SYNC: 9
+    SCLK: 10
+    DIN: 8
+  VREFIN: 7
+  OUT:
+    VOUTA: 2
+    VOUTB: 3
+    VOUTC: 4
+    VOUTD: 5
+  VA: 1
+  GND: 6
+
+properties:
+  in: ~SYNC, SCLK, DIN, VREFIN
+  out: VOUTA, VOUTB, VOUTC, VOUTD
+  power: VA, VREFIN, VOUTA, VOUTB, VOUTC, VOUTD
+  ground: GND
+  inverted: ~SYNC
+
+schematic:
+  symbol: IC
+  left: SPI, VREFIN
+  right: OUT
+  top: VA
+  bottom: GND
+
+housing: VSSOP, WSON
+
+VSSOP:
+  outline: JEDEC MO-187 BA
+  suffix: MM
+
+WSON:
+  pattern: SON
+  suffix: SD
+
+  bodyWidth: 2.9-3.1
+  bodyLength: 2.9-3.1
+  height: 0.8
+  leadWidth: 0.2-0.3
+  leadLength: 0.3-0.5
+  leadCount: 10
+  pitch: 0.5
+  tabWidth: 1.5-1.7
+  tabLength: 1.9-2.1
+
+  padWidth: 0.6
+  padHeight: 0.25
+  padDistance: 2.8
