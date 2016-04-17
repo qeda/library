@@ -1,0 +1,16 @@
+base: AD8639
+name: AD8639A
+
+housing: SOIC, MSOP #, LFCSP
+
+SOIC:
+  outline: JEDEC MS-012 AA
+  suffix: R
+
+MSOP:
+  outline: JEDEC MO-187 AA
+  suffix: RM
+
+#LFCSP:
+#  outline: JEDEC MO-229 WEED-4
+#  suffix: CP

@@ -1,0 +1,35 @@
+variation: AD8639A, AD8639W
+description: 16 V Auto-Zero, Rail-to-Rail Dual Output Operational Amplifier
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8638_8639.pdf
+keywords: IC, analog, OpAmp
+
+pinout:
+  INA:
+    -INA: 2
+    +INA: 3
+  OUTA: 1
+
+  INB:
+    -INB: 6
+    +INB: 5
+  OUTB: 7
+
+  V+: 8
+  V-: 4
+
+properties:
+  power: V+, V-
+  in: +INA, -INA, +INB, -INB
+  out: OUTA, OUTB
+  inverted: -INA, -INB
+
+parts:
+  OpAmp 1: INA, OUTA, V+, V-
+  OpAmp 2: INB, OUTB
+
+schematic:
+  symbol: IC
+  left: INA, INB
+  right: OUTA, OUTB
+  top: V+
+  bottom: V-

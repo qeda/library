@@ -1,0 +1,5 @@
+base: AD8639
+name: AD8639WR
+
+housing:
+  outline: JEDEC MS-012 AA
