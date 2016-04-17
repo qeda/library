@@ -7,12 +7,12 @@ keywords: IC, analog, OpAmp
 pinout:
   OUT1: 1
   IN1:
-    +IN1: 3
     -IN1: 2
+    +IN1: 3
   V-: 4
   IN2:
-    +IN2: 5
     -IN2: 6
+    +IN2: 5
   OUT2: 7
   V+: 8
 

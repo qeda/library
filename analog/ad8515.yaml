@@ -7,8 +7,8 @@ pinout:
   OUT: 1
   V-: 2
   IN:
-    +IN: 3
     -IN: 4
+    +IN: 3
   V+: 5
 
 properties:

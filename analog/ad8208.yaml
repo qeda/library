@@ -6,8 +6,8 @@ keywords: IC, analog, OpAmp
 
 pinout:
   IN:
-    +IN: 8
     -IN: 1
+    +IN: 8
   OUT: 5
   A:
     A1-2: 3, 4

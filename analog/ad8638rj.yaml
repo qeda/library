@@ -3,8 +3,8 @@ name: AD8638ARJ
 
 pinout:
   IN:
-    +IN: 3
     -IN: 4
+    +IN: 3
   OUT: 1
   V+: 5
   V-: 2
