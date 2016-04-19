@@ -11,6 +11,6 @@ MSOP:
   outline: JEDEC MO-187 AA
   suffix: RM
 
-#LFCSP:
-#  outline: JEDEC MO-229 WEED-4
-#  suffix: CP
+LFCSP:
+  outline: JEDEC MO-229 W3030D-4
+  suffix: CP
