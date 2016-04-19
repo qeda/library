@@ -1,0 +1,31 @@
+name: MAX14626
+description: High-Voltage Reverse-Input-Capable 4-20mA Current Loop Protector
+datasheet: http://datasheets.maximintegrated.com/en/ds/MAX14626.pdf
+keywords: IC, analog, protector
+
+pinout:
+  IN: 1
+  OUT: 6
+  GND: 5
+  EP: 7
+  IC: 2, 3, 4
+
+properties:
+  in: IN
+  out: OUT
+  ground: GND, IC, EP
+
+schematic:
+  symbol: IC
+  left: IN, IC
+  right: OUT
+  bottom: EP, GND
+
+housing:
+  outline: JEDEC MO-229 W3030A-2
+  tabWidth: 1.4-1.6
+  tabLength: 2.2-2.4
+
+  padWidth: 0.71
+  padHeight: 0.46
+  padDistance: 3
