@@ -1,0 +1,25 @@
+name: CAT16-F4
+decription: Chip Resistor Array
+keywords: resistor, array
+
+pinout: 1-8
+
+schematic:
+  symbol: IC
+  left: 1-4
+  right: 8-5
+
+housing:
+  pattern: chip-array
+  options: concave
+  bodyWidth: 1.4-1.8
+  bodyLength: 3-3.4
+  height: 0.4-0.6
+  leadWidth: 0.25-0.55
+  leadLength: 0.15-0.45
+  leadCount: 8
+  pitch: 0.8
+
+  padWidth: 0.8
+  padHeight: 0.42
+  padSpan: 2.4
