@@ -1,0 +1,11 @@
+name: BRIDGE-1
+description: Polygon Bridge, 1 mm width
+keywords: bridge
+
+schematic:
+  symbol: bridge
+
+housing:
+  pattern: bridge
+  padWidth: 2
+  padHeight: 1
