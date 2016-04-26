@@ -1,0 +1,33 @@
+name: LM1117MPX
+alias: LM1117IMPX
+suffix: -ADJ, -1.8, -2.5, -3.3, -5.0
+description: 800-mA Low-Dropout Linear Regulator
+datasheet: http://www.ti.com/lit/ds/symlink/lm1117.pdf
+keywords: IC, analog, LDO, regulator
+
+pinout:
+  VIN: 3
+  VOUT: 2, 4
+  GND: 1
+
+properties:
+  in: VIN
+  out: VOUT
+  power: VIN, VOUT
+  ground: GND
+
+
+schematic:
+  symbol: IC
+  left: VIN
+  right: VOUT
+  bottom: GND
+
+housing:
+  outline: JEDEC TO-261 AA
+
+  padWidth1: 2.15
+  padHeight1: 0.95
+  padWidth2: 2.15
+  padHeight2: 3.25
+  padDistance: 5.8
