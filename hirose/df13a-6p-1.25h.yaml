@@ -1,0 +1,29 @@
+name: 'DF13A-6P-1.25H'
+description: 1.25mm Pitch Miniature Crimping Connector
+keywords: connector, male
+
+pinout: 1-8
+
+schematic:
+  symbol: connector
+  right: 6-1
+  top: 8
+  bottom: 7
+
+housing:
+  pattern: custom
+  bodyWidth: 9.15
+  bodyLength: 5
+  height: 3.6
+  bodyPosition: 0, -0.2
+
+  padWidth1: 0.7
+  padHeight1: 1.8
+  rowCount1: 1
+  rowDY1: 3.3
+  columnCount1: 6
+  columnPitch1: 1.25
+
+  padWidth2: 1.6
+  padHeight2: 2.2
+  padPosition2: -4.675, 0, 4.675, 0
