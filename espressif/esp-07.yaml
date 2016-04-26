@@ -1,0 +1,49 @@
+name: ESP-07
+description: ESP8266EX Based Wi-Fi Module
+keywords: IC, digital, converter
+
+pinout:
+  RST: 1
+  ADC: 2
+  CH_PD: 3
+  GPIO:
+    GPIO0: 12
+    GPIO2: 11
+    GPIO4: 13
+    GPIO5: 14
+    GPIO12-16: 6, 7, 5, 10, 4
+  UART:
+    TXD0: 16
+    RXD0: 15
+
+  VCC: 8
+  GND: 9
+
+properties:
+  in: RST, CH_PD, RXD0, ADC
+  out: TXD0
+  bidir: GPIO0, GPIO2, GPIO4, GPIO5, GPIO12-16
+  power: VCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: UART, RST, CH_PD, ADC
+  right: GPIO
+  top: VCC
+  bottom: GND
+
+housing:
+  pattern: SON
+  bodyWidth: 16
+  bodyLength: 21.2
+  bodyPosition: 0, -2.1
+  height: 3
+  leadWidth: 1
+  leadLength: 1.5
+  leadCount: 16
+  pitch: 2
+
+  padWidth: 1.7
+  padHeight: 0.9
+  padDistance: 16
