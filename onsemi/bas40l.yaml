@@ -1,0 +1,20 @@
+name: BAS40L
+description: 40 V Schottky Barrier Diode
+datasheet: http://www.onsemi.com/pub_link/Collateral/BAS40LT1-D.PDF
+keywords: diode, schottky
+
+pinout:
+  A: 1
+  C: 3
+  NC: 2
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: JEDEC TO-236 AB
+
+  padWidth: 0.9
+  padHeight: 0.8
+  padDistance: 2

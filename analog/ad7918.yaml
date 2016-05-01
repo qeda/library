@@ -1,0 +1,4 @@
+base: AD7908
+name: AD7918B
+alias: AD7918WY
+description: 8-Channel, 1 MSPS, 10-Bit ADC with Sequencer

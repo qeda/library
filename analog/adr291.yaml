@@ -1,0 +1,34 @@
+name: AD291E
+alias: AD291F, AD291G
+description: Low Noise Micropower 2.5 V Precision Voltage Reference
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADR291_292.pdf
+keywords: IC, analog, reference
+
+pinout:
+  VIN: 2
+  VOUT: 6
+  GND: 4
+  NC: 1, 3, 5, 7, 8
+
+properties:
+  in: VIN
+  out: VOUT
+  power: VIN, VOUT
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: VIN, NC
+  right: VOUT, NC
+  bottom: GND
+
+housing: SOIC, TSSOP
+
+SOIC:
+  outline: JEDEC MS-012 AA
+  suffix: R
+
+TSSOP:
+  outline: JEDEC MO-153 AA
+  suffix: RU

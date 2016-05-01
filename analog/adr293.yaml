@@ -1,0 +1,5 @@
+base: ADR291
+name: ADR293E
+alias: ADR293G
+description: Low Noise Micropower 5.0 V Precision Voltage Reference
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADR293.pdf

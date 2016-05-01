@@ -1,0 +1,17 @@
+base: TL431
+name: TL431AC
+alias: TL431AI, TL431BC, TL431BI, TL431BQ, TL431C, TL431I, TL431Q
+
+pinout:
+  ANODE: 2, 3, 6, 7
+  CATHODE: 1
+  REF: 8
+  NC: 4, 5
+
+housing:
+  outline: JEDEC MS-012 AA
+  suffix: D
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4

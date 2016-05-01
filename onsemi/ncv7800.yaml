@@ -1,0 +1,68 @@
+name: NCV7805AB
+alias: NCV7805B, NCV7808AB, NCV7808B, NCV7809B, NCV7812AB, NCV7812B, NCV7815B
+description: 1.0 A Positive Voltage Regulator
+datasheet: http://www.onsemi.com/pub_link/Collateral/MC7800-D.PDF
+keywords: IC, analog, LDO, regulator
+
+pinout:
+  IN: 1
+  OUT: 3
+  GND: 4
+
+properties:
+  in: IN
+  out: OUT
+  power: IN, OUT
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: IN
+  right: OUT
+  bottom: GND
+
+housing: D2PAK-3, DPAK-3
+
+D2PAK-3:
+  pattern: PAK
+  suffix: D2T
+
+  bodyWidth: 9.042-9.347
+  bodyLength: 9.804-10.236
+  height: 4.318-4.572
+  leadWidth: 0.660-0.914
+  leadLength: 1.473-1.981
+  leadSpan: 13.691-14.707
+  leadCount: 3
+  pitch: 2.54
+  tabWidth: 9.804-10.236
+  tabLength: 6.350
+  tabLedge: 1.27
+
+  padWidth1: 3.504
+  padHeight1: 1.016
+  padWidth2: 8.380
+  padHeight2: 10.490
+  padSpan: 16.155
+
+DPAK-3:
+  pattern: PAK
+  suffix: DT
+
+  bodyWidth: 5.97-6.22
+  bodyLength: 6.35-6.73
+  height: 2.18-2.38
+  leadWidth: 0.63-0.89
+  leadLength: 1.40-1.78
+  leadSpan: 9.40-10.41
+  leadCount: 3
+  pitch: 2.29
+  tabWidth: 4.57-5.46
+  tabLength: 4.82-5.2
+  tabLedge: 0.89-1.27
+
+  padWidth1: 3
+  padHeight1: 1.6
+  padWidth2: 6.2
+  padHeight2: 5.8
+  padSpan: 11.78

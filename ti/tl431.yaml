@@ -1,0 +1,16 @@
+name: TL431
+variation: TL431D
+description: Precision Programmable Reference
+datasheet: http://www.ti.com/lit/ds/symlink/tl431.pdf
+keywords: IC, analog, reference
+
+properties:
+  passive: ANODE, CATHODE
+  nc: NC
+
+schematic:
+  symbol: IC
+  top: CATHODE
+  left: REF
+  right: NC
+  bottom: ANODE

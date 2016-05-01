@@ -1,0 +1,16 @@
+name: VS-30BQ100
+description: Schottky Rectifier, 3 A
+datasheet: http://www.vishay.com/docs/93360/30bq100m.pdf
+keywords: diode, schottky
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: JEDEC DO-214 AB
+  options: polarized
+
+  padWidth: 1.52
+  padHeight: 3.2
+  padSpan: 8.13

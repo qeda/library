@@ -1,0 +1,36 @@
+name: AD7908B
+alias: AD7908WY
+description: 8-Channel, 1 MSPS, 8-Bit ADC with Sequencer
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD7908_7918_7928.pdf
+keywords: IC, analog, ADC
+
+pinout:
+  IN:
+    VIN0-7: 16-9
+  REFIN: 7
+  SPI:
+    ~CS: 3
+    SCLK: 1
+    DIN: 2
+    DOUT: 18
+  VDRIVE: 19
+  AVDD: 5, 6
+  AGND: 4, 8, 17, 20
+
+properties:
+  in: VIN0-7, REFIN, ~CS, SCLK, DIN, VDRIVE
+  out: DOUT
+  power: AVDD
+  ground: AGND
+  inverted: ~CS
+
+schematic:
+  symbol: IC
+  left: IN, REFIN
+  right: SPI, VDRIVE
+  top: AVDD
+  bottom: AGND
+
+housing:
+  outline: JEDEC MO-153 AC
+  suffix: RU

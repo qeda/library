@@ -1,0 +1,4 @@
+base: ADR291
+name: ADR292E
+alias: ADR292F, ADR292G
+description: Low Noise Micropower 4.096 V Precision Voltage Reference

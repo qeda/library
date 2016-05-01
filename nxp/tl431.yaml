@@ -1,0 +1,27 @@
+name: TL431
+alias: TL431A, TL431B
+suffix: CDBZR, IDBZR, QDBZR, FDT, SDT,
+description: Adjustable precision shunt regulator
+datasheet: http://cache.nxp.com/documents/data_sheet/TL431_FAM.pdf
+keywords: IC, analog, regulator
+
+pinout:
+  A: 3
+  C: 1
+  REF: 2
+
+properties:
+  passive: A, C, REF
+
+schematic:
+  symbol: IC
+  top: REF
+  left: A
+  right: C
+
+housing:
+  outline: JEDEC TO-236 AB
+
+  padWidth: 0.7
+  padHeight: 0.6
+  padDistance: 2
