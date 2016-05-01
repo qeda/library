@@ -1,5 +1,5 @@
-name: AD291E
-alias: AD291F, AD291G
+name: ADR291E
+alias: ADR291F, ADR291G
 description: Low Noise Micropower 2.5 V Precision Voltage Reference
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADR291_292.pdf
 keywords: IC, analog, reference
