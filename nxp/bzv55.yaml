@@ -1,0 +1,18 @@
+name: BZV55
+description: Voltage regulator diode
+keywords: diode, zener
+
+schematic:
+  symbol: diode
+  options: zener
+
+housing:
+  pattern: MELF
+  options: polarized
+  bodyDiameter: 1.45-1.6
+  bodyLength: 3.3-3.7
+  leadLength: 0.3
+
+  padWidth: 1
+  padHeight: 1.7
+  padSpan: 4.3
