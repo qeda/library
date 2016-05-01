@@ -1,5 +1,7 @@
-name: BZV55
+name: BZV55-B
+alias: BZV55-C
 description: Voltage regulator diode
+datasheet: http://www.nxp.com/documents/data_sheet/BZV55_SER.pdf
 keywords: diode, zener
 
 schematic:
