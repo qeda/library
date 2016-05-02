@@ -18,7 +18,9 @@ Abbreviation                            | Name
 [BOURNS](./bourns/)                     | Bourns
 [CK](./ck/)                             | C&K Components
 [ECS](./ecs/)                           | ECS International
+[ESPRESSIF](./espressif/)               | Espressif
 [HARTING](./harting/)                   | Harting
+[HIROSE](./hirose/)                     | Hirose
 [IRF](./irf/)                           | International Rectifier
 [KYOCERA](./kyocera/)                   | Kyocera
 [MAXIM](./maxim/)                       | Maxim Integrated
@@ -28,6 +30,7 @@ Abbreviation                            | Name
 [ONSEMI](./onsemi/)                     | ON Semiconductor
 [ST](./st/)                             | STMicroelectronics
 [VISHAY](./vishay/)                     | Vishay
+[TDK](./tdk/)                           | TDK
 [TI](./ti/)                             | Texas Instruments
 [YAGEO](./yageo/)                       | Yageo
 
