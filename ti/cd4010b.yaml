@@ -39,7 +39,7 @@ housing: SOIC, SO, TSSOP
 
 SOIC:
   outline: JEDEC MS-012 AC
-  suffix: M96
+  suffix: M
 
   padWidth: 1.55
   padHeight: 0.6

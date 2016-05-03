@@ -1,0 +1,23 @@
+name: VS-MBRB20
+suffix: 80CT, 90CT, 100CT
+description: Schottky Rectifier, 2 x 10 A
+datasheet: http://www.farnell.com/datasheets/1869920.pdf
+keywords: diode, schottky
+
+pinout:
+  A1: 1
+  A2: 3
+  C: 4
+
+schematic:
+  symbol: twin-diode
+  options: schottky
+
+housing:
+  outline: JEDEC TO-263 AB
+
+  padWidth1: 3.81
+  padHeight1: 2.32
+  padWidth2: 9.65
+  padHeight2: 11
+  padSpan: 17.9

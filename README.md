@@ -10,6 +10,8 @@ Abbreviation is used in QEDA as component preamble. It corresponds to subdirecto
 
 Abbreviation                            | Name
 ----------------------------------------|---------------------------------------
+[ABC](./abc/)                           | ABC
+[AEIEP](./aeiep/)                       | Alexander Electric
 [ALTERA](./altera/)                     | Altera
 [AMASS](./amass/)                       | Amass
 [ANALOG](./analog/)                     | Analog Devices

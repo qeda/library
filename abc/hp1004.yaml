@@ -1,0 +1,19 @@
+name: HP1004
+suffix: 1R8ML, 2R0ML, 4R7ML, 6R8ML, 100ML, 150ML, 220ML, 470ML, 101ML
+description: SMT power inductor
+keywords: inductor
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: molded
+  bodyWidth: 10.2-10.8
+  bodyLength: 10.9-11.7
+  height: 4
+  leadWidth: 3.2-3.8
+  leadLength: 1.2-2.2
+
+  padWidth: 3.5
+  padHeight: 4.5
+  padSpace: 6
