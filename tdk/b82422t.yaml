@@ -1,0 +1,18 @@
+name: B82422T
+description: SMT inductor
+keywords: inductor
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: molded
+  bodyLength: 2.9-3.5
+  bodyWidth: 2.2-2.8
+  height: 1.9-2.1
+  leadWidth: 1.9-2.1
+  leadLength: 0.3-0.7
+
+  padWidth: 1.15
+  padHeight: 2.7
+  padSpace: 2.1

@@ -1,0 +1,74 @@
+name: CD4093B
+description: CMOS Quad 2-Input NAND Schmitt Trigger
+datasheet: http://www.ti.com/lit/ds/symlink/cd4093b.pdf
+keywords: IC, digital, and, trigger
+
+pinout:
+  IN1:
+    A: 1
+    B: 2
+  J: 3
+  IN2:
+    C: 5
+    D: 6
+  K: 4
+  IN3:
+    E: 8
+    F: 9
+  L: 10
+  IN4:
+    G: 12
+    H: 13
+  M: 11
+  VDD: 14
+  VSS: 7
+
+properties:
+  in: A, B, C, D, E, F, G, H
+  out: J, K, L, M
+  power: VDD
+  ground: VSS
+  inverted: J, K, L, M
+
+parts:
+  NAND 1: IN1, J, VDD, VSS
+  NAND 2: IN2, K
+  NAND 3: IN3, L
+  NAND 4: IN4, M
+
+schematic:
+  symbol: IC
+  left: IN1-4
+  right: J, K, L, M
+  top: VDD
+  bottom: VSS
+
+housing: SOIC, SO, TSSOP
+
+SOIC:
+  outline: JEDEC MS-012 AB
+  suffix: M
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4
+
+SO:
+  pattern: SOP
+  suffix: NS
+  bodyWidth: 5-5.6
+  bodyLength: 9.9-10.5
+  height: 2
+  leadWidth: 0.35-0.51
+  leadLength: 0.55-1.05
+  leadSpan: 7.4-8.2
+  leadCount: 14
+  pitch: 1.27
+
+TSSOP:
+  outline: JEDEC MO-153 AB-1
+  suffix: PW
+
+  padWidth: 1.6
+  padHeight: 0.35
+  padDistance: 5.6
