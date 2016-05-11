@@ -1,0 +1,31 @@
+name: LVK24
+description: Four Terminal High Precision Current Sense Resistor, 1W
+datasheet: http://www.ohmite.com/cat/res_lvk.pdf
+keywords: resistor, 1W
+
+pinout:
+  LEFT:
+    V: 1
+    I: 2
+  RIGHT:
+    V: 4
+    I: 3
+
+properties:
+  passive: V, I
+
+schematic:
+  symbol: IC
+  left: LEFT
+  right: RIGHT
+
+housing:
+  pattern: custom
+  bodyWidth: 6.2-6.6
+  bodyLength: 3-3.4
+  height: 0.35-0.65
+  leadCount: 4
+
+  padWidth: 3.25
+  padHeight: 1.9
+  padPosition: -2.625, -1.25, -2.625, 1.25, 2.625, 1.25, 2.625, -1.25

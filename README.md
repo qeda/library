@@ -28,7 +28,9 @@ Abbreviation                            | Name
 [MAXIM](./maxim/)                       | Maxim Integrated
 [MICREL](./micrel/)                     | Micrel
 [MURATA](./murata/)                     | Murata
+[NICHICON](./nichicon/)                 | Nichicon
 [NXP](./nxp/)                           | NXP Semiconductors
+[OHMITE](./ohmite/)                     | Ohmite
 [ONSEMI](./onsemi/)                     | ON Semiconductor
 [ST](./st/)                             | STMicroelectronics
 [VISHAY](./vishay/)                     | Vishay
