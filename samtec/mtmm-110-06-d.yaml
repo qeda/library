@@ -1,0 +1,23 @@
+name: MTMM-110-06-D
+description: 2.00 mm Variable Post Height Terminal Strip, 10x2
+keywords: connector, male
+
+pinout: 1-20
+
+schematic:
+  symbol: connector
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 4
+  bodyLength: 20
+  height: 10.08
+  leadCount: 20
+
+  padWidth: 1.35
+  padHeight: 1.35
+  drillDiameter: 0.9
+  rowCount: 10
+  columnCount: 2
+  pitch: 2

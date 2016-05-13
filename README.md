@@ -32,6 +32,7 @@ Abbreviation                            | Name
 [NXP](./nxp/)                           | NXP Semiconductors
 [OHMITE](./ohmite/)                     | Ohmite
 [ONSEMI](./onsemi/)                     | ON Semiconductor
+[SAMTEC](./samtec/)                     | Samtec
 [ST](./st/)                             | STMicroelectronics
 [VISHAY](./vishay/)                     | Vishay
 [TDK](./tdk/)                           | TDK

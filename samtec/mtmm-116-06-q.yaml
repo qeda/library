@@ -1,0 +1,38 @@
+name: MTMM-116-06-Q
+description: 2.00 mm Variable Post Height Terminal Strip, 16x4
+keywords: connector, male
+
+pinout:
+  COL1:
+    '': 1, 5,  9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61
+  COL2:
+    '': 2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62
+  COL3:
+    '': 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63
+  COL4:
+    '': 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64
+
+parts:
+  Column 1: COL1
+  Column 2: COL2
+  Column 3: COL3
+  Column 4: COL4
+
+schematic:
+  symbol: connector
+  right: COL1-4
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 8
+  bodyLength: 32
+  height: 10.08
+  leadCount: 64
+
+  padWidth: 1.35
+  padHeight: 1.35
+  drillDiameter: 0.9
+  rowCount: 16
+  columnCount: 4
+  pitch: 2
