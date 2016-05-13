@@ -1,0 +1,17 @@
+name: UBX1V102MHL
+description: Aluminum electrolytic capacitor, High Temperature, 1000uF 35V
+keywords: capacitor
+
+schematic:
+  symbol: capacitor
+  options: polarized
+
+housing:
+  pattern: radial
+  options: diameter, polarized
+
+  bodyDiameter: 18
+  height: 40
+  leadDiameter: 0.8
+  leadLength: 15
+  leadSpan: 7-8

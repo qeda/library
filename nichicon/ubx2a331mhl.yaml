@@ -1,0 +1,17 @@
+name: UBX2A331MHL
+description: Aluminum electrolytic capacitor, High Temperature, 330uF 100V
+keywords: capacitor
+
+schematic:
+  symbol: capacitor
+  options: polarized
+
+housing:
+  pattern: radial
+  options: diameter, polarized
+
+  bodyDiameter: 18
+  height: 31.5
+  leadDiameter: 0.8
+  leadLength: 15
+  leadSpan: 7-8
