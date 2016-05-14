@@ -1,0 +1,198 @@
+name: 10M50SCE144
+suffix: A6, A7, C7, C8, I6, I7
+description: MAX 10 FPGA
+keywords: IC, digital, FPGA
+
+pinout:
+  BANK1A:
+    IO: 6-8, 10-14
+  BANK1B:
+    IO: 15-23
+  BANK2:
+    IO: 25-30, 32, 33
+  BANK3:
+    IO: 38-44, 46, 49-53, 55
+  BANK4:
+    IO: 57, 58, 60-66, 69, 70
+  BANK5:
+    IO: 74-77, 80-87
+  BANK6:
+    IO: 88-93, 96-102, 105, 106
+  BANK7:
+    IO: 110, 111, 116-120
+  BANK8:
+    IO: 123-136, 138, 140, 141
+
+  VCCIO1A: 9
+  VCCIO1B: 24
+  VCCIO2: 31
+  VCCIO3: 45, 54
+  VCCIO4: 67
+  VCCIO5: 78
+  VCCIO6: 94, 103
+  VCCIO7: 113
+  VCCIO8: 122, 139
+  VCCA1: 35
+  VCCA2: 34
+  VCCA3: 5, 107
+  VCCA4: 143
+  VCCA5: 71
+  VCCA6: 2
+  VCC_ONE: 1, 36, 37, 47, 72, 73, 108, 109, 114, 144
+  GND: 3, 4, 48, 56, 59, 68, 79, 95, 104, 112, 115, 121, 137, 142, 145
+
+  JTAGEN: 15
+  TMS: 16
+  TCK: 17
+  TDI: 18
+  TDO: 19
+
+  CLK0p: 26
+  CLK0n: 25
+  CLK1p: 28
+  CLK1n: 27
+  CLK2p: 88
+  CLK2n: 89
+  CLK3p: 90
+  CLK3n: 91
+  CLK6p: 52
+  CLK6n: 51
+  CLK7p: 55
+  CLK7n: 53
+
+  VREFB2N0: 29
+  VREFB3N0: 44
+  VREFB4N0: 57
+  VREFB5N0: 81
+  VREFB6N0: 97
+  VREFB7N0: 116
+  VREFB8N0: 126
+
+  PLL_L_CLKOUTp: 33
+  PLL_L_CLKOUTn: 32
+
+  RUP: 76
+  RDN: 77
+
+  DPCLK2: 98
+  DPCLK3: 96
+
+  DEV_CLRn: 124
+  DEV_OE: 125
+
+  CONFIG_SEL: 128
+  nCONFIG: 130
+  CRC_ERROR: 134
+  nSTATUS: 136
+  CONF_DONE: 138
+
+  DIFF:
+    L1n: 6
+    L1p: 7
+    L3n: 8
+    L3p: 10
+    L5n: 11
+    L5p: 12
+    L7n: 13
+    L7p: 14
+    L17n: 16
+    L17p: 17
+    L18n: 18
+    L18p: 19
+    L20n: 20
+    L20p: 21
+    L22n: 22
+    L22p: 23
+    L28n: 25
+    L28p: 26
+    L36n: 27
+    L36p: 28
+    L59n: 32
+    L59p: 33
+    B1n: 38
+    B1p: 39
+    B3n: 40
+    B3p: 41
+    B5n: 42
+    B5p: 43
+    B15n: 46
+    B15p: 49
+    B18n: 51
+    B18p: 52
+    B20n: 53
+    B20p: 55
+    B39n: 60
+    B39p: 61
+    B45n: 63
+    B45p: 64
+    B49n: 65
+    B49p:	66
+    B57n: 69
+    B57p: 70
+    R1p: 76
+    R2p: 74
+    R1n: 77
+    R2n: 75
+    R29p: 82
+    R29n: 83
+    R32p: 85
+    R33p: 84
+    R32n: 87
+    R33n: 86
+    R38p: 88
+    R38n: 89
+    R40p: 90
+    R40n: 91
+    R42p: 92
+    R42n: 93
+    R50p: 96
+    R50n: 98
+    R51p: 99
+    R52p: 100
+    R51n: 101
+    R52n: 102
+    R69p: 105
+    R69n: 106
+    T1p: 110
+    T1n: 111
+    T20p: 117
+    T20n: 118
+    T30p: 119
+    T30n: 120
+    T42p: 123
+    T42n: 124
+    T45p: 127
+    T45n: 129
+    T46p: 131
+    T46n: 132
+    T48p: 133
+    T48n: 134
+    T50p: 136
+    T50n: 138
+    T52p: 140
+    T52n: 141
+
+joint:
+  DIFF: '_'
+
+properties:
+  bidir: IO
+  power: VCC_ONE, VCCA1-6, VCCIO1A, VCCIO1B, VCCIO2-8
+  ground: GND
+
+parts:
+  Bank 1&8: BANK1A, BANK1B, BANK8, VCCIO1A, VCCIO1B, VCCIO8
+  Bank 2&3: BANK2-3, VCCIO2-3
+  Bank 4&5: BANK4-5, VCCIO4-5
+  Bank 6&7: BANK6-7, VCCIO6-7
+  Power: VCC_ONE, VCCA1-6, GND
+
+schematic:
+  symbol: IC
+  left: BANK1A, VCCIO1A, BANK1B, VCCIO1B, BANK3, VCCIO3, BANK5, VCCIO5, BANK7, VCCIO7, VCC_ONE, VCCA1-6
+  right: BANK2, VCCIO2, BANK4, VCCIO4, BANK6, VCCIO6, BANK8, VCCIO8, GND
+
+housing:
+  outline: JEDEC MS-026 BFB-HD
+  tabWidth: 7.05-7.35
+  tabLength: 6.2-6.5
