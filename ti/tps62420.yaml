@@ -1,0 +1,51 @@
+name: TPS62420
+alias: TPS62420Q
+description: 2.25-MHz 600-mA and 1000-mA Dual Step-Down Converter
+datasheet: http://www.ti.com/lit/ds/symlink/tps62420.pdf
+keywords: IC, analog, DC-DC
+
+pinout:
+  VIN: 3
+  EN1: 7
+  EN2: 9
+  MODE/DATA: 2
+  FB1: 4
+  SW1: 6
+  DEF_1: 5
+  SW2: 10
+  ADJ2: 1
+  GND: 8
+  PowerPAD: 11
+
+properties:
+  in: VIN, EN1, MODE/DATA, FB1, ADJ2
+  bidir: EN2, DEF_1
+  power: VIN
+  ground: GND, PowerPAD
+  passive: SW1-2
+
+schematic:
+  symbol: IC
+  left: VIN, EN1-2, MODE/DATA
+  right: FB1, SW1, DEF_1, SW2, ADJ2
+  bottom: GND, PowerPAD
+
+housing:
+  pattern: SON
+  suffix: DRC
+  bodyWidth: 2.9-3.1
+  bodyLength: 2.9-3.1
+  height: 0.8-1
+  pitch: 0.5
+  leadWidth: 0.18-0.3
+  leadLength: 0.3-0.5
+  leadHeight: 0.2
+  leadCount: 10
+  tabWidth: 1.55-1.75
+  tabLength: 2.3-2.5
+
+  padWidth: 0.85
+  padHeight: 0.28
+  padSpace: 2.1
+  viaDiameter: 0.3
+  viaPosition: -0.5, -0.75, -0.5, 0.75, 0, 0, 0.5, -0.75, 0.5, 0.75

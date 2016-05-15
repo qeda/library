@@ -1,6 +1,7 @@
 name: LP2951
 description: Adjustable Micropower Voltage Regulator with Shutdown
 datasheet: http://www.ti.com/lit/ds/symlink/lp2951.pdf
+keywords: IC, analog, regulator
 
 pinout:
   OUTPUT: 1
@@ -49,5 +50,3 @@ SON:
   padSpace: 1.9
   viaDiameter: 0.3
   viaPosition: -0.35, -0.75, -0.35, 0.75, 0, 0, 0.35, -0.75, 0.35, 0.75
-
-keywords: IC, analog, LDO, regulator
