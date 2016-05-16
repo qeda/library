@@ -1,0 +1,35 @@
+name: SN65HVD234
+description: 3.3-V CAN Bus Transceiver
+datasheet: http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
+keywords: IC, digital, transceiver
+
+pinout:
+  RXTX:
+    D: 1
+    R: 4
+  RS: 8
+  EN: 5
+  PHY:
+    CANH: 7
+    CANL: 6
+  VCC: 3
+  GND: 2
+
+properties:
+  in: D, EN
+  out: R
+  bidir: CANH, CANL
+  passive: RS
+  power: VCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: RXTX, EN
+  right: PHY, RS
+  top: VCC
+  bottom: GND
+
+housing:
+  outline: JEDEC MS-012 AA
+  suffix: D

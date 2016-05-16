@@ -1,0 +1,23 @@
+variation: TPS73201, TPS73201-Q1, TPS73225
+description: 200mA Low-Noise, High-PSRR Negative Output Low-Dropout Linear Regulator
+keywords: IC, digital, LDO, regulator
+
+pinout:
+  IN: 2
+  EN: 3
+  OUT: 6
+  NR/FB: 4
+  GND: 1
+
+properties:
+  in: IN, EN
+  out: OUT
+  power: IN, OUT
+  ground: GND
+  passive: NR/FB
+
+schematic:
+  symbol: IC
+  left: IN, EN
+  right: OUT, NR/FB
+  bottom: GND

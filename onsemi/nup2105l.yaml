@@ -1,0 +1,21 @@
+name: NUP2105L
+alias: SZNUP2105L
+description: Dual Line CAN Bus Protector
+datasheet: http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF
+keywords: diode, TVS
+
+pinout:
+  A1: 1
+  A2: 2
+  A3: 3
+
+schematic:
+  symbol: twin-diode
+  options: TVS
+
+housing:
+  outline: JEDEC TO-236 AB
+
+  padWidth: 0.9
+  padHeight: 0.8
+  padDistance: 2

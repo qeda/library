@@ -1,0 +1,11 @@
+base: TPS732
+name: TPS73225
+alias: TPS73225Q
+
+housing:
+  suffix: DBV
+  outline: JEDEC MO-178 AA
+
+  padWidth: 1.05
+  padHeight: 0.6
+  padDistance: 2.7
