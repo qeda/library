@@ -25,6 +25,7 @@ Abbreviation                            | Name
 [HIROSE](./hirose/)                     | Hirose
 [IRF](./irf/)                           | International Rectifier
 [KYOCERA](./kyocera/)                   | Kyocera
+[LINEAR](./linear/)                     | Linear Technology
 [MAXIM](./maxim/)                       | Maxim Integrated
 [MICREL](./micrel/)                     | Micrel
 [MURATA](./murata/)                     | Murata

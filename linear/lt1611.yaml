@@ -1,0 +1,27 @@
+name: LT1611
+descrition: Inverting 1.4MHz Switching Regulator
+datasheet: http://cds.linear.com/docs/en/datasheet/1611f.pdf
+keywords: IC, analog, regulator, DC-DC
+
+pinout:
+  VIN: 5
+  SW: 1
+  NFB: 3
+  ~SHDN: 4
+  GND: 2
+
+properties:
+  in: VIN, ~SHDN
+  power: VIN
+  ground: GND
+  passive: SW, NFB
+  inverted: ~SHDN
+
+schematic:
+  symbol: IC
+  left: VIN, ~SHDN
+  right: SW, NFB
+  bottom: GND
+
+housing:
+  outline: JEITA SC-74A
