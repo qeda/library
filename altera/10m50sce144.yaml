@@ -194,5 +194,5 @@ schematic:
 
 housing:
   outline: JEDEC MS-026 BFB-HD
-  tabWidth: 7.05-7.35
-  tabLength: 6.2-6.5
+  tabWidth: 8.78-9.08
+  tabLength: 8.55-8.85
