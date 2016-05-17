@@ -1,16 +1,17 @@
-abstract: true
+variation: SN74LVC1G07DBV, SN74LVC1G07DCK, SN74LVC1G07DRL, SN74LVC1G07DRY, SN74LVC1G07DSF, SN74LVC1G07YZP, SN74LVC1G07YZV
 description: Single Buffer/Driver With Open-Drain Output
+keywords: IC, digital, buffer, driver
 
 properties:
   in: A
   out: Y
-  power: Vcc
+  power: VCC
   ground: GND
   nc: NC
 
 schematic:
   symbol: IC
-  top: Vcc
+  top: VCC
   left: A, NC
   right: Y
   bottom: GND

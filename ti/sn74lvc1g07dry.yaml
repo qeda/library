@@ -1,0 +1,17 @@
+base: SN74LVC1G07
+name: SN74LVC1G07DRY
+
+pinout:
+  A: 2
+  Y: 4
+  VCC: 6
+  GND: 3
+  NC: 1, 5
+
+housing:
+  outline: JEDEC MO-287 UFAD
+
+  padWidth: 0.49
+  padWidth1: 0.52
+  padHeight: 0.3
+  padSpan: 1.26
