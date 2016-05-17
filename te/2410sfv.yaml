@@ -1,0 +1,17 @@
+name: 2410SFV
+description: Very Fast-Acting Fuse
+keywords: fuse
+
+schematic:
+  symbol: fuse
+
+housing:
+  pattern: chip
+  bodyWidth: 2.34-2.64
+  bodyLength: 5.95-6.25
+  height: 1.96-2.36
+  leadLength: 0.97-1.73
+
+  padWidth: 2.8
+  padHeight: 2.8
+  padSpan: 8.6
