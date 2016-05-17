@@ -1,0 +1,18 @@
+name: 1206SFH
+suffix: 100F/24, 120F/24, 150F/24, 200F/24, 250F/24, 300F/24
+description: 1206 (3216mm) High-Current-Rated Chip Fuse
+keywords: fuse
+
+schematic:
+  symbol: fuse
+
+housing:
+  pattern: chip
+  bodyWidth: 1.4-1.6
+  bodyLength: 3-3.4
+  height: 0.77-1.17
+  leadLength: 0.26-0.76
+
+  padWidth: 1.45
+  padHeight: 1.8
+  padSpan: 4.4

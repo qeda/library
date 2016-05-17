@@ -37,6 +37,7 @@ Abbreviation                            | Name
 [ST](./st/)                             | STMicroelectronics
 [VISHAY](./vishay/)                     | Vishay
 [TDK](./tdk/)                           | TDK
+[TE](./te/)                             | TE Connectivity
 [TI](./ti/)                             | Texas Instruments
 [YAGEO](./yageo/)                       | Yageo
 
