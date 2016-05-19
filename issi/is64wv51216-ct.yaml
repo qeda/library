@@ -1,0 +1,43 @@
+name: IS64WV51216EDBLL-10CT
+description: 512K x 16 High-Speed Asynchronous CMOS Static RAM with ECC
+datasheet: http://www.issi.com/WW/pdf/61-64WV51216EDBLL.pdf
+keywords: IC, digital, SRAM
+
+pinout:
+  ADDRESS:
+    A0-18: 1-5, 18-27, 42-44, 28
+  DATA:
+    I/O0-15: 7-10, 13-16, 29-32, 35-38
+  CONTROL:
+    ~CE: 6
+    ~OE: 41
+    ~WE: 17
+    ~LB: 39
+    ~UB: 40
+  VDD: 11, 33
+  GND: 12, 34
+
+properties:
+  in: A0-18, ~CE, ~OE, ~WE, ~LB, ~UB
+  bidir: I/O0-15
+  power: VDD
+  ground: GND
+  inverted: ~CE, ~OE, ~WE, ~LB, ~UB
+
+schematic:
+  symbol: IC
+  left: ADDRESS, CONTROL
+  right: DATA
+  top: VDD
+  bottom: GND
+
+housing:
+  pattern: SOP
+  bodyWidth: 10.03-10.29
+  bodyLength: 18.28-18.54
+  height: 1-1.2
+  pitch: 0.8
+  leadWidth: 0.3-0.45
+  leadLength: 0.4-0.69
+  leadSpan: 11.56-11.96
+  leadCount: 44

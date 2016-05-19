@@ -24,6 +24,7 @@ Abbreviation                            | Name
 [HARTING](./harting/)                   | Harting
 [HIROSE](./hirose/)                     | Hirose
 [IRF](./irf/)                           | International Rectifier
+[ISSI](./issi/)                         | Integrated Silicon
 [KYOCERA](./kyocera/)                   | Kyocera
 [LINEAR](./linear/)                     | Linear Technology
 [MAXIM](./maxim/)                       | Maxim Integrated
