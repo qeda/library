@@ -1,0 +1,42 @@
+name: CY15B102Q
+description: 2-Mbit (256 K × 8) Serial (SPI) Automotive F-RAM
+datasheet: http://www.cypress.com/file/175751/download
+keywords: IC, digital, NVRAM
+
+pinout:
+  CONTROL:
+    ~WP: 3
+    ~CS: 1
+    ~HOLD: 7
+  SPI:
+    SCK: 6
+    SI: 5
+    SO: 2
+  VDD: 8
+  VSS: 4
+
+properties:
+  in: ~WP, ~CS, ~HOLD, SCK, SI
+  out: SO
+  power: VDD
+  ground: VSS
+  inverted: ~WP, ~CS, ~HOLD
+
+schematic:
+  symbol: IC
+  left: CONTROL
+  right: SPI
+  top: VDD
+  bottom: VSS
+
+housing:
+  pattern: SOIC
+  suffix: -S
+  bodyWidth: 5.13-5.33
+  bodyLength: 5.13-5.33
+  height: 2.03
+  pitch: 1.27
+  leadWidth: 0.36-0.48
+  leadLength: 0.51-0.76
+  leadSpan: 7.75-8.26
+  leadCount: 8

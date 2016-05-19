@@ -19,6 +19,7 @@ Abbreviation                            | Name
 [AVAGO](./avago/)                       | Avago Technologies
 [BOURNS](./bourns/)                     | Bourns
 [CK](./ck/)                             | C&K Components
+[CYPRESS](./cypress/)                   | Cypress Semiconductor
 [ECS](./ecs/)                           | ECS International
 [ESPRESSIF](./espressif/)               | Espressif
 [HARTING](./harting/)                   | Harting
