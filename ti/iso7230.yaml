@@ -1,0 +1,21 @@
+base: ISO723x
+name: ISO7230C
+alias: ISO7230M
+
+pinout:
+  LEFT:
+    INA: 3
+    INB: 4
+    INC: 5
+    NC: 6
+  VCC1: 1
+  GND1: 2, 8
+  RIGHT:
+    OUTA: 14
+    OUTB: 13
+    OUTC: 12
+    NC: 11
+  EN: 10
+  VCC2: 16
+  GND2: 9, 15
+  NC: 7

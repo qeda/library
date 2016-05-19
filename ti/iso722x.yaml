@@ -1,0 +1,23 @@
+abstract: true
+description: Dual Digital Isolator
+datasheet: http://www.ti.com/lit/ds/symlink/iso7220a.pdf
+keywords: IC, digital, isolator
+
+properties:
+  in: INA, INB
+  out: OUTA, OUTB
+  power: VCC1-2
+  ground: GND1-2
+
+schematic:
+  symbol: IC
+  left: VCC1, LEFT, GND1
+  right: VCC2, RIGHT, GND2
+
+housing:
+  outline: JEDEC MS-012 AA
+  suffix: D
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4

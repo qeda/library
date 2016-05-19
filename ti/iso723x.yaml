@@ -1,0 +1,24 @@
+abstract: true
+description: High-Speed, Triple-Channel Digital Isolator
+datasheet: http://www.ti.com/lit/ds/symlink/iso7230c.pdf
+keywords: IC, digital, isolator
+
+properties:
+  in: INA, INB, INC, EN, EN1-2
+  out: OUTA, OUTB, OUTC
+  power: VCC1-2
+  ground: GND1-2
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: VCC1, LEFT, NC, EN1, GND1
+  right: VCC2, RIGHT, EN, EN2, GND2
+
+housing:
+  outline: JEDEC MS-013 AA
+  suffix: DW
+
+  padWidth: 2
+  padHeight: 0.6
+  padDistance: 9.3

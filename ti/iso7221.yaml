@@ -1,0 +1,15 @@
+base: ISO722x
+name: ISO7221A
+alias: ISO7221AQ, ISO7221B, ISO7221C, ISO7221CQ, ISO7221M
+
+pinout:
+  LEFT:
+    OUTA: 2
+    INB: 3
+  VCC1: 1
+  GND1: 4
+  RIGHT:
+    INA: 7
+    OUTB: 6
+  VCC2: 8
+  GND2: 5
