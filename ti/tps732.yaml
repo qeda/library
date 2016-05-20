@@ -5,7 +5,7 @@ keywords: IC, digital, LDO, regulator
 pinout:
   IN: 2
   EN: 3
-  OUT: 6
+  OUT: 5
   NR/FB: 4
   GND: 1
 
