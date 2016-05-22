@@ -1,0 +1,49 @@
+name: LM2576
+alias: LM2576HV
+suffix: -3.3, -5.0, -12, -ADJ
+description: 3A Step-Down Voltage Regulator
+datasheet: http://www.ti.com/lit/ds/symlink/lm2576.pdf
+keywords: IC, analog, step-down, voltage, regulator
+
+pinout:
+  VIN: 1
+  OUT: 2
+  GND: 3, 6
+  FB: 4
+  ~ON~/OFF: 5
+
+properties:
+  power: VIN, OUT
+  ground: GND
+  in: VIN, ~ON~/OFF
+  out: OUT
+  passive: FB
+
+schematic:
+  symbol: IC
+  left: VIN, ~ON~/OFF
+  right: OUT, FB
+  bottom: GND
+
+housing: TO-263
+
+TO-263:
+  pattern: PAK
+  suffix: S
+  pitch: 1.7
+  bodyWidth: 8.39-8.89
+  bodyLength: 10.04-10.41
+  height: 4.44-4.65
+  leadCount: 5
+  leadWidth: 0.71-0.97
+  leadLength: 1.98
+  leadSpan: 14.35
+  tabWidth: 10.04-10.41
+  tabLength: 6.35
+  tabLedge: 1.27
+
+  padWidth1: 2.16
+  padHeight1: 1.07
+  padWidth2: 6.99
+  padHeight2: 10.8
+  padSpan: 15.25
