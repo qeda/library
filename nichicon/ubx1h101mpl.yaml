@@ -1,5 +1,5 @@
-name: UBX2A331MHL
-description: Aluminum electrolytic capacitor, High Temperature, 330uF 100V
+name: UBX1H101MPL
+description: Aluminum electrolytic capacitor, High Temperature, 100uF 50V
 datasheet: http://products.nichicon.co.jp/en/pdf/XJA043/e-ubx.pdf
 keywords: capacitor
 
@@ -11,8 +11,8 @@ housing:
   pattern: radial
   options: diameter, polarized
 
-  bodyDiameter: 18
-  height: 31.5
-  leadDiameter: 0.8
+  bodyDiameter: 10
+  height: 12.5
+  leadDiameter: 0.6
   leadLength: 15
-  leadSpan: 7-8
+  leadSpan: 4.5-5.5
