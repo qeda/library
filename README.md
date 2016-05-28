@@ -11,6 +11,7 @@ Abbreviation is used in QEDA as component preamble. It corresponds to subdirecto
 Abbreviation                            | Name
 ----------------------------------------|---------------------------------------
 [ABC](./abc/)                           | ABC
+[ABRACON](./abracon/)                   | Abracon
 [AEIEP](./aeiep/)                       | Alexander Electric
 [ALTERA](./altera/)                     | Altera
 [AMASS](./amass/)                       | Amass
