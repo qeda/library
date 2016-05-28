@@ -1,0 +1,17 @@
+variation: ISO1050DUB, ISO1050DW
+description: ISO1050 Isolated CAN Transceiver
+datasheet: http://www.ti.com/lit/ds/symlink/iso1050.pdf
+keywords: IC, digital, transceiver
+
+properties:
+  in: TXD
+  out: RXD
+  bidir: CANH, CANL
+  power: VCC1-2
+  ground: GND1-2
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: IO, NC, VCC1, GND1
+  right: CAN, NC, VCC2, GND2
