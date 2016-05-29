@@ -193,6 +193,7 @@ properties:
   passive: X1-2, FLT1-2
   power: VDD, VDD3VFL, VDDA, VDDIO, VDDOSC
   ground: VSS, VSSOSC, VSSA
+  inverted: ~XRS, ~TRST
 
 schematic:
   symbol: IC
