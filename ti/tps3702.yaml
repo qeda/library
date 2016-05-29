@@ -1,0 +1,33 @@
+name: TPS3702
+suffix: AX18, AX18Q, AX33, AX33Q, CX10, CX10Q, CX12, CX12Q, CX18, CX18Q, CX33, CX33Q, CX50, CX50Q
+description: High-Accuracy, Overvoltage and Undervoltage Monitor
+datasheet: http://www.ti.com/lit/ds/symlink/tps3702.pdf
+keywords: IC, digital, reset, supervisor, monitor
+
+pinout:
+  SENSE: 3
+  SET: 4
+  UV: 1
+  OV: 6
+  VDD: 5
+  GND: 2
+
+properties:
+  in: SENSE, SET, VDD
+  out: UV, OV
+  power: VDD
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: SENSE, SET
+  right: UV, OV
+  top: VDD
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-193 AA
+
+  padWidth: 1.1
+  padHeight: 0.6
+  padDistance: 2.7
