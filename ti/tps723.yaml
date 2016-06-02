@@ -1,5 +1,6 @@
-variation: TPS73201, TPS73201-Q1, TPS73225
+variation: TPS72301, TPS72301-Q1, TPS72325
 description: 200mA Low-Noise, High-PSRR Negative Output Low-Dropout Linear Regulator
+datasheet: http://www.ti.com/lit/ds/symlink/tps723.pdf
 keywords: IC, digital, LDO, regulator
 
 pinout:

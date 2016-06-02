@@ -1,6 +1,6 @@
-base: TPS732
-name: TPS73225
-alias: TPS73225Q
+base: TPS723
+name: TPS72301Q
+datasheet: http://www.ti.com/lit/ds/symlink/tps723-q1.pdf
 
 housing:
   suffix: DBV
