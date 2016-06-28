@@ -1,5 +1,5 @@
-AEIEP
+AEIP
 =====
 
-* **Alexander Electric Istochniki ElektroPitaniya Ltd.**
+* **Alexander Electric Istochniki Elektropitaniya Ltd.**
 * http://www.aeip.ru

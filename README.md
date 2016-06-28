@@ -12,7 +12,7 @@ Abbreviation                            | Name
 ----------------------------------------|---------------------------------------
 [ABC](./abc/)                           | ABC
 [ABRACON](./abracon/)                   | Abracon
-[AEIEP](./aeiep/)                       | Alexander Electric
+[AEIP](./aeip/)                         | Alexander Electric
 [ALTERA](./altera/)                     | Altera
 [AMASS](./amass/)                       | Amass
 [ANALOG](./analog/)                     | Analog Devices
