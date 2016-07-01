@@ -12,6 +12,7 @@ schematic:
 
 housing:
   pattern: custom
+  options: polarized
   bodyWidth: 9.15
   bodyLength: 5
   height: 3.6
