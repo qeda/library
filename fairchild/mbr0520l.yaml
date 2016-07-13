@@ -1,0 +1,15 @@
+name: MBR0520L
+description: Schottky Rectifier
+keywords: diode, schottky
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: JEDEC DO-215 AD
+  options: polarized
+
+  padWidth: 0.88
+  padHeight: 1.02
+  padDistance: 3.27

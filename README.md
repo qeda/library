@@ -23,6 +23,7 @@ Abbreviation                            | Name
 [CYPRESS](./cypress/)                   | Cypress Semiconductor
 [ECS](./ecs/)                           | ECS International
 [ESPRESSIF](./espressif/)               | Espressif
+[FAIRCHILD](./fairchild/)               | Fairchild Semiconductor
 [HARTING](./harting/)                   | Harting
 [HIROSE](./hirose/)                     | Hirose
 [INFINEON](./infineon/)                 | Infineon
