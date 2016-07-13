@@ -25,6 +25,7 @@ Abbreviation                            | Name
 [ESPRESSIF](./espressif/)               | Espressif
 [HARTING](./harting/)                   | Harting
 [HIROSE](./hirose/)                     | Hirose
+[INFINEON](./infineon/)                 | Infineon
 [IRF](./irf/)                           | International Rectifier
 [ISSI](./issi/)                         | Integrated Silicon
 [KYOCERA](./kyocera/)                   | Kyocera

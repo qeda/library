@@ -1,0 +1,46 @@
+name: KP235
+description: Analog Absolute Pressure Sensor
+datasheet: http://www.infineon.com/dgdl/Infineon-KP235-DS-v01_00-en.pdf?fileId=db3a30432ad629a6012af67ba47c0b0f
+keywords: IC, analog, sensor
+
+pinout:
+  SERIAL:
+    CLOCK: 2
+    DATA_IN: 3
+    DATA_OUT: 4
+  TEST: 1
+  VOUT: 7
+  VDD: 5
+  GND: 6, 8
+
+properties:
+  in: CLOCK, DATA_IN, TEST
+  out: DATA_OUT, VOUT
+  power: VDD
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: SERIAL
+  right: VOUT, TEST
+  top: VDD
+  bottom: GND
+
+housing:
+  pattern: SOP
+
+  bodyWidth: 6.9-7.15
+  bodyLength: 6.9-7.15
+  height: 2.7-2.9
+
+  leadSpan: 8.5-8.7
+  leadWidth: 0.35-0.5
+  leadWidth1: 0.75-0.9
+  leadLength: 0.8
+  leadCount: 8
+  pitch: 1.27
+
+  padWidth: 1.2
+  padHeight: 0.8
+  padDistance: 8.2
+  padHeight1: 1.2
