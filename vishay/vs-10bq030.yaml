@@ -1,0 +1,16 @@
+name: VS-10BQ030
+description: High Performance Schottky Rectifier, 1.0 A
+datasheet: http://www.vishay.com/docs/95738/vs-10bq030-m3.pdf
+keywords: diode, schottky
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: JEDEC DO-214 AA
+  options: polarized
+
+  padWidth: 1.52
+  padHeight: 2.18
+  padSpan: 5.59
