@@ -1,0 +1,22 @@
+name: MMSD4148
+description: Switching Diode
+datasheet: http://www.onsemi.com/pub_link/Collateral/MMSD4148T1-D.PDF
+keywords: diode
+
+schematic:
+  symbol: diode
+
+housing:
+  pattern: SOD
+  options: polarized
+
+  bodyWidth: 1.4-1.8
+  bodyLength: 2.54-2.84
+  height: 0.94-1.35
+  leadWidth: 0.51-0.71
+  leadLength: 0.25
+  leadSpan: 3.56-3.86
+
+  padWidth: 0.91
+  padHeight: 1.22
+  padSpan: 4.19
