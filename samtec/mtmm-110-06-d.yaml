@@ -1,5 +1,6 @@
 name: MTMM-110-06-D
 description: 2.00 mm Variable Post Height Terminal Strip, 10x2
+datasheet: http://suddendocs.samtec.com/catalog_english/mtmm_th.pdf
 keywords: connector, male
 
 pinout: 1-20

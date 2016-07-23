@@ -1,0 +1,24 @@
+name: TST-107-01-D
+description: .100" (2.54 mm) Shrouded Terminal Strip, Cable Mate, 7x2
+datasheet: http://suddendocs.samtec.com/catalog_english/tst_th.pdf
+keywords: connector, male
+
+pinout: 1-14
+
+schematic:
+  symbol: connector
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 9.27
+  bodyLength: 25.4
+  height: 8.89
+  leadCount: 14
+
+  padWidth: 1.5
+  padHeight: 1.5
+  drillDiameter: 1
+  rowCount: 7
+  columnCount: 2
+  pitch: 2.54
