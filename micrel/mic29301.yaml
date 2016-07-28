@@ -1,7 +1,8 @@
 name: MIC29301
+alias: MIC29301-3.3B, MIC29301-3.3W, MIC29301-5.0B, MIC29301-5.0W, MIC29301-12B, MIC29301-12W 
 description: High-Current Low-Dropout Regulator
-datasheet: http://micrel.com/_PDF/mic29150.pdf
-keywords: IC, LDO
+datasheet: http://ww1.microchip.com/downloads/en/devicedoc/mic29150.pdf
+keywords: IC, analog, LDO
 
 pinout:
   EN: 1
