@@ -1,0 +1,34 @@
+name: ECX-33Q
+description: AEC-Q200 Qualified Miniature SMD Crystal
+datasheet: https://www.ecsxtal.com/store/pdf/ECX-33Q.pdf
+keywords: crystal
+
+pinout:
+  X1: 1
+  X2: 3
+  CASE: 2, 4
+
+properties:
+  passive: X1-2, CASE
+
+schematic:
+  symbol: crystal
+  left: X1
+  right: X2
+  bottom: CASE
+
+housing:
+  pattern: oscillator
+  options: corner-concave
+  bodyWidth: 2.4-2.6
+  bodyLength: 3.1-3.3
+  height: 0.8
+  leadWidth: 0.9
+  leadLength: 0.8
+  rowSpan: 2.3
+  columnSpan: 3
+
+  padWidth: 1.1
+  padHeight: 1.3
+  padDistance1: 1.8
+  padDistance2: 2.3
