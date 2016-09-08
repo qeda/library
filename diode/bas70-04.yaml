@@ -1,0 +1,15 @@
+name: BAS70-04
+description: Small Signal Schottky Diodes, Dual
+keywords: Diode, Schottky
+
+pinout:
+  A: 1
+  CA: 3
+  C: 2
+
+schematic:
+  symbol: twin-diode
+  options: schottky
+
+housing:
+  outline: JEDEC TO-236 AB
