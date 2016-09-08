@@ -1,0 +1,32 @@
+name: IR2101S
+description: High and low side driver
+datasheet: http://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c
+keywords: IC, analog, driver
+
+pinout:
+  IN:
+    VCC: 1
+    HIN: 2
+    LIN: 3
+    COM: 4
+  OUT:
+    LO: 5
+    VS: 6
+    HO: 7
+    VB: 8
+
+properties:
+  in: HIN, VIN
+  out: OUT
+  power: VCC
+  ground: COM
+
+schematic:
+  symbol: IC
+  left: IN
+  right: OUT
+  top: VCC
+  bottom: COM
+
+housing:
+  pattern: JEDEC MS-0122 AA
