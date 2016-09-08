@@ -1,6 +1,6 @@
 name: MH-4-8
 description: Mounting Hole, 4 mm hole diameter, 8 mm pad diameter
-keywords: mounting hole
+keywords: Mounting hole
 
 schematic:
   symbol: mounting-hole
@@ -11,4 +11,3 @@ housing:
   padDiameter: 8
   viaDiameter: 0.8
   viaCount: 10
-

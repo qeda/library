@@ -1,6 +1,6 @@
 name: LQH88P
 description: Power Inductor
-keywords: inductor
+keywords: Inductor
 
 schematic:
   symbol: inductor

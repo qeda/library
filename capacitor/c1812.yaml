@@ -1,6 +1,6 @@
 name: C1812
 description: Chip capacitor 4.5x3.2 mm
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

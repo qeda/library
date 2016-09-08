@@ -2,7 +2,7 @@ name: TPS3702
 suffix: AX18, AX18Q, AX33, AX33Q, CX10, CX10Q, CX12, CX12Q, CX18, CX18Q, CX33, CX33Q, CX50, CX50Q
 description: High-Accuracy, Overvoltage and Undervoltage Monitor
 datasheet: http://www.ti.com/lit/ds/symlink/tps3702.pdf
-keywords: IC, digital, reset, supervisor, monitor
+keywords: IC, Digital, Reset, Supervisor, Monitor
 
 pinout:
   SENSE: 3

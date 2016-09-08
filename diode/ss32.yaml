@@ -1,6 +1,6 @@
 name: SS32
 description: Surface Mount Schottky Barrier Rectifier
-keywords: diode, schottky
+keywords: Diode, Schottky
 
 schematic:
   symbol: diode

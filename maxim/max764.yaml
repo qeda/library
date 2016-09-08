@@ -1,8 +1,9 @@
 name: MAX764C
+variations: SO, DIP
 alias: MAX764E
 description: High-Efficiency, Low Iq DC-DC Inverter
 datasheet: https://datasheets.maximintegrated.com/en/ds/MAX764-MAX766.pdf
-keywords: IC, analog, DC-DC
+keywords: IC, Analog, DC-DC
 
 pinout:
   OUT: 1
@@ -27,9 +28,7 @@ schematic:
   top: V+
   bottom: GND
 
-housing: SO, DIP
-
-SO:
+housing@SO:
   pattern: SOP
   suffix: S
 
@@ -44,7 +43,7 @@ SO:
   leadCount: 8
   pitch: 1.27
 
-DIP:
+housing@DIP:
   pattern: DIP
   suffix: P
 

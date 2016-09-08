@@ -1,9 +1,10 @@
 name: LM2576
+variations: TO-263
 alias: LM2576HV
 suffix: -3.3, -5.0, -12, -ADJ
 description: 3A Step-Down Voltage Regulator
 datasheet: http://www.ti.com/lit/ds/symlink/lm2576.pdf
-keywords: IC, analog, step-down, voltage, regulator
+keywords: IC, Analog, Step-down, Regulator
 
 pinout:
   VIN: 1
@@ -25,11 +26,9 @@ schematic:
   right: OUT, FB
   bottom: GND
 
-housing: TO-263
-
-TO-263:
-  pattern: PAK
+housing@TO-263:
   suffix: S
+  pattern: PAK
   pitch: 1.7
   bodyWidth: 8.39-8.89
   bodyLength: 10.04-10.41

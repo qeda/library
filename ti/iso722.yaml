@@ -1,5 +1,6 @@
 base: ISO72x
 name: ISO722
+variations: SOIC8
 datasheet: http://www.ti.com/lit/ds/symlink/iso722.pdf
 
 pinout:

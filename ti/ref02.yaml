@@ -1,8 +1,9 @@
 name: REF02
+variations: PDIP, SOIC
 alias: REF02A, REF02B
 description: +5V Precision Voltage Reference
 datasheet: http://www.ti.com/lit/ds/symlink/ref02.pdf
-keywords: IC, analog, reference
+keywords: IC, Analog, Reference
 
 pinout:
   VIN: 2
@@ -26,15 +27,13 @@ schematic:
   right: VOUT, Trim, Temp
   bottom: GND
 
-housing: PDIP, SOIC
-
-PDIP:
-  outline: JEDEC MS-001 BA
+housing@PDIP:
   suffix: P
+  outline: JEDEC MS-001 BA
 
-SOIC:
-  outline: JEDEC MS-012 AA
+housing@SOIC:
   suffix: U
+  outline: JEDEC MS-012 AA
 
   padWidth: 1.55
   padHeight: 0.6

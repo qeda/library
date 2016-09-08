@@ -1,6 +1,6 @@
 name: M1
 description: Surface Mount Rectifier
-keywords: diode
+keywords: Diode
 
 schematic:
   symbol: diode

@@ -1,7 +1,7 @@
 abstract: true
 description: High-Speed, Triple-Channel Digital Isolator
 datasheet: http://www.ti.com/lit/ds/symlink/iso7230c.pdf
-keywords: IC, digital, isolator
+keywords: IC, Digital, Isolator
 
 properties:
   in: INA, INB, INC, EN, EN1-2

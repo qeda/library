@@ -1,7 +1,7 @@
 name: 1206SFH
 suffix: 100F/24, 120F/24, 150F/24, 200F/24, 250F/24, 300F/24
 description: 1206 (3216mm) High-Current-Rated Chip Fuse
-keywords: fuse
+keywords: Fuse
 
 schematic:
   symbol: fuse

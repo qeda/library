@@ -1,4 +1,5 @@
 name: CD4093B
+variations: SOIC, SO, TSSOP
 description: CMOS Quad 2-Input NAND Schmitt Trigger
 datasheet: http://www.ti.com/lit/ds/symlink/cd4093b.pdf
 keywords: IC, digital, and, trigger
@@ -43,19 +44,18 @@ schematic:
   top: VDD
   bottom: VSS
 
-housing: SOIC, SO, TSSOP
 
-SOIC:
-  outline: JEDEC MS-012 AB
+housing@SOIC:
   suffix: M
+  outline: JEDEC MS-012 AB
 
   padWidth: 1.55
   padHeight: 0.6
   padDistance: 5.4
 
-SO:
-  pattern: SOP
+housing@SO:
   suffix: NS
+  pattern: SOP
   bodyWidth: 5-5.6
   bodyLength: 9.9-10.5
   height: 2
@@ -65,9 +65,9 @@ SO:
   leadCount: 14
   pitch: 1.27
 
-TSSOP:
-  outline: JEDEC MO-153 AB-1
+housing@TSSOP:
   suffix: PW
+  outline: JEDEC MO-153 AB-1
 
   padWidth: 1.6
   padHeight: 0.35

@@ -1,7 +1,8 @@
-variation: AD8639A, AD8639ACP, AD8639W
+name: AD8639
+variations: SOIC, MSOP, LFCSP
 description: 16 V Auto-Zero, Rail-to-Rail Dual Output Operational Amplifier
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8638_8639.pdf
-keywords: IC, analog, OpAmp
+keywords: IC, Analog, OpAmp
 
 pinout:
   INA:
@@ -16,6 +17,20 @@ pinout:
 
   V+: 8
   V-: 4
+
+pinout@LFCSP:
+  INA:
+    -INA: 2
+    +INA: 3
+  OUTA: 1
+
+  INB:
+    -INB: 6
+    +INB: 5
+  OUTB: 7
+
+  V+: 8
+  V-: 4, 9
 
 properties:
   power: V+, V-
@@ -33,3 +48,15 @@ schematic:
   right: OUTA, OUTB
   top: V+
   bottom: V-
+
+housing@SOIC:
+  suffix: AR, WAR
+  outline: JEDEC MS-012 AA
+
+housing@MSOP:
+  suffix: ARM
+  outline: JEDEC MO-187 AA
+
+housing@LFCSP:
+  suffix: ACP
+  outline: JEDEC MO-229 W3030D-4

@@ -1,4 +1,5 @@
 name: CD4010B
+variations: SOIC, SO, TSSOP
 description: CMOS Hex Buffer/Converter
 datasheet: http://www.ti.com/lit/ds/symlink/cd4010b.pdf
 keywords: IC, analog, buffer, converter
@@ -35,19 +36,17 @@ schematic:
   left: VCC, INPUT, VSS
   right: VDD, OUTPUT, NC
 
-housing: SOIC, SO, TSSOP
-
-SOIC:
-  outline: JEDEC MS-012 AC
+housing@SOIC:
   suffix: M
+  outline: JEDEC MS-012 AC
 
   padWidth: 1.55
   padHeight: 0.6
   padDistance: 5.4
 
-SO:
-  pattern: SOP
+housing@SO:
   suffix: NS
+  pattern: SOP
   bodyWidth: 5-5.6
   bodyLength: 9.9-10.5
   height: 2
@@ -57,9 +56,9 @@ SO:
   leadCount: 16
   pitch: 1.27
 
-TSSOP:
-  outline: JEDEC MO-153 AB
+housing@TSSOP:
   suffix: PW
+  outline: JEDEC MO-153 AB
 
   padWidth: 1.6
   padHeight: 0.35

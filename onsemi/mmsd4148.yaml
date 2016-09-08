@@ -1,7 +1,7 @@
 name: MMSD4148
 description: Switching Diode
 datasheet: http://www.onsemi.com/pub_link/Collateral/MMSD4148T1-D.PDF
-keywords: diode
+keywords: Diode
 
 schematic:
   symbol: diode

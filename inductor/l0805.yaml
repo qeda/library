@@ -1,6 +1,6 @@
 name: L0805
 description: Chip inductor 2x1.25 mm
-keywords: inductor
+keywords: Inductor
 
 schematic:
   symbol: inductor

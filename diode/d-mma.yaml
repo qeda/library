@@ -1,6 +1,6 @@
 name: D-MMA
 description: MiniMelf Diode (MMA)
-keywords: diode
+keywords: Diode
 
 schematic:
   symbol: diode

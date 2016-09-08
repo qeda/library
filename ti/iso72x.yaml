@@ -1,5 +1,6 @@
 abstract: true
 description: Single Channel High-Speed Digital Isolator
+keywords: IC, Digital, Isolator
 
 properties:
   in: IN, ~EN
@@ -19,10 +20,6 @@ schematic:
   left: DATA1, POWER1
   right: DATA2, POWER2
 
-housing: SOIC8
-
-SOIC8:
-  outline: JEDEC MS-012 AA
+housing@SOIC8:
   suffix: D, MD
-
-keywords: IC, digital, isolator
+  outline: JEDEC MS-012 AA

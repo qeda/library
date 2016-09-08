@@ -1,5 +1,7 @@
 name: LM5050-2
 description: High Side OR-ing FET Controller
+datasheet: http://www.ti.com/lit/ds/symlink/lm5050-2.pdf
+keywords: IC, Analog, Controller
 
 pinout:
   nFGD: 1
@@ -22,5 +24,3 @@ schematic:
 
 housing:
   outline: JEDEC MO-193 AA
-
-keywords: IC, analog, controller

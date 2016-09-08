@@ -1,6 +1,6 @@
 name: BNX012-01
 description: Noise Suppressor for DC Power Lines
-keywords: IC, analog, filter
+keywords: IC, Analog, Filter
 
 pinout:
   B: 1

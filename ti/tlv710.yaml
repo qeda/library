@@ -2,7 +2,7 @@ name: TLV710
 suffix: 1828, 3318
 description: Dual, 200mA, Low-Iq Low-Dropout Regulator for Portable Devices
 datasheet: http://www.ti.com/lit/ds/symlink/tlv7101828.pdf
-keywords: IC, analog, LDO
+keywords: IC, Analog, LDO
 
 pinout:
   EN1: 1

@@ -1,6 +1,6 @@
 name: ESP-07
 description: ESP8266EX Based Wi-Fi Module
-keywords: IC, digital, converter
+keywords: IC, Digital, Converter
 
 pinout:
   RST: 1

@@ -1,7 +1,7 @@
 name: TST-105-01-D
 description: .100" (2.54 mm) Shrouded Terminal Strip, Cable Mate, 5x2
 datasheet: http://suddendocs.samtec.com/catalog_english/tst_th.pdf
-keywords: connector, male
+keywords: Connector, Male
 
 pinout: 1-10
 

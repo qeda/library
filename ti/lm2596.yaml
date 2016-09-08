@@ -1,5 +1,7 @@
 name: LM2596
+variations: TO-263
 description: Step-Down Voltage Regulator
+keywords: IC, Analog, Step-down, Regulator
 
 pinout:
   VIN: 1
@@ -20,9 +22,8 @@ schematic:
   right: OUT, FB
   bottom: GND
 
-housing: TO-263
-
-TO-263:
+housing@TO-263:
+  suffix: S
   pattern: PAK
   pitch: 1.7
   bodyWidth: 8.39-8.89
@@ -35,6 +36,3 @@ TO-263:
   tabWidth: 10.04-10.41
   tabLength: 6.35
   tabLedge: 1.27
-  suffix: S
-
-keywords: IC, analog, step-down, regulator

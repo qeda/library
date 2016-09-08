@@ -1,7 +1,7 @@
 name: 28C
 description: Micro Family 28 V Wide Input DC-DC Converter Module
 datasheet: http://cdn.vicorpower.com/documents/datasheets/ds_28vin-micro-family.pdf
-keywords: IC, analog, DC-DC
+keywords: IC, Analog, DC-DC
 
 pinout:
   IN:

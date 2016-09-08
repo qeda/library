@@ -2,7 +2,7 @@ name: NUP2105L
 alias: SZNUP2105L
 description: Dual Line CAN Bus Protector
 datasheet: http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF
-keywords: diode, TVS
+keywords: Diode, TVS
 
 pinout:
   A1: 1

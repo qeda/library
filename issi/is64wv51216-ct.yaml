@@ -1,7 +1,7 @@
 name: IS64WV51216EDBLL-10CT
 description: 512K x 16 High-Speed Asynchronous CMOS Static RAM with ECC
 datasheet: http://www.issi.com/WW/pdf/61-64WV51216EDBLL.pdf
-keywords: IC, digital, SRAM
+keywords: IC, Digital, SRAM
 
 pinout:
   ADDRESS:

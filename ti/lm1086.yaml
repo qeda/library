@@ -1,0 +1,71 @@
+name: LM1086
+variations: DDPAK, WSON #, TO-220
+description: 1.5-A Low Dropout Positive Regulator
+datasheet: http://www.ti.com/lit/ds/symlink/lm1086.pdf
+keywords: IC, Analog, LDO, Regulator
+
+pinout:
+  VIN: 3
+  VOUT: 2, 4
+  ADJ/GND: 1
+
+pinout@WSON:
+  VIN: 2
+  VOUT: 6-9
+  ADJ/GND: 1
+  NC: 3-5
+
+properties:
+  power: VIN, VOUT
+  ground: GND
+  out: VOUT
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: VIN, NC
+  right: VOUT
+  bottom: ADJ/GND
+
+housing@DDPAK:
+  suffix: CS-2.5, CS-3.3, CS-5.0, CS-ADJ, IS-1.8, IS-3.3, IS-5.0, IS-ADJ
+  pattern: PAK
+  pitch: 2.54
+  bodyWidth: 8.39-8.89
+  bodyLength: 9.91-10.41
+  height: 4.45-4.64
+  leadCount: 3
+  leadWidth: 0.71-0.97
+  leadLength: 1.98
+  leadSpan: 14.35
+  tabWidth: 9.91-10.41
+  tabLength: 6.35
+  tabLedge: 1.27
+
+  padWidth1: 2.16
+  padHeight1: 1.07
+  padWidth2: 6.99
+  padHeight2: 10.8
+  padSpan: 15.25
+
+housing@WSON:
+  suffix: ILD-3.3
+  pattern: SON
+  pitch: 0.8
+  bodyWidth: 3.9-4.1
+  bodyLength: 3.9-4.1
+  height: 0.8
+  leadCount: 8
+  leadWidth: 0.25-0.35
+  leadLength: 0.4-0.6
+  pullBack: 0.1
+  tabWidth: 2.1-2.3
+  tabLength: 2.9-3.1
+
+  padWidth: 0.5
+  padHeight: 0.3
+  padDistance: 3.3
+
+#housing@TO-220:
+#  suffix: CT-3.3, CT-5.0, CT-ADJ, IT-3.3, IT-5.0, IT-ADJ
+#  pattern: TO-220

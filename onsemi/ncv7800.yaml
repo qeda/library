@@ -1,8 +1,9 @@
 name: NCV7805AB
+variations: D2PAK-3, DPAK-3
 alias: NCV7805B, NCV7808AB, NCV7808B, NCV7809B, NCV7812AB, NCV7812B, NCV7815B
 description: 1.0 A Positive Voltage Regulator
 datasheet: http://www.onsemi.com/pub_link/Collateral/MC7800-D.PDF
-keywords: IC, analog, LDO, regulator
+keywords: IC, Analog, LDO, Regulator
 
 pinout:
   IN: 1
@@ -21,12 +22,9 @@ schematic:
   right: OUT
   bottom: GND
 
-housing: D2PAK-3, DPAK-3
-
-D2PAK-3:
-  pattern: PAK
+housing@D2PAK-3:
   suffix: D2T
-
+  pattern: PAK
   bodyWidth: 9.042-9.347
   bodyLength: 9.804-10.236
   height: 4.318-4.572
@@ -45,10 +43,9 @@ D2PAK-3:
   padHeight2: 10.490
   padSpan: 16.155
 
-DPAK-3:
-  pattern: PAK
+housing@DPAK-3:
   suffix: DT
-
+  pattern: PAK
   bodyWidth: 5.97-6.22
   bodyLength: 6.35-6.73
   height: 2.18-2.38

@@ -1,6 +1,6 @@
 name: MH-5-10
 description: Mounting Hole, 5 mm hole diameter, 10 mm pad diameter
-keywords: mounting hole
+keywords: Mounting hole
 
 schematic:
   symbol: mounting-hole
@@ -11,4 +11,3 @@ housing:
   padDiameter: 10
   viaDiameter: 0.8
   viaCount: 10
-

@@ -1,7 +1,7 @@
 abstract: true
 description: Low-Power Quad-Channel Digital Isolator
 datasheet: http://www.ti.com/lit/ds/symlink/iso7640fm.pdf
-keywords: IC, digital, isolator
+keywords: IC, Digital, Isolator
 
 properties:
   in: INA, INB, INC, IND, EN, EN1-2

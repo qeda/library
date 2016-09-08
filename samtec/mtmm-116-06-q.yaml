@@ -1,7 +1,7 @@
 name: MTMM-116-06-Q
 description: 2.00 mm Variable Post Height Terminal Strip, 16x4
 datasheet: http://suddendocs.samtec.com/catalog_english/mtmm_th.pdf
-keywords: connector, male
+keywords: Connector, Male
 
 pinout:
   COL1:

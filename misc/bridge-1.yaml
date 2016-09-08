@@ -1,6 +1,6 @@
 name: BRIDGE-1
 description: Polygon Bridge, 1 mm width
-keywords: bridge
+keywords: Bridge
 
 schematic:
   symbol: bridge

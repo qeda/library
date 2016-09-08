@@ -2,7 +2,7 @@ name: AD7908B
 alias: AD7908WY
 description: 8-Channel, 1 MSPS, 8-Bit ADC with Sequencer
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD7908_7918_7928.pdf
-keywords: IC, analog, ADC
+keywords: IC, Analog, ADC
 
 pinout:
   IN:
@@ -32,5 +32,5 @@ schematic:
   bottom: AGND
 
 housing:
-  outline: JEDEC MO-153 AC
   suffix: RU
+  outline: JEDEC MO-153 AC

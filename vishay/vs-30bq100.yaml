@@ -1,7 +1,7 @@
 name: VS-30BQ100
 description: Schottky Rectifier, 3 A
 datasheet: http://www.vishay.com/docs/93360/30bq100m.pdf
-keywords: diode, schottky
+keywords: Diode, Schottky
 
 schematic:
   symbol: diode

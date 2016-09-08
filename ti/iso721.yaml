@@ -1,5 +1,6 @@
 base: ISO72x
 name: ISO721
+variations: SOP8, SOIC8
 datasheet: http://www.ti.com/lit/ds/symlink/iso721.pdf
 
 pinout:
@@ -10,9 +11,7 @@ pinout:
   Vcc2: 8
   GND2: 5, 7
 
-housing: SOP8, SOIC8
-
-SOP8:
+housing@SOP8:
   pattern: SOP
   bodyLength: 9.45-9.55
   bodyWidth: 6.52-6.62

@@ -2,7 +2,7 @@ name: VS-MBRB20
 suffix: 80CT, 90CT, 100CT
 description: Schottky Rectifier, 2 x 10 A
 datasheet: http://www.farnell.com/datasheets/1869920.pdf
-keywords: diode, schottky
+keywords: Diode, Schottky
 
 pinout:
   A1: 1

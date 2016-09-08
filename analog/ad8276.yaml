@@ -1,4 +1,5 @@
 name: AD8276A
+variations: MSOP, SOIC
 alias: AD8276B
 description: Low Power, Unity Gain Fully Differential Amplifier & ADC Driver
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8276_8277.pdf
@@ -30,12 +31,10 @@ schematic:
   top: +VS
   bottom: -VS
 
-housing: MSOP, SOIC
-
-MSOP:
-  outline: JEDEC MO-187 AA
+housing@MSOP:
   suffix: RM
+  outline: JEDEC MO-187 AA
 
-SOIC:
-  outline: JEDEC MS-012 AA
+housing@SOIC:
   suffix: R
+  outline: JEDEC MS-012 AA

@@ -1,8 +1,9 @@
 name: AD822
+variations: PDIP, SOIC, MSOP
 alias: AD822A, AD822B
 description: Single-Supply, Rail-to-Rail Low Power FET-Input Op Amp
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD822.pdf
-keywords: IC, analog, OpAmp
+keywords: IC, Analog, OpAmp
 
 pinout:
   OUT1: 1
@@ -33,16 +34,14 @@ parts:
   OpAmp 1: IN1, OUT1, V+, V-
   OpAmp 2: IN2, OUT2
 
-housing: PDIP, SOIC, MSOP
-
-PDIP:
-  outline: JEDEC MS-001 BA
+housing@PDIP:
   suffix: N
+  outline: JEDEC MS-001 BA
 
-SOIC:
-  outline: JEDEC MS-012 AA
+housing@SOIC:
   suffix: R
+  outline: JEDEC MS-012 AA
 
-MSOP:
-  outline: JEDEC MO-187 AA
+housing@MSOP:
   suffix: RM
+  outline: JEDEC MO-187 AA

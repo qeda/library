@@ -1,7 +1,7 @@
 name: LVK24
 description: Four Terminal High Precision Current Sense Resistor, 1W
 datasheet: http://www.ohmite.com/cat/res_lvk.pdf
-keywords: resistor, 1W
+keywords: Resistor, 1W
 
 pinout:
   LEFT:

@@ -1,7 +1,7 @@
 name: L9637D
 description: Monolithic bus driver with ISO 9141 interface
 datasheet: http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000234.pdf
-keywords: IC, digital, transceiver
+keywords: IC, Digital, Transceiver
 
 pinout:
   KLINE:
@@ -31,6 +31,4 @@ schematic:
 
 housing:
   outline: JEDEC MS-012 AA
-
   leadWidth: 0.28-0.48
-

@@ -1,6 +1,6 @@
 name: BAS521
 description: Single High Voltage Switching Diode
-keywords: diode
+keywords: Diode
 
 schematic:
   symbol: diode

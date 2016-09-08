@@ -1,8 +1,14 @@
-name: TL431
-variation: TL431D
+name: TL431AC
+alias: TL431AI, TL431BC, TL431BI, TL431BQ, TL431C, TL431I, TL431Q
 description: Precision Programmable Reference
 datasheet: http://www.ti.com/lit/ds/symlink/tl431.pdf
-keywords: IC, analog, reference
+keywords: IC, Analog, Reference
+
+pinout:
+  ANODE: 2, 3, 6, 7
+  CATHODE: 1
+  REF: 8
+  NC: 4, 5
 
 properties:
   passive: ANODE, CATHODE
@@ -14,3 +20,11 @@ schematic:
   left: REF
   right: NC
   bottom: ANODE
+
+housing:
+  suffix: D
+  outline: JEDEC MS-012 AA
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4

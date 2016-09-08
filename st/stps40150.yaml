@@ -1,7 +1,7 @@
 name: STPS40150
 description: High Voltage Power Schottky Rectifier
 datasheet: http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00004991.pdf
-keywords: diode, schottky
+keywords: Diode, Schottky
 
 pinout:
   A1: 1
@@ -12,12 +12,9 @@ schematic:
   symbol: twin-diode
   options: schottky
 
-housing: D2PAK
-
-D2PAK:
+housing:
   pattern: PAK
   suffix: CG
-
   bodyWidth: 8.95-9.35
   bodyLength: 10-10.4
   height: 4.4-4.6

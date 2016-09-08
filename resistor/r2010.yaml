@@ -1,6 +1,6 @@
 name: R2010
 description: Chip resistor 4.9x2.4 mm
-keywords: resistor, 3/4W
+keywords: Resistor, 3/4W
 
 schematic:
   symbol: resistor

@@ -1,6 +1,6 @@
 name: D-MMU
 description: MicroMelf Diode (MMU)
-keywords: diode
+keywords: Diode
 
 schematic:
   symbol: diode

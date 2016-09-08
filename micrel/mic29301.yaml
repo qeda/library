@@ -1,8 +1,8 @@
 name: MIC29301
-alias: MIC29301-3.3B, MIC29301-3.3W, MIC29301-5.0B, MIC29301-5.0W, MIC29301-12B, MIC29301-12W 
+alias: MIC29301-3.3B, MIC29301-3.3W, MIC29301-5.0B, MIC29301-5.0W, MIC29301-12B, MIC29301-12W
 description: High-Current Low-Dropout Regulator
 datasheet: http://ww1.microchip.com/downloads/en/devicedoc/mic29150.pdf
-keywords: IC, analog, LDO
+keywords: IC, Analog, LDO
 
 pinout:
   EN: 1
@@ -23,9 +23,7 @@ schematic:
   right: OUT, FLG
   bottom: GND
 
-housing: TO-263
-
-TO-263:
+housing:
   pattern: PAK
   bodyWidth: 8.392-9.169
   bodyLength: 10.058-10.668

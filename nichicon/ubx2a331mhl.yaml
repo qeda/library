@@ -1,7 +1,7 @@
 name: UBX2A331MHL
 description: Aluminum electrolytic capacitor, High Temperature, 330uF 100V
 datasheet: http://products.nichicon.co.jp/en/pdf/XJA043/e-ubx.pdf
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

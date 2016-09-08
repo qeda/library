@@ -2,7 +2,7 @@ name: TPS62420
 alias: TPS62420Q
 description: 2.25-MHz 600-mA and 1000-mA Dual Step-Down Converter
 datasheet: http://www.ti.com/lit/ds/symlink/tps62420.pdf
-keywords: IC, analog, DC-DC
+keywords: IC, Analog, DC-DC
 
 pinout:
   VIN: 3
@@ -31,8 +31,8 @@ schematic:
   bottom: GND, PowerPAD
 
 housing:
-  pattern: SON
   suffix: DRC
+  pattern: SON
   bodyWidth: 2.9-3.1
   bodyLength: 2.9-3.1
   height: 0.8-1

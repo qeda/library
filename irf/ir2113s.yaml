@@ -2,7 +2,7 @@ name: IR2113S
 suffix: -1, -2
 description: High and Low Side Driver
 datasheet: http://www.irf.com/product-info/datasheets/data/ir2110.pdf
-keywords: IC, analog, driver
+keywords: IC, Analog, Driver
 
 pinout:
   CONTROL:

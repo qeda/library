@@ -1,7 +1,7 @@
 name: L3GD20H
 description: Three-axis digital output gyroscope
 datasheet: http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00060659.pdf
-keywords: IC, digital, sensor
+keywords: IC, Digital, Sensor
 
 pinout:
   Vdd_IO: 1
@@ -43,7 +43,6 @@ schematic:
 
 housing:
   pattern: QFN
-
   pitch: 0.5
   bodyLength: 2.85-3.15
   bodyWidth: 2.85-3.15

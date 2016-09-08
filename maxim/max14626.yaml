@@ -1,7 +1,7 @@
 name: MAX14626
 description: High-Voltage Reverse-Input-Capable 4-20mA Current Loop Protector
 datasheet: http://datasheets.maximintegrated.com/en/ds/MAX14626.pdf
-keywords: IC, analog, protector
+keywords: IC, Analog, Protector
 
 pinout:
   IN: 1

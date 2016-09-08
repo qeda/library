@@ -1,4 +1,5 @@
 name: DAC104S085CI
+variations: VSSOP, WSON
 alias: DAC104S085QI
 description: 10-Bit Micro Power QUAD Digital-to-Analog Converter with Rail-to-Rail Output
 datasheet: http://www.ti.com/lit/ds/symlink/dac104s085.pdf
@@ -32,16 +33,13 @@ schematic:
   top: VA
   bottom: GND
 
-housing: VSSOP, WSON
-
-VSSOP:
-  outline: JEDEC MO-187 BA
+housing@VSSOP:
   suffix: MM
+  outline: JEDEC MO-187 BA
 
-WSON:
-  pattern: SON
+housing@WSON:
   suffix: SD
-
+  pattern: SON
   bodyWidth: 2.9-3.1
   bodyLength: 2.9-3.1
   height: 0.8

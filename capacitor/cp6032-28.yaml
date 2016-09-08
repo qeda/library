@@ -1,6 +1,6 @@
 name: CP6032-28
 description: Polarized capacitor 6x3.2 mm (C case)
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor
