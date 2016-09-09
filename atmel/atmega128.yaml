@@ -1,0 +1,88 @@
+name: ATmega128
+variations: TQFP
+description: 8-bit AVR Microcontroller
+datasheet: http://www.atmel.com/Images/doc2467.pdf
+keywords: IC, Digital, Microcontroller, MCU
+
+pinout:
+  PORTA:
+    PA0-7: 51-44
+  PORTB:
+    PB0-7: 10-17
+  PORTC:
+    PC0-7: 35-42
+  PORTD:
+    PD0-7: 25-32
+  PORTE:
+    PE0-7: 2-9
+  PORTF:
+    PF0-7: 61-54
+  PORTG:
+    PG0-4: 33, 34, 43, 18, 19
+
+  ~PEN: 1
+  ~RESET: 20
+  XTAL:
+    XTAL1-2: 24, 23
+  AREF: 62
+
+  VCC: 21, 52
+  AVCC: 64
+  GND: 22, 53, 63
+
+  RXD0/PDI: 2
+  TXD0/PDO: 3
+  XCK0/AIN0: 4
+  OC3A/AIN1: 5
+  OC3B/INT4: 6
+  OC3C/INT5: 7
+  T3/INT6: 8
+  ICP3/INT7: 9
+  SS: 10
+  SCK: 11
+  MOSI: 12
+  MISO: 13
+  OC0: 14
+  OC1A: 15
+  OC1B: 16
+  OC2/OC1C: 17
+  TOSC2: 18
+  TOSC1: 19
+  SCL/INT0: 25
+  SDA/INT1: 26
+  RXD1/INT2: 27
+  TXD1/INT3: 28
+  ICP1: 29
+  XCK1: 30
+  T1: 31
+  T2: 32
+  ~WR: 33
+  ~RD: 34
+  A8-15: 35-42
+  ALE: 43
+  AD7-0: 44-51
+  ADC7/TDI: 54
+  ADC6/TDO: 55
+  ADC5/TMS: 56
+  ADC4/TCK: 57
+  ADC3-0: 58-61
+
+properties:
+  in: AREF, ~PEN, ~RESET
+  bidir: PA0-7, PB0-7, PC0-7, PD0-7, PE0-7, PG0-4
+  power: VCC, AVCC
+  ground: GND
+  passive: XTAL1-2
+  inverted: ~PEN, ~RESET
+
+schematic:
+  symbol: IC
+  left: PORTA, PORTB, PORTC, ~PEN, ~RESET, XTAL, AREF
+
+  right: PORTD, PORTE, PORTF, PORTG
+  top: VCC, AVCC
+  bottom: GND
+
+housing@TQFP:
+  suffix: -16AU
+  outline: JEDEC MS-026 AEB
