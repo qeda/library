@@ -1,0 +1,19 @@
+name: BAT54S
+description: Schottky Barrier Diodes
+keywords: Diode, Schottky
+
+pinout:
+  A: 1
+  CA: 3
+  C: 2
+
+schematic:
+  symbol: twin-diode
+  options: schottky
+
+housing:
+  outline: JEDEC TO-236 AB
+
+  padWidth: 0.7
+  padHeight: 0.6
+  padDistance: 2

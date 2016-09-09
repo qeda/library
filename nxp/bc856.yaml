@@ -2,7 +2,7 @@ name: BC856
 alias: BC856A, BC856B
 description: PNP General Purpose Transistor
 datasheet: http://www.nxp.com/documents/data_sheet/BC856_BC857_BC858.pdf
-keywords: Transistor, NPN
+keywords: Transistor, PNP
 
 pinout:
   B: 1
