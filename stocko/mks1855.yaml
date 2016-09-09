@@ -1,0 +1,23 @@
+name: MKS1855-6-0-505
+description: Pin connector with snap-in locking device for vertical connections
+datasheet: http://www.stocko-contact.com/catalog-pdf/steckverbindersystem-raster-2,5-mm.pdf
+keywords: Connector
+
+pinout: 1-5
+
+schematic:
+  symbol: connector
+  options: single
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 7.5
+  bodyLength: 17.2
+  height: 23.3
+  pitch: 2.5
+  padWidth: 1.5
+  padHeight: 1.5
+  drillDiameter: 1
+  rowCount: 5
+  columnCount: 1

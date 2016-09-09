@@ -40,6 +40,7 @@ Abbreviation                            | Name
 [ONSEMI](./onsemi/)                     | ON Semiconductor
 [SAMTEC](./samtec/)                     | Samtec
 [ST](./st/)                             | STMicroelectronics
+[STOCKO](./stocko/)                     | Stocko
 [VISHAY](./vishay/)                     | Vishay
 [TDK](./tdk/)                           | TDK
 [TE](./te/)                             | TE Connectivity
