@@ -1,0 +1,40 @@
+name: LM311
+description: General Purpose, high speed comparators
+datasheet: http://www.ti.com/lit/ds/symlink/lm311.pdf
+keywords: IC, analog, comparator
+
+pinout:
+  IN:
+    -IN: 3
+    +IN: 2
+  OUT: 
+    EMIT: 1
+    COL: 7
+  V+: 8
+  V-: 4
+  BAL:
+    BAL/STRB: 6
+    BALANCE: 5
+
+properties:
+  in: IN
+  out: OUT
+  power: V+, V-
+
+schematic:
+  symbol: IC
+  left: IN, BAL
+  right: OUT
+  top: V+
+  bottom: V-
+
+housing: SOIC, TSSOP
+
+SOIC:
+  outline: JEDEC MS-012 AA
+  suffix: D
+
+TSSOP:
+  outline: JEDEC MO-153 AB
+  suffix: PW
+
