@@ -5,11 +5,12 @@ datasheet: http://www.st.com/resource/en/datasheet/stm32f030f4.pdf
 keywords: IC, digital, ARM, CPU
 
 pinout:
-  BOOT0: 1
+  CTRL:
+    BOOT0: 1
+    ~NRST: 4
   OSC:
     OSC_IN: 2
     OSC_OUT: 3
-  ~NRST: 4
   PORTA:
     PA0: 6
     PA1: 7
@@ -40,10 +41,10 @@ properties:
 
 schematic:
   symbol: IC
-  left: PORTB, OSC
-  right: PORTA
+  left: PORTA, OSC
+  right: PORTB, CTRL
   top: VDD, VDDA
-  bottom: VSS
+  bottom: VSS, VSSA
 
 housing:
-  pattern: JEDEC MO-153 AC
+  outline: JEDEC MO-153 AC
