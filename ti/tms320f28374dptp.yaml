@@ -1,5 +1,7 @@
 name: TMS320F28374DPTP
 description: TMS320F2837xD Dual-Core Delfino Microcontroller
+datasheet: http://www.ti.com/lit/ds/symlink/tms320f28374d.pdf
+keywords: IC, Digital, Microcontroller
 
 pinout:
   VREFA:
@@ -207,11 +209,9 @@ parts:
 
 housing:
   pattern: QFP
-
   bodyWidth: 23.8-24.2
   bodyLength: 23.8-24.2
   height: 1.6
-
   leadWidth: 0.17-0.27
   leadLength: 0.45-0.75
   leadSpan: 25.8-26.2
@@ -221,5 +221,3 @@ housing:
 
   tabWidth: 7.53-8.07
   tabLength: 6.78-7.33
-
-keywords: IC, digital, microcontroller

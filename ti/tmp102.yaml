@@ -1,7 +1,7 @@
 name: TMP102AIDRL
 description: Low-Power Digital Temperature Sensor With SMBus and Two-Wire Serial Interface
 datasheet: http://www.ti.com/lit/ds/symlink/tmp102.pdf
-keywords: IC, digital, temperature, sensor
+keywords: IC, Digital, Temperature, Sensor
 
 pinout:
   I2C:

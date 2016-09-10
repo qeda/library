@@ -2,7 +2,7 @@ name: MMBT3904L
 prefix: S
 description: General Purpose NPN Transistor
 datasheet: http://www.onsemi.com/pub_link/Collateral/MMBT3904LT1-D.PDF
-keywords: transistor, NPN
+keywords: Transistor, NPN
 
 pinout:
   B: 1

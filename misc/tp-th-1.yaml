@@ -1,6 +1,6 @@
 name: TP-TH-1
 description: Through-hole Test Point, 1 mm diameter hole
-keywords: test point
+keywords: Test point
 
 schematic:
   symbol: test-point

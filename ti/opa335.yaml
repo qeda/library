@@ -1,0 +1,52 @@
+name: OPA335
+variations: SO-8, SOT23-5
+description: 0.05μV/°C max, Single-Supply CMOS Operational Amplifiers Zero-Drift Series
+datasheet: http://www.ti.com/lit/ds/symlink/opa335.pdf
+keywords: IC, Analog, OpAmp
+
+pinout@SO-8:
+  IN:
+    -IN: 2
+    +IN: 3
+  OUT: 6
+  NC: 1, 5, 8
+  V+: 7
+  V-: 4
+
+pinout@SOT23-5:
+  IN:
+    -IN: 4
+    +IN: 3
+  OUT: 1
+  V+: 5
+  V-: 2
+
+properties:
+  power: V+, V-
+  in: +IN, -IN
+  out: OUT
+  inverted: -IN
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: IN, NC
+  right: OUT, NC
+  top: V+
+  bottom: V-
+
+housing@SO-8:
+  suffix: AID
+  outline: JEDEC MS-012 AA
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4
+
+housing@SOT23-5:
+  suffix: AIDBV
+  outline: JEDEC MO-178 AA
+
+  padWidth: 1.05
+  padHeight: 0.6
+  padDistance: 2.7

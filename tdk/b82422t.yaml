@@ -1,6 +1,6 @@
 name: B82422T
 description: SMT inductor
-keywords: inductor
+keywords: Inductor
 
 schematic:
   symbol: inductor

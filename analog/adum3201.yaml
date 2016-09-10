@@ -2,7 +2,7 @@ name: ADuM3201A
 alias: ADuM3201B, ADuM3201C, ADuM3201WA, ADuM3201WB, ADuM3201WC
 description: Dual-Channel, Digital Isolator, Enhanced System-Level ESD Reliability
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM3200_3201.pdf
-keywords: IC, analog, isolator
+keywords: IC, Analog, Isolator
 
 pinout:
   VDD1: 1
@@ -26,5 +26,5 @@ schematic:
   right: VDD2, VIA, VOB, GND2
 
 housing:
-  outline: JEDEC MS-012 AA
   suffix: R
+  outline: JEDEC MS-012 AA

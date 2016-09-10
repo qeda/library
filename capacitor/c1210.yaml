@@ -1,6 +1,6 @@
 name: C1210
 description: Chip capacitor 3.2x2.5 mm
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

@@ -1,6 +1,7 @@
 name: INA139
 description: High-Side Measurement Current Shunt Monitor
 datasheet: http://www.ti.com/lit/ds/symlink/ina139.pdf
+keywords: IC, Analog, OpAmp
 
 pinout:
   OUT: 1
@@ -28,5 +29,3 @@ housing:
   padWidth: 1
   padHeight: 0.55
   padDistance: 2.7
-
-keywords: IC, analog, OpAmp

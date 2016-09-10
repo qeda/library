@@ -1,6 +1,6 @@
 name: L0603
 description: Chip inductor 1.6x0.8 mm
-keywords: inductor
+keywords: Inductor
 
 schematic:
   symbol: inductor

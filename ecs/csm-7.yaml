@@ -1,7 +1,7 @@
 name: CSM-7
 description: SMD Quartz Crystal
 datasheet: http://www.ecsxtal.com/store/pdf/csm_7.pdf
-keywords: crystal
+keywords: Crystal
 
 schematic:
   symbol: crystal

@@ -1,4 +1,5 @@
 name: ADG508A
+variations: DIP, SOIC
 description: 8-Channel Analog Multiplexer
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADG508A_509A.pdf
 keywords: IC, analog, multiplexer
@@ -27,12 +28,10 @@ schematic:
   top: VDD, VSS
   bottom: GND
 
-housing: DIP, SOIC
-
-DIP:
+housing@DIP:
   outline: JEDEC MS-001 AB
   suffix: KN
 
-SOIC:
+housing@SOIC:
   outline: JEDEC MS-012 AC
   suffix: KR

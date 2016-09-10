@@ -2,7 +2,7 @@ name: ADS7883
 alias: ADS7883S, ADS7883SB
 description: 12-Bit, 3-MSPS, microPOWER, Miniature SAR Analog-to-Digital Converter
 datasheet:  http://www.ti.com/lit/ds/symlink/ads7883.pdf
-keywords: IC, analog, ADC
+keywords: IC, Analog, ADC
 
 pinout:
   VIN: 3

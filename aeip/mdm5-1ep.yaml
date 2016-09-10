@@ -2,7 +2,7 @@ name: MDM5-1E
 suffix: 1.5VUP, 2.5VP, 3.3VP, 05VP, 09VP, 12VP, 15VP, 24VP, 27VP, 48VP
 description: DC-DC Converter
 datasheet: http://www.aeip.ru/images/pdf/mdm-e_5.pdf
-keywords: IC, analog, DC-DC
+keywords: IC, Analog, DC-DC
 
 pinout:
   IN:

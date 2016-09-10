@@ -1,5 +1,8 @@
 name: SN74AHC125
+variations: SOIC, SSOP, TVSOP, PDIP, SO, TSSOP
 description: Quadruple 2-Input Positive-NAND Gates
+datasheet: http://www.ti.com/lit/ds/symlink/sn74ahc125.pdf
+keywords: IC, Digital, Gate
 
 pinout:
   IN1:
@@ -36,29 +39,28 @@ schematic:
   right: 1Y, 2Y, 3Y, 4Y
   bottom: GND
 
-housing: SOIC, SSOP, TVSOP, PDIP, SO, TSSOP
-
-SOIC:
-  outline: JEDEC MS-012 AB
+housing@SOIC:
   suffix: D
+  outline: JEDEC MS-012 AB
 
   padWidth: 1.55
   padHeight: 0.6
   padDistance: 5.4
 
-SSOP:
-  outline: JEDEC MO-150 AB
+housing@SSOP:
   suffix: DB
+  outline: JEDEC MO-150 AB
 
-TVSOP:
-  outline: JEDEC MO-194 AA
+housing@TVSOP:
   suffix: DGV
+  outline: JEDEC MO-194 AA
 
-PDIP:
-  outline: JEDEC MS-001 AA
+housing@PDIP:
   suffix: N
+  outline: JEDEC MS-001 AA
 
-SO:
+housing@SO:
+  suffix: NS
   pattern: SOP
   bodyWidth: 5-5.6
   bodyLength: 9.9-10.5
@@ -68,14 +70,11 @@ SO:
   leadSpan: 7.4-8.2
   leadCount: 14
   pitch: 1.27
-  suffix: NS
 
-TSSOP:
-  outline: JEDEC MO-153 AB-1
+housing@TSSOP:
   suffix: PW
+  outline: JEDEC MO-153 AB-1
 
   padWidth: 1.6
   padHeight: 0.35
   padDistance: 5.6
-
-keywords: IC, digital, gate

@@ -27,5 +27,5 @@ schematic:
   bottom: GND
 
 housing:
-  outline: JEDEC MO-203 AB
   suffix: KS
+  outline: JEDEC MO-203 AB

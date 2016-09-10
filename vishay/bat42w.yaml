@@ -1,7 +1,7 @@
 name: BAT42W
 description: Small Signal Schottky Diode
 datasheet: http://www.vishay.com/docs/85661/bat42w.pdf
-keywords: diode, schottky
+keywords: Diode, Schottky
 
 schematic:
   symbol: diode

@@ -1,7 +1,7 @@
 name: BAS40L
 description: 40 V Schottky Barrier Diode
 datasheet: http://www.onsemi.com/pub_link/Collateral/BAS40LT1-D.PDF
-keywords: diode, schottky
+keywords: Diode, Schottky
 
 pinout:
   A: 1

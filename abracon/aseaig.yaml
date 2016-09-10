@@ -1,7 +1,7 @@
 name: ASEAIG
-description: Automotive and Industrial Grade  CMOS SMD Crystal Oscillator
+description: Automotive and Industrial Grade CMOS SMD Crystal Oscillator
 datasheet: http://www.abracon.com/AIGOscillators/ASEAIG.pdf
-keywords: IC, digital, generator, oscillator
+keywords: IC, Digital, Generator, Oscillator
 
 pinout:
   TRI: 1

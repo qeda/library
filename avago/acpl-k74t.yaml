@@ -1,7 +1,7 @@
 name: ACPL-K74T
 description: Automotive High Speed Low Power Digital Optocoupler
 datasheet: http://docs.avagotech.com/docs/AV02-2180EN
-keywords: IC, analog, optocoupler
+keywords: IC, Analog, Optocoupler
 
 pinout:
   AN1: 1

@@ -1,6 +1,6 @@
-variation: 5M1270ZT144
-description: Low cost low power CPLD
-keywords: IC, digital, CPLD
+abstract: true
+description: Low Cost Low Power CPLD
+keywords: IC, Digital, CPLD
 
 properties:
   bidir: IO

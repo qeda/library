@@ -1,7 +1,7 @@
 name: IRG4BH20K
 description: Short Circuit Rated UltraFast IGBT
 datasheet: http://www.irf.com/product-info/datasheets/data/irg4bh20k-s.pdf
-keywords: transistor, IGBT
+keywords: Transistor, IGBT
 
 pinout:
   G: 1

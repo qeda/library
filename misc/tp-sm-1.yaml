@@ -1,6 +1,6 @@
 name: TP-SM-1
 description: Surface Mount Test Point, 1 mm diameter
-keywords: test point
+keywords: Test point
 
 schematic:
   symbol: test-point

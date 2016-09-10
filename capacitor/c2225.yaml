@@ -1,6 +1,6 @@
 name: C2225
 description: Chip capacitor 5.6x6.4 mm
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

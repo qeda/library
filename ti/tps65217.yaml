@@ -1,6 +1,8 @@
 name: TPS65217
-description: Single-Chip PMIC for Battery-Powered Systems
 suffix: A, B, C, D
+description: Single-Chip PMIC for Battery-Powered Systems
+datasheet: http://www.ti.com/lit/ds/symlink/tps65217.pdf
+keywords: IC, Analog, Regulator
 
 pinout:
   IN:

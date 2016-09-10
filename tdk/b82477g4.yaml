@@ -1,6 +1,6 @@
 name: B82477G4
 description: SMT power inductor
-keywords: inductor
+keywords: Inductor
 
 schematic:
   symbol: inductor

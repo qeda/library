@@ -1,7 +1,7 @@
 name: CY15B102Q
 description: 2-Mbit (256 K × 8) Serial (SPI) Automotive F-RAM
 datasheet: http://www.cypress.com/file/175751/download
-keywords: IC, digital, NVRAM
+keywords: IC, Digital, NVRAM
 
 pinout:
   CONTROL:

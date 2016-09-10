@@ -1,6 +1,9 @@
 name: SN74HC4851
-description: 8-Channel Analog Multiplexer/Demultiplexer with Injection-Current Effect Control
+variations: SOIC, TSSOP
 suffix: Q1
+description: 8-Channel Analog Multiplexer/Demultiplexer with Injection-Current Effect Control
+datasheet: http://www.ti.com/lit/ds/symlink/sn74hc4851.pdf
+keywords: IC, Analog, Multiplexer
 
 pinout:
   SOURCE:
@@ -29,9 +32,7 @@ schematic:
   top: VCC
   bottom: GND
 
-housing: SOIC, TSSOP
-
-SOIC:
+housing@SOIC:
   outline: JEDEC MS-012 AC
   suffix: D
 
@@ -39,12 +40,10 @@ SOIC:
   padHeight: 0.55
   padDistance: 5.4
 
-TSSOP:
+housing@TSSOP:
   outline: JEDEC MO-153 AB
   suffix: PW
 
   padWidth: 1.55
   padHeight: 0.3
   padDistance: 5.6
-
-keywords: IC, analog, multiplexer

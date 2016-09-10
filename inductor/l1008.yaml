@@ -1,6 +1,6 @@
 name: L1008
 description: Chip inductor 2.5x2 mm
-keywords: inductor
+keywords: Inductor
 
 schematic:
   symbol: inductor

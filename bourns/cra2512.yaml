@@ -1,7 +1,7 @@
 name: CRA2512
 description: High Power Current Sense Chip Resistor
 datasheet: http://www.bourns.com/pdfs/CRA.pdf
-keywords: resistor, 3W
+keywords: Resistor, 3W
 
 schematic:
   symbol: resistor

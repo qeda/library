@@ -1,7 +1,7 @@
 name: MBRB20100CTG
 description: Schottky Barrier Rectifier, 20 A, 100 V
 datasheet: http://www.onsemi.com/pub_link/Collateral/MBRB20100CT-D.PDF
-keywords: diode, schottky
+keywords: Diode, Schottky
 
 pinout:
   A1: 1

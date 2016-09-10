@@ -1,6 +1,6 @@
 name: MBR0520L
 description: Schottky Rectifier
-keywords: diode, schottky
+keywords: Diode, Schottky
 
 schematic:
   symbol: diode

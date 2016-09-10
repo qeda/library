@@ -3,7 +3,7 @@ alias: LM1117IMPX
 suffix: -ADJ, -1.8, -2.5, -3.3, -5.0
 description: 800-mA Low-Dropout Linear Regulator
 datasheet: http://www.ti.com/lit/ds/symlink/lm1117.pdf
-keywords: IC, analog, LDO, regulator
+keywords: IC, Analog, LDO, Regulator
 
 pinout:
   VIN: 3
@@ -15,7 +15,6 @@ properties:
   out: VOUT
   power: VIN, VOUT
   ground: GND
-
 
 schematic:
   symbol: IC

@@ -1,6 +1,6 @@
 name: CAE-A
 description: Aluminum electrolytic capacitor case A
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

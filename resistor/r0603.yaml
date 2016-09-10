@@ -1,6 +1,6 @@
 name: R0603
 description: Chip resistor 1.6x0.8 mm
-keywords: resistor, 1/10W
+keywords: Resistor, 1/10W
 
 schematic:
   symbol: resistor

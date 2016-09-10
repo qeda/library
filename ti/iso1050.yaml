@@ -1,7 +1,33 @@
-variation: ISO1050DUB, ISO1050DW
+name: ISO1050
+variations: SOP, SOIC
 description: ISO1050 Isolated CAN Transceiver
 datasheet: http://www.ti.com/lit/ds/symlink/iso1050.pdf
-keywords: IC, digital, transceiver
+keywords: IC, Digital, Isolator
+
+pinout@SOP:
+  IO:
+    TXD: 3
+    RXD: 2
+  CAN:
+    CANH: 7
+    CANL: 6
+  VCC1: 1
+  GND1: 4
+  VCC2: 8
+  GND2: 5
+
+pinout@SOIC:
+  IO:
+    TXD: 6
+    RXD: 3
+  CAN:
+    CANH: 13
+    CANL: 12
+  VCC1: 1
+  GND1: 2, 7, 8
+  VCC2: 16
+  GND2: 9, 10, 15
+  NC: 4, 5, 11, 14
 
 properties:
   in: TXD
@@ -15,3 +41,27 @@ schematic:
   symbol: IC
   left: IO, NC, VCC1, GND1
   right: CAN, NC, VCC2, GND2
+
+housing@SOP:
+  suffix: DUB
+  pattern: SOP
+  bodyWidth: 6.57-6.67
+  bodyLength: 9.45-9.55
+  height: 4.85
+  pitch: 2.54
+  leadWidth: 0.355-0.555
+  leadLength: 1.15-1.45
+  leadSpan: 10.1-10.7
+  leadCount: 8
+
+  padWidth: 3
+  padHeight: 0.8
+  padDistance: 9.6
+
+housing@SOIC:
+  suffix: DW
+  outline: JEDEC MS-013 AA
+
+  padWidth: 2
+  padHeight: 0.6
+  padDistance: 9.3

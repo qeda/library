@@ -1,0 +1,41 @@
+name: 74HC4050
+description: Hex High-to-Low Level Shifter
+datasheet: http://www.nxp.com/documents/data_sheet/74HC4050_CNV.pdf
+keywords: IC, Digital, Buffer, Shifter
+
+pinout:
+  IN:
+    1A: 3
+    2A: 5
+    3A: 7
+    4A: 9
+    5A: 11
+    6A: 14
+  OUT:
+    1Y: 2
+    2Y: 4
+    3Y: 6
+    4Y: 10
+    5Y: 12
+    6Y: 15
+  VCC: 1
+  GND: 8
+  NC: 13, 16
+
+properties:
+  in: 1A, 2A, 3A, 4A, 5A, 6A
+  out: 1Y, 2Y, 3Y, 4Y, 5Y, 6Y
+  power: VCC
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: IN, NC
+  right: OUT, NC
+  top: VCC
+  bottom: GND
+
+housing:
+  suffix: D
+  outline: JEDEC MS-012 AC

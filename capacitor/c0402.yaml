@@ -1,6 +1,6 @@
 name: C0402
 description: Chip capacitor 1x0.5 mm
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

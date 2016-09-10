@@ -1,7 +1,8 @@
 name: LP2951
+variations: SOIC, SON
 description: Adjustable Micropower Voltage Regulator with Shutdown
 datasheet: http://www.ti.com/lit/ds/symlink/lp2951.pdf
-keywords: IC, analog, regulator
+keywords: IC, Analog, Regulator
 
 pinout:
   OUTPUT: 1
@@ -27,19 +28,17 @@ schematic:
   right: OUTPUT, FEEDBACK, ~ERROR
   bottom: GND
 
-housing: SOIC, SON
-
-SOIC:
-  outline: JEDEC MS-012 AA
+housing@SOIC:
   suffix: D
+  outline: JEDEC MS-012 AA
 
   padWidth: 1.5
   padHeight: 0.55
   padDistance: 5.4
 
-SON:
-  outline: JEDEC MO-229 W3030D-1
+housing@SON:
   suffix: DRG
+  outline: JEDEC MO-229 W3030D-1
   leadLength: 0.4-0.6
   leadCount: 8
   tabWidth: 1.1-1.3

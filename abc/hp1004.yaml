@@ -1,7 +1,7 @@
 name: HP1004
 suffix: 1R8ML, 2R0ML, 4R7ML, 6R8ML, 100ML, 150ML, 220ML, 470ML, 101ML
-description: SMT power inductor
-keywords: inductor
+description: SMT Power Inductor
+keywords: Inductor
 
 schematic:
   symbol: inductor

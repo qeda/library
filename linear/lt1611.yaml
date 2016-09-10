@@ -1,7 +1,7 @@
-name: LT1611
+name: LT1611CS5
 descrition: Inverting 1.4MHz Switching Regulator
 datasheet: http://cds.linear.com/docs/en/datasheet/1611f.pdf
-keywords: IC, analog, regulator, DC-DC
+keywords: IC, Analog, Regulator, DC-DC
 
 pinout:
   VIN: 5

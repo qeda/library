@@ -1,7 +1,8 @@
 name: AD8515A
+variations: SC70, SOT-23
 description: 1.8 V Low Power CMOS Rail-to-Rail Input/Output Operational Amplifier
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8515.pdf
-keywords: IC, analog, OpAmp
+keywords: IC, Analog, OpAmp
 
 pinout:
   OUT: 1
@@ -24,12 +25,10 @@ schematic:
   top: V+
   bottom: V-
 
-housing: SC70, SOT-23
-
-SC70:
-  outline: JEDEC MO-203 AA
+housing@SC70:
   suffix: KS
+  outline: JEDEC MO-203 AA
 
-SOT-23:
-  outline: JEDEC MO-178 AA
+housing@SOT-23:
   suffix: RT
+  outline: JEDEC MO-178 AA

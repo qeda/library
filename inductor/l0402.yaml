@@ -1,6 +1,6 @@
 name: L0402
 description: Chip inductor 1x0.5 mm
-keywords: inductor
+keywords: Inductor
 
 schematic:
   symbol: inductor

@@ -1,6 +1,6 @@
 name: CP3216-18
 description: Polarized capacitor 3.2x1.6 mm (A case)
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

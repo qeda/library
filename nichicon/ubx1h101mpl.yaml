@@ -1,7 +1,7 @@
 name: UBX1H101MPL
 description: Aluminum electrolytic capacitor, High Temperature, 100uF 50V
 datasheet: http://products.nichicon.co.jp/en/pdf/XJA043/e-ubx.pdf
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

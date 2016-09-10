@@ -1,0 +1,61 @@
+name: ATmega88
+variations: TQFP
+description: 8-bit AVR Microcontroller
+datasheet: http://www.atmel.com/Images/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_datasheet.pdf
+keywords: IC, Digital, Microcontroller, MCU
+
+pinout@TQFP:
+  PORTB:
+    PB0-7: 12-17, 7, 8
+  PORTC:
+    PC0-6: 23-29
+  PORTD:
+    PD0-7: 30-32, 1, 2, 9-11
+  ADC6: 19
+  ADC7: 22
+
+  AREF: 20
+  VCC: 4, 6
+  AVCC: 18
+  GND: 3, 5, 21
+
+  PCINT19/OC2B/INT1: 1
+  PCINT20/XCK/T0: 2
+  PCINT6/XTAL1/TOSC1: 7
+  PCINT7/XTAL2/TOSC2: 8
+  PCINT21/OC0B/T1: 9
+  PCINT22/OC0A/AIN0: 10
+  PCINT23/AIN1: 11
+  PCINT0/CLKO/ICP1: 12
+  PCINT1/OC1A: 13
+  PCINT2/~SS~/OC1B: 14
+  PCINT3/OC2A/MOSI: 15
+  PCINT4/MISO: 16
+  SCK/PCINT5: 17
+  ADC0/PCINT8: 23
+  ADC1/PCINT9: 24
+  ADC2/PCINT10: 25
+  ADC3/PCINT11: 26
+  ADC4/SDA/PCINT12: 27
+  ADC5/SCL/PCINT13: 28
+  ~RESET~/PCINT14: 29
+  RXD/PCINT16: 30
+  TXD/PCINT17: 31
+  INT0/PCINT18: 32
+
+properties:
+  in: AREF
+  bidir: PB0-7, PC0-6, PD0-7, ADC6-7
+  power: VCC, AVCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: PORTB, ADC6-7, AREF
+  right: PORTC, PORTD
+  top: VCC, AVCC
+  bottom: GND
+
+housing@TQFP:
+  suffix: -20AU
+  outline: JEDEC MS-026 ABA

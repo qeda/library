@@ -1,6 +1,6 @@
 name: R0201
 description: Chip resistor 0.6x0.3 mm
-keywords: resistor, 1/20W
+keywords: Resistor, 1/20W
 
 schematic:
   symbol: resistor

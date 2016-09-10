@@ -1,7 +1,7 @@
 name: UBX1V102MHL
 description: Aluminum electrolytic capacitor, High Temperature, 1000uF 35V
 datasheet: http://products.nichicon.co.jp/en/pdf/XJA043/e-ubx.pdf
-keywords: capacitor
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

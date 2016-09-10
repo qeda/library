@@ -3,7 +3,7 @@ alias: TL431A, TL431B
 suffix: CDBZR, IDBZR, QDBZR, FDT, SDT
 description: Adjustable precision shunt regulator
 datasheet: http://cache.nxp.com/documents/data_sheet/TL431_FAM.pdf
-keywords: IC, analog, regulator
+keywords: IC, Analog, Regulator
 
 pinout:
   A: 3

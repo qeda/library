@@ -1,0 +1,33 @@
+name: NC7WZ07
+description: TinyLogic UHS Dual Buffer (Open-Drain Outputs)
+datasheet: https://www.fairchildsemi.com/datasheets/NC/NC7WZ07.pdf
+keywords: IC, Analog, Buffer
+
+pinout:
+  IN:
+    A1-2: 1, 3
+  OUT:
+    Y1-2: 6, 4
+  VCC: 5
+  GND: 2
+
+properties:
+  in: A1-2
+  out: Y1-2
+  power: VCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: IN
+  right: OUT
+  top: VCC
+  bottom: GND
+
+housing:
+  outline: JEITA SC-70
+  leadCount: 6
+
+  padWidth: 0.5
+  padHeight: 0.4
+  padDistance: 1.9

@@ -1,6 +1,6 @@
 name: C0201
 description: Chip capacitor 0.6x0.3 mm
-keywords: capacitors
+keywords: Capacitor
 
 schematic:
   symbol: capacitor

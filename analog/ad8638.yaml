@@ -1,7 +1,25 @@
-variation: AD8638R, AD8638RJ
+name: AD8638A
+variations: SOIC, MSOP, SOT-23
 description: 16 V Auto-Zero, Rail-to-Rail Output Operational Amplifier
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8638_8639.pdf
-keywords: IC, analog, OpAmp
+keywords: IC, Analog, OpAmp
+
+pinout:
+  IN:
+    -IN: 2
+    +IN: 3
+  OUT: 6
+  NC: 1, 5, 8
+  V+: 7
+  V-: 4
+
+pinout@SOT-23:
+  IN:
+    -IN: 4
+    +IN: 3
+  OUT: 1
+  V+: 5
+  V-: 2
 
 properties:
   power: V+, V-
@@ -16,3 +34,15 @@ schematic:
   right: OUT, NC
   top: V+
   bottom: V-
+
+housing@SOIC:
+  suffix: R
+  outline: JEDEC MS-012 AA
+
+housing@MSOP:
+  suffix: RM
+  outline: JEDEC MO-187 AA
+
+housing@SOT-23:
+  suffix: RJ
+  outline: JEDEC MO-178 AA

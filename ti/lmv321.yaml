@@ -1,9 +1,10 @@
 name: LMV321
+variations: SOT-23, SC-70
 alias: LMV321Q1, LMV321Q3
 suffix: /NOPB
 description: General Purpose, Low-Voltage, Rail-to-Rail Output Operational Amplifier
 datasheet: http://www.ti.com/lit/ds/symlink/lmv321.pdf
-keywords: IC, analog, OpAmp
+keywords: IC, Analog, OpAmp
 
 pinout:
   IN:
@@ -26,9 +27,7 @@ schematic:
   top: V+
   bottom: V-
 
-housing: SOT-23, SC-70
-
-SOT-23:
+housing@SOT-23:
   outline: JEDEC MO-178 AA
   suffix: M5, M5X
 
@@ -36,7 +35,7 @@ SOT-23:
   padHeight: 0.6
   padDistance: 2.7
 
-SC-70:
+housing@SC-70:
   outline: JEDEC MO-203 AA
   suffix: M7, M7X
 

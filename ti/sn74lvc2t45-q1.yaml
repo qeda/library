@@ -1,7 +1,7 @@
 name: SN74LVC2T45Q
 description: Dual-bit Dual-supply Bus Transceiver with Configurable Voltage Translation and 3-state Outputs
 datasheet: http://www.ti.com/lit/ds/symlink/sn74lvc2t45-q1.pdf
-keywords: IC, digital, transceiver
+keywords: IC, Digital, Transceiver
 
 pinout:
   A:
@@ -28,8 +28,8 @@ schematic:
   bottom: GND
 
 housing:
-  outline: JEDEC MO-187 CA
   suffix: DCU
+  outline: JEDEC MO-187 CA
 
   padWidth: 0.8
   padHeight: 0.3

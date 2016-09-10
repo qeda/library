@@ -1,7 +1,7 @@
 name: MAX9925AUB+
 description: Variable Reluctance Sensor Interfaces with Differential Input and Adaptive Peak Threshold
 datasheet: https://datasheets.maximintegrated.com/en/ds/MAX9924-MAX9927.pdf
-keywords: IC, analog, comparator
+keywords: IC, Analog, Comparator
 
 pinout:
   INPUT:

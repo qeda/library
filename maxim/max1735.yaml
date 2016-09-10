@@ -2,7 +2,7 @@ name: MAX1735
 suffix: EUK50-T, EUK30-T, EUK25-T
 description: 200mA, Negative-Output, Low-Dropout Linear Regulator
 datasheet: https://datasheets.maximintegrated.com/en/ds/MAX1735.pdf
-keywords: IC, analog, LDO
+keywords: IC, Analog, LDO
 
 pinout:
   GND: 1

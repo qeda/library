@@ -1,6 +1,6 @@
 name: SRR0603
 description: Shielded Power Inductor
-keywords: inductor
+keywords: Inductor
 
 schematic:
   symbol: inductor

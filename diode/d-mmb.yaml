@@ -1,6 +1,6 @@
 name: D-MMB
 description: Melf Diode (MMB)
-keywords: diode
+keywords: Diode
 
 schematic:
   symbol: diode

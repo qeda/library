@@ -1,6 +1,9 @@
 name: LM158
-description: Dual Operational Amplifier
+variations: VSSOP, SOIC, SO, TSSOP
 alias: LM158A
+datasheet: http://www.ti.com/lit/ds/symlink/lm158.pdf
+description: Dual Operational Amplifier
+keywords: IC, Analog, OpAmp
 
 pinout:
   1OUT: 1
@@ -30,17 +33,15 @@ parts:
   OpAmp 1: 1IN, 1OUT, VCC, GND
   OpAmp 2: 2IN, 2OUT
 
-housing: VSSOP, SOIC, SO, TSSOP
-
-VSSOP:
+housing@VSSOP:
   outline: JEDEC MO-187 AA
   suffix: DGK
 
-SOIC:
+housing@SOIC:
   outline: JEDEC MS-012 AA
   suffix: D
 
-SO:
+housing@SO:
   pattern: SOP
   bodyWidth: 5-5.6
   bodyLength: 5.9-6.5
@@ -52,8 +53,6 @@ SO:
   pitch: 1.27
   suffix: PS
 
-TSSOP:
+housing@TSSOP:
   outline: JEDEC MO-153 AA
   suffix: PW
-
-keywords: IC, analog, OpAmp

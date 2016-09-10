@@ -1,7 +1,7 @@
 name: 10M50SCE144
 suffix: A6, A7, C7, C8, I6, I7
 description: MAX 10 FPGA
-keywords: IC, digital, FPGA
+keywords: IC, Digital, FPGA
 
 pinout:
   BANK1A:

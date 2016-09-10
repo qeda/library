@@ -1,8 +1,9 @@
 name: ADR291E
+variations: SOIC, TSSOP
 alias: ADR291F, ADR291G
 description: Low Noise Micropower 2.5 V Precision Voltage Reference
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADR291_292.pdf
-keywords: IC, analog, reference
+keywords: IC, Analog, Reference
 
 pinout:
   VIN: 2
@@ -23,12 +24,10 @@ schematic:
   right: VOUT, NC
   bottom: GND
 
-housing: SOIC, TSSOP
-
-SOIC:
-  outline: JEDEC MS-012 AA
+housing@SOIC:
   suffix: R
+  outline: JEDEC MS-012 AA
 
-TSSOP:
-  outline: JEDEC MO-153 AA
+housing@TSSOP:
   suffix: RU
+  outline: JEDEC MO-153 AA

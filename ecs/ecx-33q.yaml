@@ -1,7 +1,7 @@
 name: ECX-33Q
 description: AEC-Q200 Qualified Miniature SMD Crystal
 datasheet: https://www.ecsxtal.com/store/pdf/ECX-33Q.pdf
-keywords: crystal
+keywords: Crystal
 
 pinout:
   X1: 1

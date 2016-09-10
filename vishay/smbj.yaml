@@ -1,7 +1,7 @@
 name: SMBJ
 description: Surface Mount Transient Voltage Suppressor
 datasheet: http://www.vishay.com/docs/88392/smbj50a.pdf
-keywords: diode, TVS
+keywords: Diode, TVS
 
 schematic:
   symbol: diode

@@ -1,7 +1,7 @@
 name: VS-10BQ030
 description: High Performance Schottky Rectifier, 1.0 A
 datasheet: http://www.vishay.com/docs/95738/vs-10bq030-m3.pdf
-keywords: diode, schottky
+keywords: Diode, Schottky
 
 schematic:
   symbol: diode

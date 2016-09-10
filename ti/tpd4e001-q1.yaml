@@ -1,7 +1,7 @@
 name: TPD4E001Q
 description: 4-Channel ESD Protection Array With 1.5-pF I/O Capacitance
 datasheet: http://www.ti.com/lit/ds/symlink/tpd4e001-q1.pdf
-keywords: IC, analog, TVS, protector
+keywords: IC, Analog, TVS, Protector
 
 pinout:
   IO:
@@ -20,8 +20,8 @@ schematic:
   right: IO
 
 housing:
-  outline: JEDEC MO-178 AB
   suffix: DBV
+  outline: JEDEC MO-178 AB
   leadWidth: 0.25-0.5
 
   padWidth: 1.05
