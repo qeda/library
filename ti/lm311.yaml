@@ -1,5 +1,5 @@
 name: LM311
-variation: SOIC, TSSOP
+variations: SOIC, TSSOP
 description: General Purpose, high speed comparators
 datasheet: http://www.ti.com/lit/ds/symlink/lm311.pdf
 keywords: IC, analog, comparator
@@ -9,8 +9,8 @@ pinout:
     -IN: 3
     +IN: 2
   OUT: 
-    EMIT: 1
     COL: 7
+    EMIT: 1
   V+: 8
   V-: 4
   BAL:
@@ -33,7 +33,7 @@ housing@SOIC:
   outline: JEDEC MS-012 AA
   suffix: D
 
-HOUSING@TSSOP:
+housing@TSSOP:
   outline: JEDEC MO-153 AB
   suffix: PW
 

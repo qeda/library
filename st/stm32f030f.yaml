@@ -1,5 +1,5 @@
 name: STM32F030F
-suffixes: 4
+suffix: 4
 description: 32-bit ARM Cortex-M0 CPU
 datasheet: http://www.st.com/resource/en/datasheet/stm32f030f4.pdf
 keywords: IC, digital, ARM, CPU
@@ -12,18 +12,9 @@ pinout:
     OSC_IN: 2
     OSC_OUT: 3
   PORTA:
-    PA0: 6
-    PA1: 7
-    PA2: 8
-    PA3: 9
-    PA4: 10
-    PA5: 11
-    PA6: 12
-    PA7: 13
-    PA9: 17
-    PA10: 18
-    PA13: 19
-    PA14: 20
+    PA0-7: 6-13
+    PA9-10: 17, 18
+    PA13-14: 19, 20
   PORTB:
     PB1: 14
   PORTF:
@@ -36,15 +27,15 @@ pinout:
 properties:
   power: VDD, VDDA
   ground: VSS
-  in: ~NRST, BOOT0
-  bidir: PA0-PA14, PB1, PF0-1
+  in: CTRL
+  bidir: PORTA, PORTB, PORTF
 
 schematic:
   symbol: IC
   left: PORTA, OSC
   right: PORTB, CTRL
   top: VDD, VDDA
-  bottom: VSS, VSSA
+  bottom: VSS
 
 housing:
   outline: JEDEC MO-153 AC
