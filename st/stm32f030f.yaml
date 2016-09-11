@@ -1,16 +1,10 @@
 name: STM32F030F
-suffix: 4
+suffix: 4T6
 description: 32-bit ARM Cortex-M0 CPU
 datasheet: http://www.st.com/resource/en/datasheet/stm32f030f4.pdf
-keywords: IC, digital, ARM, CPU
+keywords: IC, Digital, CPU, ARM
 
 pinout:
-  CTRL:
-    BOOT0: 1
-    ~NRST: 4
-  OSC:
-    OSC_IN: 2
-    OSC_OUT: 3
   PORTA:
     PA0-7: 6-13
     PA9-10: 17, 18
@@ -18,22 +12,29 @@ pinout:
   PORTB:
     PB1: 14
   PORTF:
-    PF0: 2
-    PF1: 3
-  VDDA: 5
+    PF0-1: 2, 3
+  CTRL:
+    BOOT0: 1
+    ~NRST: 4
+
   VDD: 16
+  VDDA: 5
   VSS: 15
 
+  OSC_IN: 2
+  OSC_OUT: 3
+
 properties:
+  in: BOOT0, ~NRST
+  bidir: PA0-7, PA9-10, PA13-14, PB1, PF0-1
   power: VDD, VDDA
   ground: VSS
-  in: CTRL
-  bidir: PORTA, PORTB, PORTF
+  inverted: ~NRST
 
 schematic:
   symbol: IC
-  left: PORTA, OSC
-  right: PORTB, CTRL
+  left: PORTB, PORTF, CTRL
+  right: PORTA
   top: VDD, VDDA
   bottom: VSS
 

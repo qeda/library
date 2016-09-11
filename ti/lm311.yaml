@@ -1,33 +1,34 @@
 name: LM311
 variations: SOIC, TSSOP
-description: General Purpose, high speed comparators
+description: Quad Differential Comparator
 datasheet: http://www.ti.com/lit/ds/symlink/lm311.pdf
-keywords: IC, analog, comparator
+keywords: IC, Analog, Comparator
 
 pinout:
   IN:
     -IN: 3
     +IN: 2
-  OUT: 
-    COL: 7
-    EMIT: 1
-  V+: 8
-  V-: 4
+  OUT:
+    COL_OUT: 7
+    EMIT_OUT: 1
   BAL:
-    BAL/STRB: 6
     BALANCE: 5
+    BAL/STRB: 6
+  VCC+: 8
+  VCC-: 4
 
 properties:
-  in: IN
-  out: OUT
-  power: V+, V-
+  in: -IN, +IN, BALANCE, BAL/STRB
+  out: COL_OUT, EMIT_OUT
+  power: VCC+, VCC-
+  inverted: -IN
 
 schematic:
   symbol: IC
   left: IN, BAL
   right: OUT
-  top: V+
-  bottom: V-
+  top: VCC+
+  bottom: VCC-
 
 housing@SOIC:
   outline: JEDEC MS-012 AA
@@ -36,4 +37,3 @@ housing@SOIC:
 housing@TSSOP:
   outline: JEDEC MO-153 AB
   suffix: PW
-

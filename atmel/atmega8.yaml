@@ -1,9 +1,23 @@
-name: ATmega8a-A
+name: ATmega8A
 description: 8-bit AVR Microcontroller
 datasheet: http://www.atmel.com/images/atmel-8159-8-bit-avr-microcontroller-atmega8a_datasheet.pdf
-keywords: IC, digital, microcontroller, MCU
+keywords: IC, Digital, Microcontroller, MCU
 
 pinout:
+  PORTB:
+    PB0-7: 12-17, 7, 8
+  PORTC:
+    PC0-6: 23-29
+  PORTD:
+    PD0-7: 30-32, 1, 2, 9-11
+  ADC6: 19
+  ADC7: 22
+
+  AREF: 20
+  VCC: 4, 6
+  AVCC: 18
+  GND: 3, 5, 21
+
   INT1: 1
   XCK/T0: 2
   XTAL1/TOSC1: 7
@@ -17,61 +31,30 @@ pinout:
   MOSI/OC2: 15
   MISO: 16
   SCK: 17
-  ADC6: 19
-  ADC7: 22
   ADC0: 23
   ADC1: 24
   ADC2: 25
   ADC3: 26
   ADC4/SDA: 27
   ADC5/SCL: 28
-  ~RESET: 29
+  ~RESET~: 29
   RXD: 30
   TXD: 31
   INT0: 32
-  PORTB:
-    PB0: 12
-    PB1: 13
-    PB2: 14
-    PB3: 15
-    PB4: 16
-    PB5: 17
-    PB6: 7
-    PB7: 8
-  PORTC:
-    PC0: 23
-    PC1: 24
-    PC2: 25
-    PC3: 26
-    PC4: 27
-    PC5: 28
-    PC6: 29
-  PORTD:
-    PD0: 30
-    PD1: 31
-    PD2: 32
-    PD3: 1
-    PD4: 2
-    PD5: 9
-    PD6: 10
-    PD7: 11
-  GND: 3, 5, 21
-  VCC: 4, 6
-  AVCC: 18
-  AREF: 20
-
 
 properties:
-  bidir: PB0-7, PC0-6, PD0-7
+  in: AREF
+  bidir: PB0-7, PC0-6, PD0-7, ADC6-7
   power: VCC, AVCC
   ground: GND
 
 schematic:
   symbol: IC
-  left: PORTC, PORTB
-  right: PORTD
+  left: PORTB, ADC6-7, AREF
+  right: PORTC, PORTD
   top: VCC, AVCC
   bottom: GND
 
 housing:
+  suffix: -AU, -AN
   outline: JEDEC MS-026 ABA
