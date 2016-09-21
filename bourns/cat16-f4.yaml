@@ -4,10 +4,15 @@ keywords: Resistor, Array
 
 pinout: 1-8
 
+groups:
+  L: 1-4
+  R: 8-5
+
 schematic:
   symbol: IC
-  left: 1-4
-  right: 8-5
+  showPinNames: false
+  left: L
+  right: R
 
 housing:
   pattern: chip-array

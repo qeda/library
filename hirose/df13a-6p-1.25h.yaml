@@ -4,9 +4,13 @@ keywords: Connector, Male
 
 pinout: 1-8
 
+groups:
+  R: 6-1
+
 schematic:
   symbol: connector
-  right: 6-1
+  showPinNames: false
+  right: R
   top: 8
   bottom: 7
 
