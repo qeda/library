@@ -18,4 +18,5 @@ pinout:
   EN: 10
   VCC2: 16
   GND2: 9, 15
-  NC: 7
+  LNC:
+    NC: 7

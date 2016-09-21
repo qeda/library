@@ -12,7 +12,7 @@ properties:
 
 schematic:
   symbol: IC
-  left: VCC1, LEFT, NC, EN1, GND1
+  left: VCC1, LEFT, LNC, EN1, GND1
   right: VCC2, RIGHT, EN, EN2, GND2
 
 housing:
