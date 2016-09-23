@@ -13,8 +13,8 @@ pinout:
   S2: 3
 
 properties:
-  in: G
-  passive: S, D
+  in: G1-2
+  passive: S1-2, D1-2
 
 parts:
   FET1: G1, D1, S1
