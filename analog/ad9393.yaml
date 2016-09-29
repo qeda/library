@@ -1,5 +1,5 @@
 name: AD9393
-description: Low power HDMI display interface
+description: Low Power HDMI Display Interface
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD9393.pdf
 keywords: IC, Digital, Receiver, Converter
 
@@ -59,13 +59,11 @@ schematic:
 
 housing:
   pattern: BGA
-
-  pitch: 0.5
-  rowCount: 10
-  columnCount: 10
-  leadCount: 76
-  leadDiameter: 0.25-0.35
-
   bodyWidth: 5.90-6.10
   bodyLength: 5.90-6.10
   height: 1.40
+  pitch: 0.5
+  rowCount: 10
+  columnCount: 10
+  leadDiameter: 0.25-0.35
+  leadCount: 76
