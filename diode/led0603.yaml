@@ -7,7 +7,7 @@ schematic:
 
 housing:
   pattern: chip
-  option: polarized
+  options: polarized
   bodyLength: 1.5-1.7
   bodyWidth: 0.7-0.9
   height: 0.7-0.9
