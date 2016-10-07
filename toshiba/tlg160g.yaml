@@ -1,0 +1,28 @@
+name: TLG160G
+description: Photocoupler GaAs Ired & Photo-Triac s
+keywords: IC, Analog, Optocoupler
+
+pinout:
+  ANODE: 1
+  CATHODE: 3
+  TERMINAL1: 4
+  TERMINAL2: 6
+
+properties:
+  passive: ANODE, CATHODE, TERMINAL11-2
+
+schematic:
+  symbol: IC
+  left: ANODE, CATHODE
+  right: TERMINAL1-2
+
+housing:
+  pattern: SOP
+  bodyWidth: 4.4
+  bodyLength: 3.4-3.8
+  height: 2.4-2.8
+  leadWidth: 0.4
+  leadLength: 0.5
+  leadSpan: 6.6-7.4
+  leadCount: 6
+  pitch: 1.27
