@@ -45,6 +45,7 @@ Abbreviation                            | Name
 [TDK](./tdk/)                           | TDK
 [TE](./te/)                             | TE Connectivity
 [TI](./ti/)                             | Texas Instruments
+[TOSHIBA](./toshiba/)                   | Toshiba
 [VICOR](./vicor/)                       | Vicor
 [YAGEO](./yageo/)                       | Yageo
 

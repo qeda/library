@@ -1,5 +1,6 @@
-name: TLG160G
-description: Photocoupler GaAs Ired & Photo-Triac s
+name: TLP160G
+description: Photocoupler GaAs Ired & Photo-Triac
+datasheet: https://toshiba.semicon-storage.com/info/docget.jsp?did=16916
 keywords: IC, Analog, Optocoupler
 
 pinout:
