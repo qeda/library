@@ -8,6 +8,7 @@ pinout: 1-6
 schematic:
   symbol: connector
   options: single
+  showPinNames: false
 
 housing:
   pattern: custom

@@ -7,6 +7,7 @@ pinout: 1-20
 
 schematic:
   symbol: connector
+  showPinNames: false
 
 housing:
   pattern: custom
