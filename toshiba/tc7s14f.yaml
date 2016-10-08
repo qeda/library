@@ -1,0 +1,37 @@
+name: TC7S14F
+description: Single Schmitt Inverter
+datasheet: https://toshiba.semicon-storage.com/info/docget.jsp?did=20193&prodName=TC7S14F
+keywords: IC, Digital, Inverter
+
+pinout:
+  IN_A: 2
+  OUT_Y: 4
+  VCC: 5
+  GND: 3
+  NC: 1
+
+properties:
+  in: IN_A
+  out: OUT_Y
+  power: VCC
+  ground: GND
+  nc: NC
+  inverted: OUT_Y
+
+schematic:
+  symbol: IC
+  left: IN_A, NC
+  right: OUT_Y
+  top: VCC
+  bottom: GND
+
+housing:
+  pattern: SOT23
+  bodyWidth: 1.5-1.8
+  bodyLength: 2.7-3.1
+  height: 1.1-1.4
+  leadWidth: 0.3-0.5
+  leadLength: 0.3-0.6
+  leadSpan: 2.5-3
+  leadCount: 5
+  pitch: 0.95
