@@ -21,6 +21,7 @@ parts:
 
 schematic:
   symbol: connector
+  pinShape: square
   right: COL1-4
 
 housing:

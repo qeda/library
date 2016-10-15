@@ -4,10 +4,15 @@ keywords: Connector, Female
 
 pinout: 1-17
 
+groups:
+  L: 1-8
+  R: 9-15
+
 schematic:
   symbol: connector
-  left: 1-8
-  right: 9-15
+  showPinNames: false
+  left: L
+  right: R
   top: 16
   bottom: 17
 
