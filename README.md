@@ -33,6 +33,7 @@ Abbreviation                            | Name
 [LINEAR](./linear/)                     | Linear Technology
 [MAXIM](./maxim/)                       | Maxim Integrated
 [MICREL](./micrel/)                     | Micrel
+[MICROCHIP](./microchip/)               | Microchip
 [MURATA](./murata/)                     | Murata
 [NICHICON](./nichicon/)                 | Nichicon
 [NXP](./nxp/)                           | NXP Semiconductors

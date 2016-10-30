@@ -1,0 +1,39 @@
+name: TPS54560
+description: 4.5 V to 60 V Input, 5 A, Step Down DC-DC Converter with Eco-mode
+datasheet: http://www.ti.com/lit/ds/symlink/tps54560.pdf
+keywords: IC, Analog, DC-DC
+
+pinout:
+  VIN: 2
+  EN: 3
+  COMP: 6
+  RT/CLK: 4
+  BOOT: 1
+  SW: 8
+  FB: 5
+  GND: 7
+  PowerPAD: 9
+
+properties:
+  in: VIN, EN, RT/CLK, FB, SW
+  out: BOOT, COMP
+  power: VIN
+  ground: GND, PowerPAD
+
+schematic:
+  symbol: IC
+  left: VIN, EN, COMP, RT/CLK
+  right: BOOT, SW, FB
+  bottom: GND, PowerPAD
+
+housing:
+  suffix: DDA
+  outline: JEDEC MS-012 BA
+
+  padWidth: 2.2
+  padHeight: 0.5
+  padDistance: 5.75
+  tabWidth: 2.4
+  tabLength: 3.1
+  viaDiameter: 0.33
+  viaPosition: -0.65, -1.3, 0.65, -1.3, -0.65, 0, 0.65, 0, -0.65, 1.3, 0.65, 1.3

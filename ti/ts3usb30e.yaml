@@ -1,0 +1,44 @@
+name: TS3USB30E
+variations: VSSOP
+description: ESD-Protected, High-Speed USB 2.0 (480-Mbps) 1:2 Multiplexer/Demultiplexer Switch With Single Enable
+datasheet: http://www.ti.com/lit/ds/symlink/ts3usb30e.pdf
+keywords: IC, Analog, Multiplexer
+
+pinout@VSSOP:
+  USB1:
+    D1+: 2
+    D1-: 8
+  USB2:
+    D2+: 3
+    D2-: 7
+  USB:
+    D+: 4
+    D-: 6
+
+  ~OE: 9
+  S: 1
+
+  VCC: 10
+  GND: 5
+
+properties:
+  in: ~OE, S
+  bidir: USB, USB1-2
+  power: VCC
+  ground: GND
+  inverted: ~OE
+
+schematic:
+  symbol: IC
+  left: USB, S, ~OE
+  right: USB1-2
+  top: VCC
+  bottom: GND
+
+housing@VSSOP:
+  suffix: DGS
+  outline: JEDEC MO-187 BA
+
+  padWidth: 1.45
+  padHeight: 0.3
+  padDistance: 4.4

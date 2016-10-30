@@ -1,0 +1,172 @@
+name: KSZ8895
+variations: PQFP, LQFP
+description: Integrated 5-Port 10/100 Managed Ethernet Switch with MII/RMII Interface
+datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/00002246A.pdf
+keywords: IC, Digital, Switch
+
+pinout:
+  PORT1:
+    TXP1: 7
+    TXM1: 8
+    RXP1: 4
+    RXM1: 5
+    LED1_0: 106
+    LED1_1: 105
+    LED1_2: 104
+  PORT2:
+    TXP2: 13
+    TXM2: 14
+    RXP2: 10
+    RXM2: 11
+    LED2_0: 103
+    LED2_1: 102
+    LED2_2: 101
+  PORT3:
+    TXP3: 22
+    TXM3: 23
+    RXP3: 19
+    RXM3: 20
+    LED3_0: 98
+    LED3_1: 97
+    LED3_2: 96
+    FXSD3: 38
+  PORT4:
+    TXP4: 28
+    TXM4: 29
+    RXP4: 25
+    RXM4: 26
+    LED4_0: 95
+    LED4_1: 94
+    LED4_2: 93
+    FXSD4: 39
+  PORT5:
+    TXP5: 35
+    TXM5: 36
+    RXP5: 32
+    RXM5: 33
+    LED5_0: 92
+    LED5_1: 91
+    LED5_2: 90
+
+  CONTROL:
+    RST_N: 115
+    PWRDN_N: 47
+    MDI-XDIS: 1
+    INTR_N: 48
+    IN_PWR_SEL: 126
+    ISET: 17
+
+  PHY_MII:
+    PMTXEN: 51
+    PMTXD3-0: 52-55
+    PMTXER: 56
+    PMTXC/PMREFCLK: 57
+    PMRXC: 60
+    PMRXDV/PMCRSDV: 61
+    PMRXD3-0: 62-65
+    PMRXER: 66
+    PCRS: 67
+    PCOL: 68
+
+  SW_MII:
+    SMTXEN: 69
+    SMTXD3-0: 70-73
+    SMTXER: 74
+    SMTXC/SMREFCLK: 75
+    SMRXC: 78
+    SMRXDV/SMCRSDV: 79
+    SMRXD3-0: 80-83
+    SCRS: 85
+    SCOL: 84
+    SCONF1-0: 86, 87
+
+  MII:
+    MDC: 107
+    MDIO: 108
+
+  DATA:
+    SPIS_N: 112
+    SPIC/SCL: 110
+    SSPID/SDA: 111
+    SPIQ: 109
+    PS1-0: 113, 114
+
+  OSC:
+    X1: 121
+    X2: 122
+
+  LDO_O: 125
+
+  TEST:
+    TESTEN: 118
+    SCANEN: 119
+    TEST2: 128
+
+  VDDAT: 9, 18, 24, 37
+  VDDAR: 3, 15, 31
+  VDDC: 50, 89, 117
+  VDDIO: 59, 77, 100
+
+  GNDA: 2, 6, 12, 16, 21, 27, 30, 34, 127
+  GNDD: 49, 58, 76, 88, 99, 116
+
+  NC: 40-46, 120, 123, 124
+
+properties:
+  in: CONTROL, RXP1-5, RXM1-5, PMTXEN, PMTXD3-0, SMTXEN, SMTXD3-0, SMTXER, SCONF1-0, MDC, SPIS_N, PS1-0
+  out: TXP1-5, TXM1-5, LED1_0-2, LED2_0-2, LED3_0-2, LED4_0-2, LED5_0-2, PMRXDV/PMCRSDV, PMRXD3-0, PCRS, PCOL, SMRXDV/SMCRSDV, SMRXD3-0, SCRC, SCOL, SPIQ
+  bidir: PMTXC/PMREFCLK, PMRXC, SMTXC/SMREFCLK, SMRXC, MDIO, SPIC/SCL, SSPID/SDA
+  power: VDDAT, VDDAR, VDDC, VDDIO
+  ground: GNDA, GNDD
+  passive: X1-2
+  nc: NC, TEST
+  inverted: RST_N, PWRDN_N, INTR_N, SPIS_N
+
+parts:
+  Ports: PORT1-5, PHY_MII
+  Control: CONTROL, OSC, DATA, MII, SW_MII, LDO
+  Power: VDDAT, VDDAR, VDDC, VDDIO, GNDA, GNDD, NC, TEST
+
+schematic:
+  symbol: IC
+  left: PORT1-3, CONTROL, OSC, DATA, MII, VDDAT, VDDAR, VDDC, VDDIO, TEST
+  right: PORT4-5, PHY_MII, SW_MII, LDO, GNDA, GNDD
+  bottom: NC
+
+housing@PQFP:
+  suffix: MQX, RQX, FQX
+  pattern: QFP
+  bodyWidth: 13.8-14.2
+  bodyLength: 19.8-20.2
+  height: 3.4
+  leadWidth: 0.17-027
+  leadLength: 0.73-1.03
+  rowSpan: 17-17.4
+  columnSpan: 23-23.4
+  pitch: 0.5
+  leadCount: 128
+  rowCount: 38
+  columnCount: 26
+
+  padWidth: 1.6
+  padHeight: 0.22
+  padSpan1: 17.6
+  padSpan2: 23.6
+
+housing@LQFP:
+  suffix: MLX
+  pattern: QFP
+  bodyWidth: 13.9-14.1
+  bodyLength: 13.9-14.1
+  height: 1.6
+  leadWidth: 0.15-021
+  leadLength: 0.45-0.75
+  leadSpan: 15.9-16.1
+  pitch: 0.4
+  leadCount: 128
+  rowCount: 32
+  columnCount: 32
+
+  padWidth: 1
+  padHeight: 0.2
+  padSpan: 16.4
