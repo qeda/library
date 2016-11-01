@@ -1,18 +1,14 @@
 name: '09682537613'
-description: D-Sub STD 15P FEM angled board locks
+description: D-Sub STD 15P FEM Angled Board Locks
+datasheet: https://b2b.harting.com/files/download/PRD/PDF_TS/0968253X613_100539808DRW001B.PDF
 keywords: Connector, Female
 
 pinout: 1-17
 
-groups:
-  L: 1-8
-  R: 9-15
-
 schematic:
   symbol: connector
-  showPinNames: false
-  left: L
-  right: R
+  left: 1-8
+  right: 9-15
   top: 16
   bottom: 17
 
@@ -23,12 +19,12 @@ housing:
   height: 12.55
   bodyPosition: 0, -3.5
 
-  holeDiameter1: 1.2
+  holeDiameter1: 1.1
   rowCount1: 2
-  rowPitch1: 2.84
+  verticalPitch1: 2.84
 
   columnCount1: 8, 7
-  columnPitch1: 2.77
+  horizontalPitch1: 2.77
 
   holeDiameter2: 3.1
-  padPosition2: -16.65, 0, 16.65, 0
+  padPosition2: -15.26, 0, 15.26, 0

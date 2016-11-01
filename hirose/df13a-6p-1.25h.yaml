@@ -24,7 +24,7 @@ housing:
   rowCount1: 1
   rowDY1: 3.3
   columnCount1: 6
-  columnPitch1: 1.25
+  horizontalPitch1: 1.25
 
   padWidth2: 1.6
   padHeight2: 2.2
