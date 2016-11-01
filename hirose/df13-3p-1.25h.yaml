@@ -1,0 +1,32 @@
+name: DF13-3P-1.25H
+description: 1.25mm Pitch Miniature Crimping Connector
+datasheet: https://www.hirose.com/product/en/download_file/key_name/DF13%2D6P%2D1.25DSA%2850%29/category/Drawing%20(2D)/doc_file_id/38131/?file_category_id=6&item_id=05360105050&is_series=
+keywords: Connector, Male
+
+pinout: 1-5
+
+schematic:
+  symbol: connector
+  pinShape: square
+  right: 3-1
+  top: 5
+  bottom: 4
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 5.2-5.6
+  bodyLength: 4.8-5.2
+  height: 3.45-3.75
+  bodyPosition: 0, -0.2
+
+  padWidth1: 0.7
+  padHeight1: 1.8
+  rowCount1: 1
+  rowDY1: 3.3
+  columnCount1: 3
+  horizontalPitch1: 1.25
+
+  padWidth2: 1.6
+  padHeight2: 2.2
+  padPosition2: -3.6, 0, 3.6, 0
