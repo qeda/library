@@ -1,0 +1,32 @@
+name: ACS712
+description: Fully Integrated, Hall Effect-Based Linear Current Sensor IC with 2.1 kVRMS Isolation and a Low-Resistance Current Conductor
+datasheet: http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en
+keywords: IC, Analog, Current, Sensor
+
+pinout:
+  IP+: 1, 2
+  IP-: 3, 4
+  VIOUT: 7
+  FILTER: 6
+  VCC: 8
+  GND: 5
+
+properties:
+  out: VIOUT
+  passive: IP+, IP-, FILTER
+  power: VCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: IP+, IP-
+  right: VIOUT, FILTER
+  top: VCC
+  bottom: GND
+
+housing:
+  outline: JEDEC MS-012 AA
+
+  padWidth: 1.75
+  padHeight: 0.65
+  padDistance: 5.6

@@ -1,0 +1,24 @@
+name: 39-28-1043
+description: Mini-Fit Vertical Header Assembly without Pegs
+datasheet: http://www.molex.com/pdm_docs/sd/039281043_sd.pdf
+keywords: Connector, Male
+
+pinout: 1-4
+
+schematic:
+  symbol: connector
+  pinShape: square
+  left: 3-4
+  right: 1-2
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 9.2-10
+  bodyLength: 9.4-9.8
+  height: 12.5-13.1
+  holeDiameter: 1.4
+  horizontalPitch: 4.2
+  verticalPitch: 5.5
+  rowCount: 2
+  columnCount: 2

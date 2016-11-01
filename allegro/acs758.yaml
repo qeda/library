@@ -1,0 +1,45 @@
+name: ACS758
+suffix: ECB, KCB, LCB
+description: Thermally Enhanced, Fully Integrated, Hall Effect-Based Linear Current Sensor IC with 100 μΩ Current Conductor
+datasheet: http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
+keywords: IC, Analog, Current, Sensor
+
+pinout:
+  IP+: 4
+  IP-: 5
+  VIOUT: 3
+  VCC: 1
+  GND: 2
+
+properties:
+  out: VIOUT
+  passive: IP+, IP-
+  power: VCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: IP+, IP-
+  right: VIOUT
+  top: VCC
+  bottom: GND
+
+housing:
+  pattern: custom
+  options: polarized
+
+  bodyWidth: 12.9-13.1
+  bodyLength: 9.9-10.1
+  height: 6.9-7.1
+
+  holeDiameter1: 0.8
+  rowCount1: 3
+  columnCount1: 1
+  columnDX1: -9.4
+  pitch1: 1.91
+
+  holeDiameter2: 6
+  rowCount2: 2
+  columnCount2: 1
+  columnDX2: 12
+  pitch2: -10

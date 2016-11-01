@@ -1,0 +1,32 @@
+name: ACS730
+description: 1 MHz Bandwidth, Galvanically Isolated Current Sensor IC in Small Footprint SOIC8 Package
+datasheet: http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en
+keywords: IC, Analog, Current, Sensor
+
+pinout:
+  IP+: 1, 2
+  IP-: 3, 4
+  VIOUT: 7
+  VZCR: 6
+  VCC: 8
+  GND: 5
+
+properties:
+  out: VIOUT
+  passive: IP+, IP-, VZCR
+  power: VCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: IP+, IP-
+  right: VIOUT, VZCR
+  top: VCC
+  bottom: GND
+
+housing:
+  outline: JEDEC MS-012 AA
+
+  padWidth: 1.75
+  padHeight: 0.65
+  padDistance: 5.6

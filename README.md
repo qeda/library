@@ -13,6 +13,7 @@ Abbreviation                            | Name
 [ABC](./abc/)                           | ABC
 [ABRACON](./abracon/)                   | Abracon
 [AEIP](./aeip/)                         | Alexander Electric
+[ALLEGRO](./allegro/)                   | Allegro Micro
 [ALTERA](./altera/)                     | Altera
 [AMASS](./amass/)                       | Amass
 [ANALOG](./analog/)                     | Analog Devices
@@ -34,6 +35,7 @@ Abbreviation                            | Name
 [MAXIM](./maxim/)                       | Maxim Integrated
 [MICREL](./micrel/)                     | Micrel
 [MICROCHIP](./microchip/)               | Microchip
+[MOLEX](./molex/)                       | Molex
 [MURATA](./murata/)                     | Murata
 [NICHICON](./nichicon/)                 | Nichicon
 [NXP](./nxp/)                           | NXP Semiconductors
