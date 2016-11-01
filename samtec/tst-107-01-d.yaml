@@ -19,7 +19,7 @@ housing:
 
   padWidth: 1.5
   padHeight: 1.5
-  drillDiameter: 1
+  holeDiameter: 1
   rowCount: 7
   columnCount: 2
   pitch: 2.54

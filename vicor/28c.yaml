@@ -33,5 +33,5 @@ housing:
   bodyLength: 36.83
   height: 12.2-13.2
 
-  drillDiameter: 2.4
+  holeDiameter: 2.4
   padPosition: -25.4, -10.16, -25.4, -3.17, -25.4, 3.17, -25.4, 10.16, 25.4, 10.16, 25.4, 0, 25.4, -10.16

@@ -7,7 +7,7 @@ schematic:
 
 housing:
   pattern: mounting-hole
-  drillDiameter: 5
+  holeDiameter: 5
   padDiameter: 10
   viaDiameter: 0.8
   viaCount: 10

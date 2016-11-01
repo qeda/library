@@ -16,7 +16,7 @@ housing:
   bodyLength: 16
   height: 16
   silkscreen: M -4.2 6 -2.2 8 M 4.2 6 2.2 8
-  drillDiameter: 5
+  holeDiameter: 5
   padWidth: 6
   padHeight: 6
   padPosition: 0, -3.5, 0, 3.5
