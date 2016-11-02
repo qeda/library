@@ -1,4 +1,4 @@
-Molex
+MOLEX
 =====
 
 * **Molex, LLC**

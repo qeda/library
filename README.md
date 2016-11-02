@@ -30,6 +30,7 @@ Abbreviation                            | Name
 [INFINEON](./infineon/)                 | Infineon
 [IRF](./irf/)                           | International Rectifier
 [ISSI](./issi/)                         | Integrated Silicon
+[JST](./jst/)                           | JST
 [KYOCERA](./kyocera/)                   | Kyocera
 [LINEAR](./linear/)                     | Linear Technology
 [MAXIM](./maxim/)                       | Maxim Integrated
@@ -41,6 +42,7 @@ Abbreviation                            | Name
 [NXP](./nxp/)                           | NXP Semiconductors
 [OHMITE](./ohmite/)                     | Ohmite
 [ONSEMI](./onsemi/)                     | ON Semiconductor
+[PULSE](./pulse/)                       | Pulse Electronics 
 [SAMTEC](./samtec/)                     | Samtec
 [ST](./st/)                             | STMicroelectronics
 [STOCKO](./stocko/)                     | Stocko
