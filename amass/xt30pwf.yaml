@@ -1,0 +1,32 @@
+name: XT30PWF
+description: Battery Connector
+keywords: Connector, Female
+
+pinout:
+  +: 1
+  -: 2
+  3: 3
+  4: 4
+
+properties:
+  nc: 3, 4
+
+schematic:
+  symbol: connector
+  right: +, -
+  top: 3
+  bottom: 4
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 10.2
+  bodyLength: 10.2
+  height: 5.3
+  courtyard: 1
+
+  holeDiameter1: 2.5
+  padPosition1: 8.9, -2.5, 8.9, 2.5
+
+  holeDiameter2: 1.2
+  padPosition2: 3.9, -5.5, 3.9, 5.5
