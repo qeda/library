@@ -1,0 +1,7 @@
+base: B12B-PUDSS
+name: B12B-PUDSS-1
+
+housing:
+  holeDiameter1: 1.4
+  padDiameter1: 0
+  padPosition1: 3.65, 6.2
