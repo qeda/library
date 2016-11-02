@@ -30,3 +30,7 @@ housing:
   padWidth2: 1.6
   padHeight2: 2.2
   padPosition2: -5.475, 0, 5.475, 0
+
+  holeDiameter3: 0.9
+  padDiameter3: 0
+  padPosition3: -4.175, 1.9, 4.175, 1.9
