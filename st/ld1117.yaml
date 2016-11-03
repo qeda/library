@@ -1,0 +1,26 @@
+name: LD1117
+variations: SOT-223
+description: Adjustable and Fixed Low Drop Positive Voltage Regulator
+datasheet: http://www.st.com/resource/en/datasheet/ld1117.pdf
+keywords: IC, Analog, LDO, Regulator
+
+pinout:
+  VIN: 3
+  VOUT: 2, 4
+  GND: 1
+
+properties:
+  in: VIN
+  out: VOUT
+  power: VIN, VOUT
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: VIN
+  right: VOUT
+  bottom: GND
+
+housing@SOT-223:
+  suffix: S, S12, S18, S25, S33, S50
+  outline: JEDEC TO-261 AA

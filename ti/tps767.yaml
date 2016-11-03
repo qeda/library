@@ -1,0 +1,36 @@
+name: TPS76701
+variations: SOIC
+alias: TPS76715, TPS76718, TPS76725, TPS76727, TPS76728, TPS76730, TPS76733, TPS76750
+description: Fast-Transient-Response 1-A Low-Dropout Linear Regulators
+datasheet: http://www.ti.com/lit/ds/symlink/tps767.pdf
+keywords: IC, Digital, LDO, Regulator
+
+pinout@SOIC:
+  IN: 3, 4
+  OUT: 5, 6
+  ~EN: 2
+  FB/NC: 7
+  ~RESET: 8
+  GND: 1
+
+properties:
+  in: IN, ~EN
+  out: OUT, ~RESET
+  power: IN, OUT
+  ground: GND
+  passive: FB/NC
+  inverted: ~EN, ~RESET
+
+schematic:
+  symbol: IC
+  left: IN, ~EN
+  right: OUT, FB/NC, ~RESET
+  bottom: GND
+
+housing@SOIC:
+  suffix: D
+  outline: JEDEC MS-012 AA
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4
