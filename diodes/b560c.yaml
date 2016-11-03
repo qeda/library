@@ -1,0 +1,16 @@
+name: B560C
+description: 5.0A Surface Mount Schottky Barrier Rectifier
+datasheet: http://www.diodes.com/_files/datasheets/ds13012.pdf
+keywords: Diode, Schottky
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: JEDEC DO-214 AB
+  options: polarized
+
+  padWidth: 2.5
+  padHeight: 3.3
+  padDistance: 6.9

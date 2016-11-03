@@ -22,6 +22,7 @@ Abbreviation                            | Name
 [BOURNS](./bourns/)                     | Bourns
 [CK](./ck/)                             | C&K Components
 [CYPRESS](./cypress/)                   | Cypress Semiconductor
+[DIODES](./diodes/)                     | Diodes
 [ECS](./ecs/)                           | ECS International
 [ESPRESSIF](./espressif/)               | Espressif
 [FAIRCHILD](./fairchild/)               | Fairchild Semiconductor
@@ -42,7 +43,7 @@ Abbreviation                            | Name
 [NXP](./nxp/)                           | NXP Semiconductors
 [OHMITE](./ohmite/)                     | Ohmite
 [ONSEMI](./onsemi/)                     | ON Semiconductor
-[PULSE](./pulse/)                       | Pulse Electronics 
+[PULSE](./pulse/)                       | Pulse Electronics
 [SAMTEC](./samtec/)                     | Samtec
 [ST](./st/)                             | STMicroelectronics
 [STOCKO](./stocko/)                     | Stocko
@@ -53,6 +54,7 @@ Abbreviation                            | Name
 [TOSHIBA](./toshiba/)                   | Toshiba
 [VICOR](./vicor/)                       | Vicor
 [YAGEO](./yageo/)                       | Yageo
+[WURTH](./wurth/)                       | Wurth
 
 Legal Notice
 ============
