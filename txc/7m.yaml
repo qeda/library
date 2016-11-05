@@ -1,0 +1,34 @@
+name: 7M
+description: SMD Seam Sealing Crystal, 3.2x2.5x0.7 mm
+datasheet: http://txccrystal.com/images/pdf/7m.pdf
+keywords: Crystal
+
+pinout:
+  X1: 1
+  X2: 3
+  CASE: 2, 4
+
+properties:
+  passive: X1-2, CASE
+
+schematic:
+  symbol: crystal
+  left: X1
+  right: X2
+  bottom: CASE
+
+housing:
+  pattern: oscillator
+  options: corner-concave
+  bodyWidth: 2.4-2.6
+  bodyLength: 3.1-3.3
+  height: 0.6-0.8
+  leadWidth: 0.9
+  leadLength: 1
+  rowSpan: 2.3
+  columnSpan: 3
+
+  padWidth: 1.2
+  padHeight: 1.4
+  padSpace1: 0.5
+  padSpace2: 0.8

@@ -52,6 +52,7 @@ Abbreviation                            | Name
 [TE](./te/)                             | TE Connectivity
 [TI](./ti/)                             | Texas Instruments
 [TOSHIBA](./toshiba/)                   | Toshiba
+[TXC](./txc/)                           | TXC Corporation
 [VICOR](./vicor/)                       | Vicor
 [YAGEO](./yageo/)                       | Yageo
 [WURTH](./wurth/)                       | Wurth
