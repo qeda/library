@@ -7,7 +7,6 @@ pinout: 1-12
 
 schematic:
   symbol: connector
-  options: mirror
   pinShape: square
 
 housing:

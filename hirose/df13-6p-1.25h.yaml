@@ -8,9 +8,7 @@ pinout: 1-8
 schematic:
   symbol: connector
   pinShape: square
-  right: 6-1
-  top: 8
-  bottom: 7
+  right: 1-6
 
 housing:
   pattern: custom

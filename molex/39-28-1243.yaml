@@ -8,8 +8,8 @@ pinout: 1-24
 schematic:
   symbol: connector
   pinShape: square
-  left: 13-24
-  right: 1-12
+  left: 1-12
+  right: 13-24
 
 housing:
   pattern: custom
