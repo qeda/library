@@ -3,19 +3,17 @@ description: Battery Connector
 keywords: Connector, Female
 
 pinout:
-  +: 1
-  -: 2
-  3: 3
-  4: 4
+  POWER:
+    +: 1
+    -: 2
+  NC: 3, 4
 
 properties:
-  nc: 3, 4
+  nc: NC
 
 schematic:
   symbol: connector
-  right: +, -
-  top: 3
-  bottom: 4
+  right: POWER
 
 housing:
   pattern: custom
