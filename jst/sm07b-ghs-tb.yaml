@@ -1,0 +1,29 @@
+name: SM07B-GHS-TB
+description: GH 7-pin 1.25 mm Pitch Disconnectable Crimp Style Connector
+datasheet: http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+keywords: Connector, Male
+
+pinout: 1-9
+
+schematic:
+  symbol: connector
+  pinShape: square
+  right: 1-7
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 12
+  bodyLength: 4.05
+  height: 4.25
+
+  padWidth1: 0.6
+  padHeight1: 1.7
+  rowCount1: 1
+  columnCount1: 7
+  rowDY1: -2.275
+  pitch1: 1.25
+
+  padWidth2: 1
+  padHeight2: 2.7
+  padPosition2: -5.6, 0.925, 5.6, 0.925
