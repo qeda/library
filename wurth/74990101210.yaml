@@ -1,0 +1,56 @@
+name: '74990101210'
+description: LAN-Transformer WE-RJ45LAN 10/100BaseT
+datasheet: http://katalog.we-online.com/pbs/datasheet/74990101210.pdf
+keywords: Connector, Female
+
+pinout:
+  TX:
+    TD+: 1
+    TCT: 2
+    TD-: 3
+  RX:
+    RD+: 4
+    RCT: 5
+    RD-: 6
+  NC: 7
+  GND: 8
+  LEDY:
+    LEDY_A: 9
+    LEDY_C: 10
+  LEDG:
+    LEDG_A: 11
+    LEDG_C: 12
+  CASE: 13, 14
+
+properties:
+  nc: NC
+
+schematic:
+  symbol: connector
+  left: TX, RX, NC, GND
+  right: LEDY, LEDG
+  bottom: CASE
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 17.1
+  bodyLength: 16.6
+  height: 17.5
+
+  holeDiameter1: 0.9
+  rowCount1: 4
+  columnCount1: 2
+  columnDX1: 5.8
+  columnDY1: -0.635, 0.635
+  pitch1: 2.54
+
+  holeDiameter2: 1.02
+  padPosition2: -5.93, -6.325, -5.93, -3.785, -5.93, 3.785, -5.93, 6.325
+
+  holeDiameter3: 1.63
+  padPosition3: 2.08, -7.95, 2.08, 7.95
+
+  holeDiameter4: 3.2
+  padDiameter4: 0
+  padPosition4: -1.82, -6.325, -1.82, 6.325
