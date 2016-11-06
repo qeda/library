@@ -19,6 +19,7 @@ Abbreviation                            | Name
 [ANALOG](./analog/)                     | Analog Devices
 [ATMEL](./atmel/)                       | Atmel
 [AVAGO](./avago/)                       | Avago Technologies
+[BELFUSE](./belfuse/)                   | Bel Fuse
 [BOURNS](./bourns/)                     | Bourns
 [CK](./ck/)                             | C&K Components
 [CYPRESS](./cypress/)                   | Cypress Semiconductor

@@ -1,0 +1,57 @@
+name: SI-60062-F
+description: MagJack 10/100BT RJ45 Modular Connector with Transformer
+datasheet: http://belfuse.com/pdfs/SI-60062-F.pdf
+keywords: Connector, Female
+
+pinout:
+  TX:
+    TD+: 1
+    TCT: 2
+    TD-: 3
+  RX:
+    RD+: 4
+    RCT: 5
+    RD-: 6
+  NC: 7
+  GND: 8
+  LEDY:
+    LEDY_A: 9
+    LEDY_C: 10
+  LEDG:
+    LEDG_A: 11
+    LEDG_C: 12
+  CASE: 13, 14
+
+properties:
+  nc: NC
+
+schematic:
+  symbol: connector
+  left: TX, RX, NC, GND
+  right: LEDY, LEDG
+  bottom: CASE
+
+housing:
+  pattern: custom
+  options: polarized
+  units: inches
+  bodyWidth: 0.85
+  bodyLength: 0.708
+  height: 0.545
+
+  holeDiameter1: 0.038
+  rowCount1: 4
+  columnCount1: 2
+  columnDX1: 0.3
+  columnDY1: -0.025, 0.025
+  pitch1: 0.1
+
+  holeDiameter2: 0.043
+  padPosition2: -0.16, -0.261, -0.16, -0.161, -0.16, 0.161, -0.16, 0.261
+
+  holeDiameter3: 0.065
+  padPosition3: 0.12, -0.305, 0.12, 0.305
+
+  holeDiameter4: 0.128
+  padDiameter4: 0
+  padPosition4: 0, -0.225, 0, 0.225
