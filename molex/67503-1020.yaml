@@ -1,0 +1,52 @@
+name: 67503-1020
+description: USB Series Mini-B Receptacle Assembly SMT Type
+datasheet: http://www.molex.com/pdm_docs/sd/675031020_sd.pdf
+keywords: Connector, Female
+
+pinout:
+  USB:
+    VBUS: 1
+    D-: 2
+    D+: 3
+    ID: 4
+    GND: 5
+  CASE: 7, 9, 8, 10
+
+schematic:
+  symbol: connector
+  pinShape: square
+  right: USB
+  top: CASE
+  bottom: CASE
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 9
+  bodyLength: 7.6-7.8
+  height: 3.85-4.05
+
+  padWidth1: 2.25
+  padHeight1: 0.5
+  rowCount1: 5
+  columnCount1: 1
+  columnDX1: 3.725
+  pitch1: 0.8
+
+  padWidth2: 4
+  padHeight2: 2.05
+  rowCount2: 2
+  columnCount2: 1
+  columnDX2: -0.5
+  pitch2: 9.85
+
+  padWidth3: 3.5
+  padHeight3: 2.05
+  rowCount3: 2
+  columnCount3: 1
+  columnDX3: 3.75
+  pitch3: 9.85
+
+  holeDiameter4: 0.9
+  padDiameter4: 0
+  padPosition4: 1.4, -2.2, 1.4, 2.2

@@ -1,0 +1,47 @@
+name: 749013011A
+description: LAN-Transformer 10/100 BaseT PoE
+datasheet: http://katalog.we-online.com/pbs/datasheet/749013011A.pdf
+keywords: IC, Analog, Transformer
+
+pinout:
+  TD:
+    TD+: 1
+    CTD: 2
+    TD-: 3
+  RD:
+    RD+: 6
+    CRD: 7
+    RD-: 8
+  TX:
+    TX+: 16
+    CTX: 15
+    TX-: 14
+  RX:
+    RX+: 11
+    CRX: 10
+    RX-: 9
+
+  NC: 4, 5, 13, 12
+
+properties:
+  nc: NC
+
+schematic:
+  symbol: transformer
+  left: TD, NC, RD
+  right: TX, NC, RX
+
+housing:
+  pattern: SOP
+  bodyWidth: 8.55-9.05
+  bodyLength: 12.45-12.95
+  height: 6.35
+  leadSpan: 9.15-9.65
+  leadWidth: 0.2-0.4
+  leadLength: 0.85-1.35
+  leadCount: 16
+  pitch: 1.27
+
+  padWidth: 1.91
+  padHeight: 0.64
+  padSpan: 10.68
