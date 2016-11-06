@@ -1,0 +1,62 @@
+name: USR-TCP232-ED2
+description: Triple Serial TTL UART to Ethernet TCP/IP Module
+datasheet: http://www.usriot.com/download/datasheet/USR-TCP232-ED2_datasheet.pdf
+keywords: IC, Digital, CPU
+
+pinout:
+  ETHERNET:
+    ETH_TX+: 1
+    ETH_TX-: 2
+    ETH_RX+: 3
+    ETH_RX-: 4
+    LED_LINK: 15
+    LED_DAT: 5
+
+  UART0:
+    TXD0: 6
+    RXD0: 7
+    CTS0: 21
+
+  UART1:
+    TXD1: 18
+    RXD1: 17
+    CTS1: 23
+    RTS1: 22
+
+  UART2:
+    TXD2: 20
+    RXD2: 19
+
+  CONTROL:
+    RST: 10
+    RELOAD: 9
+    485_EN: 8
+
+  +5V: 13, 14
+  +3.3V: 16
+  GND: 11, 12
+
+properties:
+  in: CONTROL, RXD0-3, CTS0-1
+  out: TXD0-2, RTS1, +3.3V, LED_LINK, LED_DAT
+  passive: ETH_TX+, ETH_TX-, ETH_RX+, ETH_RX-
+  power: +5V, +3.3V
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: CONTROL, ETHERNET
+  right: UART0-2
+  top: +5V, +3.3V
+  bottom: GND
+
+housing:
+  pattern: DIP
+  bodyWidth: 44.45
+  bodyLength: 31.75
+  height: 5
+  leadWidth: 0.64
+  leadHeight: 0.64
+  leadSpan: 40.64
+  leadCount: 24
+  pitch: 2.54
