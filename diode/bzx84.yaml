@@ -1,0 +1,15 @@
+name: BZX84
+description: Voltage Regulator diode
+keywords: Diode, Zener
+
+pinout:
+  A: 1
+  C: 3
+  NC: 2
+
+schematic:
+  symbol: diode
+  options: zener
+
+housing:
+  outline: JEDEC TO-236 AB
