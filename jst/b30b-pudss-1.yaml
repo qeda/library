@@ -1,0 +1,7 @@
+base: B30B-PUDSS
+name: B30B-PUDSS-1
+
+housing:
+  holeDiameter1: 1.4
+  padDiameter1: 0
+  padPosition1: 3.65, 15.2

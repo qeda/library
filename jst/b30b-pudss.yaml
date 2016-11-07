@@ -1,0 +1,24 @@
+name: B30B-PUDSS
+description: PUD 30-pin 2.0mm Pitch Disconnectable Crimp Style Connector
+datasheet: http://www.jst-mfg.com/product/pdf/eng/ePUD.pdf
+keywords: Connector, Male
+
+pinout: 1-30
+
+schematic:
+  symbol: connector
+  pinShape: square
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 8.3
+  bodyLength: 32
+  height: 9.6
+
+  holeDiameter: 0.8
+  horizontalPitch: -2
+  verticalPitch: 2
+  rowCount: 15
+  columnCount: 2
+  columnDX: -0.75
