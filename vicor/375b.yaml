@@ -1,0 +1,51 @@
+name: 375B
+description: Mini Family 375 V Inpu t DC-DC Converter Module
+datasheet: http://cdn.vicorpower.com/documents/datasheets/ds_375vin-mini-family.pdf
+keywords: IC, Analog, DC-DC
+
+pinout:
+  IN:
+    +IN: 1
+    -IN: 4
+  OUTP:
+    +OUT: 9
+    +S: 8
+  OUTM:
+    -OUT: 5
+    -S: 6
+  PC: 2
+  PR: 3
+  SC: 7
+
+properties:
+  in: IN
+  out: +OUT, -OUT
+  power: IN, +OUT, -OUT
+  passive: +S, -S, PC, PR, SC
+
+schematic:
+  symbol: IC
+  left: IN, PC, PR
+  right: OUTP, OUTM, SC
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 57.91
+  bodyLength: 55.88
+  height: 12.2-13.2
+
+  holeDiameter1: 2.4
+  padPosition1: -24.13, -17.78, -24.13, -7.62, -24.13, 7.62, -24.13, 17.78
+
+  holeDiameter2: 4.2
+  padPosition2: 24.13, 17.78
+
+  holeDiameter3: 2.4
+  rowCount3: 3
+  columnCount3: 1
+  pitch3: -7.62
+  columnDX3: 24.13
+
+  holeDiameter4: 4.2
+  padPosition4: 24.13, -17.78
