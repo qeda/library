@@ -1,0 +1,51 @@
+name: DCM300P240T600
+description: Isolated, Regulated DC Converter
+datasheet: http://www.vicorpower.com/documents/datasheets/DCM300P240x600A40_ds.pdf
+keywords: IC, Analog, DC-DC
+
+pinout:
+  IN:
+    +IN: 1
+    -IN: 5
+  +OUT: 7, 9
+  -OUT: 6, 8
+  TR: 2
+  EN: 3
+  FT: 4
+
+properties:
+  in: IN, EN
+  out: +OUT+, +OUT-, FT
+  power: IN, +OUT, -OUT
+  passive: TR
+
+schematic:
+  symbol: IC
+  left: IN, TR, EN, FT
+  right: +OUT, -OUT
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 47.53-48.29
+  bodyLength: 22.67-22.93
+  height: 7.21-7.31
+
+  holeDiameter1: 2
+  padPosition1: -23.19, -8
+
+  holeDiameter2: 1.5
+  rowCount2: 3
+  columnCount2: 1
+  columnDX2: -23.19
+  columnDY2: 1.38
+  pitch2: 2.75
+
+  holeDiameter3: 2
+  padPosition3: -23.19, 8
+
+  holeDiameter4: 2
+  rowCount4: 4
+  columnCount4: 1
+  columnDX4: 23.19
+  pitch4: -5.5
