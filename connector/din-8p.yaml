@@ -1,0 +1,22 @@
+name: DIN-8P
+description: 8-Pin Circular DIN Female Connector
+keywords: Connector, Female
+
+pinout: 1-10
+
+schematic:
+  symbol: connector
+  right: 1-8
+
+properties:
+  nc: 9-10
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 21.4
+  bodyLength: 19
+  height: 19.7
+
+  holeDiameter: 1.2
+  padPosition: -5, -5.5, 0, -3, 5, -5.5, -7.5, -3, 7.5, -3, -7.5, -8, 7.5, -8, 0, -8, -5, 6.7, 5, 6.7
