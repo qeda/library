@@ -1,0 +1,74 @@
+name: SPARKFUN-PRO-MICRO
+description: Atmel ATmega32U4 Based Module
+datasheet: https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf
+keywords: Module, CPU
+
+pinout:
+  PORTB:
+    PB1-6: 16, 14, 15, 11-13
+  PORTC:
+    PC6: 8
+  PORTD:
+    PD0-4: 6, 5, 2, 1, 7
+    PD7: 9
+  PORTE:
+    PE6: 10
+  PORTF:
+    PF4-7: 20-17
+
+  ~RESET: 22
+
+  RAW: 24
+  VCC: 21
+  GND: 3, 4, 23
+
+  ALT:
+    PCINT1/SCLK: 16
+    PDI/PCINT2/MOSI: 15
+    PDO/PCINT3/MISO: 14
+    PCINT4/ADC11: 11
+    PCINT5/OC1A/~OC4B~/ADC12: 12
+    PCINT6/OC1B/OC4B/ADC13: 13
+
+    OC3A/~OC4A: 8
+
+    OC0B/SCL/INT0: 6
+    SDA/INT1: 5
+    RXD1/INT2: 2
+    TXD1/INT3: 1
+    ICP1/ADC8: 7
+    T0/OC4D/ADC10: 9
+
+    INT.6/AIN0: 10
+
+    ADC4/TCK: 20
+    ADC5/TMS: 19
+    ADC6/TDO: 18
+    ADC7/TDI: 17
+
+properties:
+  in: ~RESET
+  bidir: PORTB, PORTD, PORTC, PORTE, PORTF
+  power: RAW, VCC
+  ground: GND
+  inverted: ~RESET
+
+schematic:
+  symbol: IC
+  left: PORTB, PORTC, ~RESET
+  right: PORTD, PORTE, PORTF
+  top: RAW, VCC
+  bottom: GND
+
+housing:
+  pattern: DIP
+
+  bodyWidth: 17.78
+  bodyLength: 33.02
+  height: 5
+  leadSpan: 15.24
+  leadWidth: 0.64
+  leadHeight: 0.64
+  leadCount: 24
+  pitch: 2.54
+  bodyPosition: 0, -1.27
