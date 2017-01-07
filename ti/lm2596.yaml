@@ -1,6 +1,7 @@
 name: LM2596
 variations: TO-263
 description: Step-Down Voltage Regulator
+datasheet: http://www.ti.com/lit/ds/symlink/lm2596.pdf
 keywords: IC, Analog, Step-down, Regulator
 
 pinout:
