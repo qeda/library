@@ -1,0 +1,44 @@
+name: OLED-SSD1306
+description: 0.96 inch 128x64 OLED Display Module with I2C Interface
+keywords: Module, OLED, Display
+
+pinout:
+  I2C:
+    SCK: 3
+    SDA: 4
+
+  VDD: 2
+  GND: 1
+
+properties:
+  in: SCK
+  bidir: SDA
+  power: VDD
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: I2C
+  top: VDD
+  bottom: GND
+
+housing:
+  pattern: custom
+  options: polarized
+  
+  bodyWidth: 27.3
+  bodyLength: 27.3
+  height: 6
+
+  holeDiameter: 1
+  columnCount: 4
+  rowCount: 1
+  pitch: 2.54
+  rowDY: -12.15
+  leadCount: 4
+
+  holeDiameter1: 3
+  padDiameter1: 0
+  columnCount1: 2
+  rowCount1: 2
+  pitch1: 23.3
