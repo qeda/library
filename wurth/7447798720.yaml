@@ -1,5 +1,5 @@
 name: '7447798720'
-description: SMD Shielded Power Inductor
+description: WE-PDF SMD Shielded Power Inductor, 7.2 uH
 datasheet: http://katalog.we-online.de/pbs/datasheet/7447798720.pdf
 keywords: Inductor
 
@@ -8,7 +8,7 @@ schematic:
 
 housing:
   pattern: chip
-  bodyWidth: 9.9-12.5
+  bodyWidth: 9.9-10.5
   bodyLength: 9.9-10.5
   height: 6.4
   leadWidth: 2.8-3.2

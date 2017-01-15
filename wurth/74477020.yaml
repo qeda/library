@@ -1,0 +1,19 @@
+name: '74477020'
+description: WE-PD SMD Shielded Power Inductor, 100 uH
+datasheet: http://katalog.we-online.de/pbs/datasheet/74477020.pdf
+keywords: Inductor
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: chip
+  bodyWidth: 11.7-12.3
+  bodyLength: 11.7-12.3
+  height: 8
+  leadWidth: 4.8-5.2
+  leadLength: 3.5-4.5
+
+  padWidth: 2.9
+  padHeight: 5.4
+  padSpace: 7
