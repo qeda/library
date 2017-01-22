@@ -14,7 +14,7 @@ properties:
 
 schematic:
   symbol: FET
-  options: p, bulk, diode
+  options: p, diode
 
 housing:
   pattern: PAK

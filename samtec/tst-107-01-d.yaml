@@ -7,7 +7,7 @@ pinout: 1-14
 
 schematic:
   symbol: connector
-  pinShape: square
+  options: square-pin
 
 housing:
   pattern: custom

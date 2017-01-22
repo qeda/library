@@ -8,7 +8,7 @@ pinout: 1-4
 schematic:
   symbol: connector
   options: single
-  pinShape: square
+  options: square-pin
 
 housing:
   pattern: custom

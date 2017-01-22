@@ -14,7 +14,7 @@ pinout:
 
 schematic:
   symbol: connector
-  pinShape: square
+  options: square-pin
   right: USB
   top: CASE
   bottom: CASE

@@ -7,7 +7,7 @@ pinout: 1-4
 
 schematic:
   symbol: connector
-  pinShape: square
+  options: square-pin
   left: 1-2
   right: 3-4
 

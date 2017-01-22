@@ -22,7 +22,7 @@ parts:
 
 schematic:
   symbol: FET
-  options: n, bulk, diode
+  options: n, diode
 
 housing:
   outline: JEDEC MS-012 AA
