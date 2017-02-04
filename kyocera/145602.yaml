@@ -1,10 +1,8 @@
 abstract: true
+description: 0.4 mm Pitch 5602 Series SMT Vertical Plug
+datasheet: http://www.kyocera-connector.com/en/wp-content/uploads/2015/12/5602.pdf
+keywords: Connector, Male
 
 schematic:
   symbol: connector
-
-housing:
-  pattern: Kyocera/5602
-  type: plug
-
-keywords: connector, plug
+  options: ccw, square-pin

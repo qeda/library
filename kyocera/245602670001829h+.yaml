@@ -2,3 +2,28 @@ base: '245602'
 name: 245602670001829H+
 
 pinout: 1-70
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 4
+  bodyLength: 16.1
+  height: 1.45
+
+  padWidth1: 1
+  padHeight1: 0.23
+  rowCount1: 35
+  columnCount1: 1
+  columnDX1: 2.25
+  pitch1: 0.4
+
+  padWidth2: 1
+  padHeight2: 0.23
+  rowCount2: 35
+  columnCount2: 1
+  columnDX2: -2.25
+  pitch2: -0.4
+
+  holeDiameter3: 0.65
+  padDiameter3: 0
+  padPosition3: -0.9, -7.6, 0.6, 7.6

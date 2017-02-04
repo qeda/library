@@ -4,4 +4,26 @@ name: 145602070001829S+
 pinout: 1-70
 
 housing:
-  boss: true
+  pattern: custom
+  options: polarized
+  bodyWidth: 2.66
+  bodyLength: 15.1
+  height: 1.2
+
+  padWidth1: 0.7
+  padHeight1: 0.23
+  rowCount1: 35
+  columnCount1: 1
+  columnDX1: -1.83
+  pitch1: 0.4
+
+  padWidth2: 0.7
+  padHeight2: 0.23
+  rowCount2: 35
+  columnCount2: 1
+  columnDX2: 1.83
+  pitch2: -0.4
+
+  holeDiameter3: 0.65
+  padDiameter3: 0
+  padPosition3: -0.6, -7.25, 0.6, 7.25
