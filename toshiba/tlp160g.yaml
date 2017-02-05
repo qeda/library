@@ -10,7 +10,7 @@ pinout:
   TERMINAL2: 6
 
 properties:
-  passive: ANODE, CATHODE, TERMINAL11-2
+  passive: ANODE, CATHODE, TERMINAL1-2
 
 schematic:
   symbol: IC
