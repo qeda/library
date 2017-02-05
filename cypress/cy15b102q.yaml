@@ -35,7 +35,6 @@ housing:
   bodyWidth: 5.13-5.33
   bodyLength: 5.13-5.33
   height: 2.03
-  pitch: 1.27
   leadWidth: 0.36-0.48
   leadLength: 0.51-0.76
   leadSpan: 7.75-8.26
