@@ -1,0 +1,38 @@
+name: ESQ-108-12-T
+description: .100" (2.54 mm) Shrouded Terminal Strip, Cable Mate, 7x2
+datasheet: http://suddendocs.samtec.com/catalog_english/esq_th.pdf
+keywords: Connector, Female
+
+pinout:
+  ROW1:
+    '': 1, 4, 7, 10, 13, 16, 19, 22
+  ROW2:
+    '': 2, 5, 8, 11, 14, 17, 20, 23
+  ROW3:
+    '': 3, 6, 9, 12, 15, 18, 21, 24
+
+parts:
+  Row 1: ROW1
+  Row 2: ROW2
+  Row 3: ROW3
+
+schematic:
+  symbol: connector
+  options: square-pin
+  right: ROW1-4
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 7.49
+  bodyLength: 20.83
+  height: 11.05
+  leadCount: 24
+
+  padWidth: 1.5
+  padHeight: 1.5
+  holeDiameter: 1
+  rowCount: 8
+  columnCount: 3
+  verticalPitch: 2.54
+  horizontalPitch: -2.54
