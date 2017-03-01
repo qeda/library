@@ -1,0 +1,53 @@
+name: ADM4168E
+description: ±15 kV ESD Protected Dual RS-422 Transceiver
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADM4168E.PDF
+keywords: IC, Digital, Transciever, Differential
+
+pinout:
+  RI1:
+    A1: 2
+    B1: 1
+
+  RO1: 3
+
+  RI2:
+    A2: 6
+    B2: 7
+
+  RO2: 5
+
+  D1:
+    DE1: 4
+    DI1: 15
+
+  DO1:
+    Y1: 14
+    Z1: 13
+
+  D2:
+    DE2: 12
+    DI2: 9
+
+  DO2:
+    Y2: 10
+    Z2: 11
+
+  VCC: 16
+  GND: 8
+
+properties:
+  in: RI1-2, D1-2
+  out: RO1-2, DO1-2
+  power: VCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: RO1-2, D1-2
+  right: RI1-2, DO1-2
+  top: VCC
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-153 AB
+  suffix: BRUZ
