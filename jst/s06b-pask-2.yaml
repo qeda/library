@@ -1,0 +1,27 @@
+name: S06B-PASK-2
+description: PA 6-pin 2.0mm Pitch Wire-to-board (Crimp style/IDC) / Wire-to-wire (Crimp style/IDC) Connector
+datasheet: http://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf
+keywords: Connector, Male
+
+pinout: 1-6
+
+schematic:
+  symbol: connector
+  options: single, square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 14
+  bodyLength: 11.7
+  height: 6.5
+
+  holeDiameter: 0.8
+  pitch: 2
+  rowCount: 1
+  columnCount: 6
+  rowDY: -2.35
+
+  holeDiameter1: 1.2
+  padDiameter1: 0
+  padPosition1: -6.5, -0.25, 6.5, -0.25
