@@ -1,0 +1,29 @@
+name: 8195
+suffix: -2, -3, -4, -5, -6, -7, -SEMS
+description: Low-Profile PC Screw Terminal
+datasheet: http://www.keyelco.com/product-pdf.cfm?p=1525
+keywords: Connector, Terminal
+
+pinout: 1-5
+
+schematic:
+  symbol: connector
+  left: 1, 3
+  right: 2, 4
+  bottom: 5
+
+housing:
+  pattern: custom
+  bodyWidth: 7.87
+  bodyLength: 7.87
+  height: 3.4
+  bodyColor: silver
+
+  holeDiameter: 1.7
+  horizontalPitch: 4.75
+  verticalPitch: 7
+  columnCount: 2
+  rowCount: 2
+
+  holeDiameter1: 3.66
+  padPosition1: 0, 0

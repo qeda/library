@@ -33,6 +33,7 @@ Abbreviation                            | Name
 [IRF](./irf/)                           | International Rectifier
 [ISSI](./issi/)                         | Integrated Silicon
 [JST](./jst/)                           | JST
+[KEYSTONE](./keystone/)                 | Keystone Electronics
 [KYOCERA](./kyocera/)                   | Kyocera
 [LINEAR](./linear/)                     | Linear Technology
 [MAXIM](./maxim/)                       | Maxim Integrated
