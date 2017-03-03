@@ -1,4 +1,4 @@
-Infineon
+INFINEON
 ========
 
 * **Infineon Technologies AG**
