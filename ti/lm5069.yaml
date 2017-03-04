@@ -1,0 +1,32 @@
+name: LM5069
+description: Positive High-Voltage Hot Swap and In-Rush Current Controller With Power Limiting
+datasheet: http://www.ti.com/lit/ds/symlink/lm5069.pdf
+keywords: IC, Analog, Controller
+
+pinout:
+  SENSE: 1
+  VIN: 2
+  UVLO: 3
+  OVLO: 4
+  GND: 5
+  TIMER: 6
+  PWR: 7
+  PGD: 8
+  OUT: 9
+  GATE: 10
+
+properties:
+  in: SENSE, VIN, UVLO, OVLO, PWR, OUT
+  out: PGD, GATE
+  passive: TIMER
+  power: VIN
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: VIN, SENSE, UVLO, OVLO
+  right: GATE, OUT, PGD
+  bottom: GND, PWR, TIMER
+
+housing:
+  outline: JEDEC MO-187 BA
