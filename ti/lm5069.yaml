@@ -24,7 +24,7 @@ properties:
 
 schematic:
   symbol: IC
-  left: VIN, SENSE, UVLO, OVLO
+  left: SENSE, VIN, UVLO, OVLO
   right: GATE, OUT, PGD
   bottom: GND, PWR, TIMER
 
