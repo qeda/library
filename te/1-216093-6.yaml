@@ -1,0 +1,22 @@
+name: 1-216093-6
+description: AMP-LATCH 2.54 DIL-Plug Connector without Retention Legs
+datasheet: http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=216093&DocType=Customer+Drawing
+keywords: Connector, Male
+
+pinout: 1-16
+
+schematic:
+  symbol: connector
+  options: square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 6.7
+  bodyLength: 25.4
+  height: 6.5
+
+  holeDiameter: 1
+  rowCount: 8
+  columnCount: 2
+  pitch: 2.54
