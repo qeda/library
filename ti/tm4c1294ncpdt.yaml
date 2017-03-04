@@ -1,0 +1,135 @@
+name: TM4C1294NCPDT
+description: IoT enabled High performance 32-bit ARM Cortex-M4F based MCU
+datasheet: http://www.ti.com/lit/ds/symlink/tm4c1294ncpdt.pdf
+keywords: IC, Digital, Microcontroller
+
+pinout:
+  PORTA:
+    PA0-7: 33-38, 40, 41
+  PORTB:
+    PB0-5: 95, 96, 91, 92, 121, 120
+  PORTC:
+    PC0-7: 100-97, 25-22
+  PORTD:
+    PD0-7: 1-4, 125-128
+  PORTE:
+    PE0-5: 15-12, 123, 124
+  PORTF:
+    PF0-4: 42-46
+  PORTG:
+    PG0-1: 49, 50
+  PORTH:
+    PH0-3: 29-32
+  PORTJ:
+    PJ0-1: 116-117
+  PORTK:
+    PK0-7: 18-21, 63-60
+  PORTL:
+    PL0-7: 81-86, 94, 93
+  PORTM:
+    PM0-7: 78-71
+  PORTN:
+    PN0-5: 107-112
+  PORTQ:
+    PQ0-4: 5, 6, 11, 27, 102
+  PORTP:
+    PP0-5: 118, 119, 103-106
+
+  CONTROL:
+    RST: 70
+    G1: --
+    OSC0-1: 88, 89
+    G2: --
+    XOSC0-1: 66, 67
+    G3: --
+
+  MISC:
+    VBAT: 68
+    G1: --
+    HIB: 65
+    G2: --
+    WAKE: 64
+    G3: --
+    VREFA+: 9
+    G4: --
+
+  ETHERNET:
+    EN0TXOP: 57
+    EN0TXON: 56
+    G1: --
+    EN0RXIP: 54
+    EN0RXIN: 53
+    G2: --
+    RBIAS: 59
+
+  POWER:
+    VDDA: 8
+    G1: --
+    VDD: 7, 16, 26, 28, 39, 47, 69, 79, 90, 101, 113, 122
+    G2: --
+    VDDC: 87, 115
+  GROUND:
+    GNDA: 10
+    G: --
+    GND: 17, 48, 80, 114
+
+  EPOWER:
+    VDD: 51, 52
+  EGROUND:
+    GND: 55, 58
+
+  ALT:
+    U0RX: 33
+    U0TX: 34
+    SSI0CLK: 35
+    SS0IFSS: 36
+    SSI0XDAT0: 37
+    SSI0XDAT1: 38
+
+    USB0ID: 95
+    USB0VBUS: 96
+    I2C0SCL: 91
+    I2C0SDA: 92
+    AIN0-19: 12-15, 128-123, 121, 120, 4-1, 18-21
+    TCK/SWCLK: 100
+    TMS/SWDIO: 99
+    TDI: 98
+    TDO/SWO: 97
+    C1-: 25
+    C1+: 24
+    C0+: 23
+    C0-: 22
+    USB0DP: 94
+    USB0DM: 93
+    C2+: 118
+    C2-: 119
+
+properties:
+  in: CONTROL
+  bidir: PORTA, PORTB, PORTC, PORTD, PORTE, PORTF, PORTG, PORTH, PORTJ, PORTK, PORTL, PORTM, PORTN, PORTQ, PORTP
+  passive: MISC
+  power: POWER, EPOWER
+  ground: GROUND, EGROUND
+
+parts:
+  GPIO: PORTA, PORTB, PORTC, PORTD, PORTE, PORTF, PORTG, PORTH, PORTJ, PORTK, PORTL, PORTM, PORTN, PORTQ, PORTP
+  Power and Misc: CONTROL, MISC, POWER, GROUND
+  Ethernet: ETHERNET, EPOWER, EGROUND
+
+schematic:
+  symbol: IC
+  left: PORTA, PORTC, PORTE, PORTG, PORTJ, PORTL, PORTN, PORTQ, CONTROL, GROUND, EPOWER, EGROUND
+  right: PORTB, PORTD, PORTF, PORTH, PORTK, PORTM, PORTP, MISC, ETHERNET, POWER
+
+housing:
+  pattern: QFP
+  bodyWidth: 13.95-14.05
+  bodyLength: 13.95-14.05
+  height: 1.2
+
+  leadSpan: 15.9-16.1
+  rowCount: 32
+  columnCount: 32
+  pitch: 0.4
+  leadWidth: 0.13-0.23
+  leadLength: 0.45-0.75
