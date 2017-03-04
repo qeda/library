@@ -30,3 +30,4 @@ schematic:
 
 housing:
   outline: JEDEC MO-187 BA
+  suffix: MM-1, MM-2
