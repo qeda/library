@@ -1,0 +1,37 @@
+name: OS102011MA1QN1
+description: Miniature Slide Switch
+datasheet: http://www.ckswitches.com/media/1428/os.pdf
+keywords: Switch, SPDT, Non-shorting
+
+pinout:
+  SW:
+    L2: 3
+    COM: 2
+    L1: 1
+  C1: 4
+  C2: 5
+
+schematic:
+  symbol: switch
+  right: SW
+  top: C2
+  bottom: C1
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 8.6
+  bodyLength: 4.4
+  height: 4.7
+  bodyColor: silver
+  silkscreen: M -2 2.2 -2 6.35 0 6.35 0 2.2
+
+  holeDiameter: 0.8
+  pitch: 2
+  rowCount: 1
+  columnCount: 3
+  
+  holeDiameter1: 1.5
+  pitch1: 8.2
+  rowCount1: 1
+  columnCount1: 2
