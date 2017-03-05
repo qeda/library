@@ -1,0 +1,25 @@
+name: B10B-PADSS-F
+description: PAD 10-pin 2.0mm Pitch Disconnectable Crimp Style Connector
+datasheet: http://www.jst-mfg.com/product/pdf/eng/ePAD.pdf
+keywords: Connector, Male
+
+pinout: 1-10
+
+schematic:
+  symbol: connector
+  options: square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 9.5
+  bodyLength: 12
+  height: 10.2
+  bodyColor: white
+
+  holeDiameter: 0.8
+  horizontalPitch: -2
+  verticalPitch: 2
+  rowCount: 5
+  columnCount: 2
+  columnDX: -0.65
