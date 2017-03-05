@@ -1,0 +1,27 @@
+name: '09185647904'
+description: SEK 18 Male Standard Connector Straight with Long Lever
+datasheet: https://b2b.harting.com/files/download/PRD/PDF_TS/09185XXX904_100154464DRW017A.pdf
+keywords: Connector, Male
+
+pinout: 1-64
+
+schematic:
+  symbol: connector
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 8.5
+  bodyLength: 100.9
+  height: 25.75
+
+  holeDiameter: 1
+  pitch: 2.54
+  rowCount: 32
+  columnCount: 2
+
+  holeDiameter1: 3
+  padDiameter1: 0
+  pitch1: 96.52
+  rowCount1: 2
+  columnCount1: 1
