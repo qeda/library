@@ -1,0 +1,19 @@
+name: WSLP3921
+description: Power Metal Strip Resistor, Very High Power, Low Value, Surface Mount
+datasheet: http://www.vishay.com/docs/30176/wslp3921.pdf
+keywords: Resistor, 9W
+
+schematic:
+  symbol: resistor
+
+housing:
+  pattern: chip
+  bodyLength: 9.746-10.254
+  bodyWidth: 4.946-5.454
+  height: 0.5
+  bodyColor: silver
+  leadLength: 1.746-2.254
+
+  padWidth: 2.7
+  padHeight: 6.2
+  padSpace: 5.6
