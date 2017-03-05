@@ -1,0 +1,17 @@
+name: STPS5L60
+description: Power Schottky rectifier, 5 A, 60 V
+datasheet: http://www.st.com/resource/en/datasheet/stps5l60.pdf
+keywords: Diode, Schottky
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: JEDEC DO-214 AB
+  suffix: S
+  options: polarized
+
+  padWidth: 1.54
+  padHeight: 3.14
+  padSpace: 5.11
