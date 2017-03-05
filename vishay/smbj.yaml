@@ -9,6 +9,7 @@ schematic:
 
 housing:
   outline: JEDEC DO-214 AA
+  options: polarized
 
   padWidth: 1.52
   padHeight: 2.18
