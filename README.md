@@ -35,6 +35,7 @@ Abbreviation                            | Name
 [ISSI](./issi/)                         | Integrated Silicon
 [JST](./jst/)                           | JST
 [KEYSTONE](./keystone/)                 | Keystone Electronics
+[KINGBRIGHT](./kingbright/)             | Kingbright
 [KYOCERA](./kyocera/)                   | Kyocera
 [LINEAR](./linear/)                     | Linear Technology
 [MAXIM](./maxim/)                       | Maxim Integrated
@@ -47,6 +48,7 @@ Abbreviation                            | Name
 [OHMITE](./ohmite/)                     | Ohmite
 [ONSEMI](./onsemi/)                     | ON Semiconductor
 [PULSE](./pulse/)                       | Pulse Electronics
+[ROHM](./rohm/)                         | ROHM
 [SAMTEC](./samtec/)                     | Samtec
 [ST](./st/)                             | STMicroelectronics
 [STOCKO](./stocko/)                     | Stocko

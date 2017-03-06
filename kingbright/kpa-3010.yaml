@@ -1,0 +1,23 @@
+name: KPA-3010
+description: 3.0mmx1.0mm Right Angle SMD Chip LED Lamp
+keywords: LED
+
+schematic:
+  symbol: LED
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 1
+  bodyLength: 3
+  height: 1
+
+  padWidth: 1.5
+  padHeight: 1.5
+  padPosition: 0, -1.75, 0, 1.75
+
+  padWidth1: 0.9
+  padHeight1: 0.9
+  padPosition1: -0.65, 0
+
+  silkscreen: M 1 -1 1.5 -1 1.5 1 1 1
