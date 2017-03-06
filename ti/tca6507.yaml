@@ -1,0 +1,42 @@
+name: TCA6507
+variations: TSSOP
+description: Low-Voltage 7-Bit I2C and SMBus LED Driver With Intensity Control and Shutdown
+datasheet: http://www.ti.com/lit/ds/symlink/tca6507.pdf
+keywords: IC, Digital, Driver
+
+pinout@TSSOP:
+  LED:
+    P0-6: 8-14
+
+  EN: 4
+
+  I2C:
+    SCL: 2
+    SDA: 3
+
+  VCC: 1
+  GND: 5
+  NC: 6, 7
+
+properties:
+  in: EN, SCL
+  out: LED
+  bidir: SDA
+  power: VCC
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: EN, I2C, NC
+  right: LED
+  top: VCC
+  bottom: GND
+
+housing@TSSOP:
+  outline: JEDEC MO-153 AB-1
+  suffix: PW
+
+  padWidth: 1.6
+  padHeight: 0.35
+  padDistance: 5.6
