@@ -1,0 +1,43 @@
+name: MSL0104RGB
+description: Side view RGB LED
+datasheet: http://www.rohm.com/web/global/datasheet/MSL0104RGBU
+keywords: LED
+
+pinout:
+  RA: 1, 7
+  RC: 4
+  GA: 2
+  GC: 3
+  BA: 6
+  BC: 5
+
+properties:
+  passive: RA, RC, GA, GC, BA, BC
+
+schematic:
+  symbol: IC
+  left: RA, GA, BA
+  right: RC, GC, BC
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 2.2
+  bodyLength: 6.4
+  height: 2.15
+  bodyColor: white
+
+  padWidth1: 1.58
+  padHeight1: 1.06
+  padPosition1: 0.25, -2.95
+
+  padWidth2: 2.18
+  padHeight2: 0.6
+  pitch2: 0.9
+  rowCount2: 5
+  columnCount2: 1
+  columnDX2: 0.55
+
+  padWidth3: 1.58
+  padHeight3: 1.06
+  padPosition3: 0.25, 2.95
