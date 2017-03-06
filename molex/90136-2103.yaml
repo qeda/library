@@ -1,0 +1,23 @@
+name: 90136-2103
+description: Header, Single Row, Right Angle, Shrouded, 3 Circuits
+datasheet: http://www.molex.com/pdm_docs/sd/901362103_sd.pdf
+keywords: Connector, Male
+
+pinout: 1-3
+
+schematic:
+  symbol: connector
+  options: single
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 10.7-11.1
+  bodyLength: 10.77-11.17
+  height: 6.91-7.51
+
+  holeDiameter: 1.1
+  pitch: 2.54
+  rowCount: 3
+  columnCount: 1
+  columnDX: -5.05
