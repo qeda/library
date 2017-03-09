@@ -1,0 +1,44 @@
+name: 95552-2887
+description: Modular Jack, Vertical, Top Entry, Through Hole, 8/8, Int. Shielded, with Ribs
+datasheet: http://www.molex.com/pdm_docs/sd/955522887_sd.pdf
+keywords: Connector, Female
+
+pinout:
+  ETH:
+    TX+/DA+: 1
+    TX-/DA-: 2
+    RX+/DB+: 3
+    DC+: 4
+    DC-: 5
+    RX-/DB-: 6
+    DD+: 7
+    DD-: 8
+
+properties:
+  nc: RSV1-4
+
+schematic:
+  symbol: connector
+  right: ETH
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 16.64
+  bodyLength: 15.24
+  height: 16.25
+
+  holeDiameter1: 0.9
+  rowCount1: 4
+  columnCount1: 2
+  columnDX1: 5.76
+  columnDY1: -0.635, 0.635
+  pitch1: 2.54
+
+  holeDiameter2: 1.7
+  padDiameter2: 0
+  padPosition2: 1.94, -6.175, 1.94, 6.175
+
+  holeDiameter3: 3.175
+  padDiameter3: 0
+  padPosition3: -1.86, -5.715, -1.86, 5.715
