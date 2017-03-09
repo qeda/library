@@ -1,0 +1,23 @@
+name: B8B-PH-K-S
+description: PH 8-pin 2.0mm Pitch Disconnectable Crimp Style Connector
+datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+keywords: Connector, Male
+
+pinout: 1-8
+
+schematic:
+  symbol: connector
+  options: single, square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 4.5
+  bodyLength: 17.9
+  height: 6
+
+  holeDiameter: 0.8
+  pitch: 2
+  rowCount: 8
+  columnCount: 1
+  columnDX: -0.55
