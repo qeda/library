@@ -1,0 +1,21 @@
+name: NSI50350AST3G
+description: Constant Current Regulator & LED Driver, 50 V, 350 mA, 5.8 W Package
+datasheet: http://www.onsemi.com/pub/Collateral/NSI50350AS-D.PDF
+keywords: IC, Current, Regulator
+
+pinout:
+  C: 1
+  A: 2
+
+schematic:
+  symbol: IC
+  left: A
+  right: C
+
+housing:
+  outline: JEDEC DO-214 AB
+  options: polarized
+
+  padWidth: 2.8
+  padHeight: 3.8
+  padSpace: 4.35
