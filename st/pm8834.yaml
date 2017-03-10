@@ -1,0 +1,50 @@
+name: PM8834
+variations: SO8, MSOP
+description: 4 A Dual Low-Side MOSFET Driver
+datasheet: http://www.st.com/resource/en/datasheet/pm8834.pdf
+keywords: IC, Analog, Driver
+
+pinout:
+  ENABLE_1: 1
+  PWM_1: 2
+
+  OUT_1: 7
+
+  ENABLE_2: 8
+  PWM_2: 4
+
+  OUT_2: 5
+
+  VCC: 6
+  GND: 3, 9
+
+properties:
+  in: ENABLE_1-2, PWM_1-2
+  out: OUT_1-2
+  power: VCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: ENABLE_1-2, PWM_1-2
+  right: OUT_1-2
+  top: VCC
+  bottom: GND
+
+housing@SO8:
+  outline: JEDEC MS-012 AA
+
+housing@MSOP:
+  suffix: 'M'
+  pattern: SOP
+  bodyWidth: 2.9-3.1
+  bodyLength: 2.9-3.1
+  height: 1.1
+  leadSpan: 4.67-5.07
+  leadWidth: 0.22-0.4
+  leadLength: 0.4-0.8
+  leadCount: 8
+  pitch: 0.65
+
+  tabWidth: 1.73
+  tabLength: 2.16
