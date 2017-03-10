@@ -4,7 +4,7 @@ description: 4 A Dual Low-Side MOSFET Driver
 datasheet: http://www.st.com/resource/en/datasheet/pm8834.pdf
 keywords: IC, Analog, Driver
 
-pinout:
+pinout@SO8:
   ENABLE_1: 1
   PWM_1: 2
 
@@ -16,20 +16,37 @@ pinout:
   OUT_2: 5
 
   VCC: 6
-  GND: 3, 9
+  GND: 3
+
+pinout@MSOP:
+  ENABLE_1: 1
+  PWM_1: 2
+
+  OUT_1: 7
+
+  ENABLE_2: 8
+  PWM_2: 4
+
+  OUT_2: 5
+
+  VCC: 6
+  GND: 3
+
+  PAD: 9
+
 
 properties:
   in: ENABLE_1-2, PWM_1-2
   out: OUT_1-2
   power: VCC
-  ground: GND
+  ground: GND, PAD
 
 schematic:
   symbol: IC
   left: ENABLE_1-2, PWM_1-2
   right: OUT_1-2
   top: VCC
-  bottom: GND
+  bottom: GND, PAD
 
 housing@SO8:
   outline: JEDEC MS-012 AA
