@@ -1,0 +1,13 @@
+name: MH-2.9-7
+description: Mounting Hole, 2.9 mm hole diameter, 7 mm pad diameter
+keywords: Mounting hole
+
+schematic:
+  symbol: mounting-hole
+
+housing:
+  pattern: mounting-hole
+  holeDiameter: 2.9
+  padDiameter: 7
+  viaDiameter: 0.8
+  viaCount: 10

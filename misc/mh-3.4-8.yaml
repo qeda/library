@@ -1,0 +1,13 @@
+name: MH-3.4-8
+description: Mounting Hole, 3.4 mm hole diameter, 8 mm pad diameter
+keywords: Mounting hole
+
+schematic:
+  symbol: mounting-hole
+
+housing:
+  pattern: mounting-hole
+  holeDiameter: 3.4
+  padDiameter: 8
+  viaDiameter: 0.8
+  viaCount: 10
