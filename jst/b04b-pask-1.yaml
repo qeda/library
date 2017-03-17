@@ -1,0 +1,7 @@
+base: B04B-PASK
+name: B04B-PASK-1
+
+housing:
+  holeDiameter1: 1.2
+  padDiameter1: 0
+  padPosition1: -4.5, 2.15
