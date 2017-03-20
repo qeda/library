@@ -1,0 +1,22 @@
+name: TSW-107-05-S
+description: Throuh-Hole 0.25" SQ Post Header, 7x1
+datasheet: http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
+keywords: Connector, Male
+
+pinout: 1-7
+
+schematic:
+  symbol: connector
+  options: single, square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 2.54
+  bodyLength: 17.78
+  height: 5.21
+
+  holeDiameter: 1
+  rowCount: 7
+  columnCount: 1
+  pitch: 2.54
