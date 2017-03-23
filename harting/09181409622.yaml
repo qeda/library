@@ -1,0 +1,22 @@
+name: '09181409622'
+description: SEK 2 Rows 40-pole Straight Pin Assembly
+datasheet: https://b2b.harting.com/files/download/PRD/PDF_TS/0918140962X_100647412DRW000A.pdf
+keywords: Connector, Male
+
+pinout: 1-40
+
+schematic:
+  symbol: connector
+  options: square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 6
+  bodyLength: 56.1
+  height: 6
+
+  holeDiameter: 0.9
+  pitch: 2.54
+  rowCount: 20
+  columnCount: 2

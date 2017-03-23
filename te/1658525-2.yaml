@@ -1,0 +1,22 @@
+name: 1658525-2
+description: Connector, Slimline PCB, 17x2
+datasheet: http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1658525%7FD1%7Fpdf%7FEnglish%7FENG_CD_1658525_D1.pdf
+keywords: Connector, Male
+
+pinout: 1-34
+
+schematic:
+  symbol: connector
+  options: square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 7.11
+  bodyLength: 48.41
+  height: 7.57
+
+  holeDiameter: 0.9
+  rowCount: 17
+  columnCount: 2
+  pitch: 2.54
