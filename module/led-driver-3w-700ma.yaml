@@ -32,6 +32,7 @@ housing:
   height: 15
 
   holeDiameter: 1
+  padDiameter: 1.4
   pitch: 2.54
   rowCount: 7
   columnCount: 1
