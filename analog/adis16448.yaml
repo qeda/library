@@ -1,0 +1,68 @@
+name: ADIS16448
+description: Compact, Precision Ten Degrees of Freedom Inertial Sensor
+datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADIS16448.pdf
+keywords: IC, Sensor
+
+pinout:
+  SPI:
+    ~CS: 6
+    SCLK: 3
+    DIN: 5
+    DOUT: 4
+
+  DIO:
+    DIO1-4: 7, 9, 1, 2
+
+  ~RST: 8
+
+  VDD: 10-12
+  GND: 13-15
+  NC: 16-20
+
+  ALT:
+    CLKIN: 2
+
+properties:
+  in: ~CS, SCLK, DIN
+  out: DOUT
+  bidir: DIO
+  power: VDD
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: SPI, ~RST, NC
+  right: DIO, NC
+  top: VDD
+  bottom: GND
+
+housing:
+  pattern: custom
+  bodyWidth: 37.32-38.08
+  bodyLength: 23.77-24.53
+  height: 10.5-11.1
+  silkscreen: M -18.85 -6.25 -11.22 -6.25 -11.22 6.25 -18.85 6.25
+
+  padWidth1: 1.37
+  padHeight1: 0.61
+  rowCount1: 10
+  columnCount1: 2
+  verticalPitch1: 1
+  horizontalPitch1: -3.2
+  columnDX1: -15.54
+
+  holeDiameter2: 0.56
+  padDiameter2: 0
+  pitch2: 1
+  rowCount2: 10
+  columnCount2: 2
+  columnDX2: -15.54
+
+  holeDiameter3: 0.56
+  padDiameter3: 0
+  padPosition3: -15.54, -4, -15.54, 4
+
+  holeDiameter4: 3
+  padDiameter4: 0
+  padPosition4: -16.55, -9.775, -16.55, 9.775, 16.85, -10.075, 16.85, 10.075
