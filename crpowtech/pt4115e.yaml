@@ -1,0 +1,42 @@
+name: PT4115E
+description: 30V, 1.2A Step-down High Brightness LED Driver with 5000:1 Dimming
+datasheet: http://www.micro-bridge.com/data/CRpowtech/PT4115E.pdf
+keywords: IC, Analog, Driver
+
+pinout:
+  SW: 1
+  GND: 2
+  DIM: 3
+  CSN: 4
+  VIN: 5
+
+properties:
+  in: DIM
+  out: SW
+  passive: CSN
+  power: VIN
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: DIM
+  right: CSN, SW
+  top: VIN
+  bottom: GND
+
+housing:
+  pattern: SOT89-5
+  bodyWidth: 2.3-2.6
+  bodyLength: 4.4-4.6
+  height: 1.4-1.6
+  leadLength: 0.9-1.1
+  leadWidth1: 0.32-0.52
+  leadWidth2: 1.4-1.8
+  leadSpan: 4.35
+  pitch: 1.5
+
+  padWidth1: 1.5
+  padHeight1: 0.7
+  padWidth2: 1.5
+  padHeight2: 1
+  padDistance: 3.7
