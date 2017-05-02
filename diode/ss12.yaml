@@ -1,0 +1,11 @@
+name: SS12
+description: Surface Mount Schottky Barrier Rectifier
+keywords: Diode, Schottky
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: JEDEC DO-214 AC
+  options: polarized
