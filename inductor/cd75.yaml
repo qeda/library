@@ -1,0 +1,17 @@
+name: CD75
+description: SMD Power Inductor
+keywords: Inductor
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: chip
+  bodyWidth: 6.7-7.3
+  bodyLength: 7.5-8.1
+  height: 4.5-5.5
+  leadLength: 2.85
+
+  padWidth: 2
+  padHeight: 7.5
+  padSpace: 2

@@ -1,0 +1,17 @@
+name: CD43
+description: SMD Power Inductor
+keywords: Inductor
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: chip
+  bodyWidth: 3.7-4.3
+  bodyLength: 4.2-4.8
+  height: 2.9-3.5
+  leadLength: 1.65
+
+  padWidth: 1.75
+  padHeight: 4.5
+  padSpace: 1.5

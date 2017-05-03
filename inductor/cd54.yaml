@@ -1,0 +1,17 @@
+name: CD54
+description: SMD Power Inductor
+keywords: Inductor
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: chip
+  bodyWidth: 4.9-5.5
+  bodyLength: 5.5-6.1
+  height: 4.15-4.85
+  leadLength: 2.25
+
+  padWidth: 2.15
+  padHeight: 5.5
+  padSpace: 1.7
