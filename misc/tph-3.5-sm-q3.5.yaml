@@ -1,0 +1,23 @@
+name: TPH-3.5-SM-Q3.5
+description: 3.5 mm Diameter Hole with Surface Mount Test Point, Square 3.5x3.5 mm
+keywords: Test point
+
+pinout:
+  PAD: 1
+
+schematic:
+  symbol: test-point
+
+housing:
+  pattern: custom
+  bodyWidth: 4
+  bodyLength: 10
+  height: 0
+
+  padWidth1: 3.5
+  padHeight1: 3.5
+  padPosition1: 0, -3
+
+  holeDiameter2: 3.5
+  padDiameter2: 0
+  padPosition2: 0, 3
