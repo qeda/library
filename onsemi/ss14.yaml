@@ -1,0 +1,16 @@
+name: SS14
+description: Schottky Rectifier
+datasheet: https://www.fairchildsemi.com/datasheets/SS/SS14.pdf
+keywords: Diode, Schottky
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: JEDEC DO-214 AC
+  options: polarized
+
+  padWidth: 2.65
+  padHeight: 1.75
+  padDistance: 4.3
