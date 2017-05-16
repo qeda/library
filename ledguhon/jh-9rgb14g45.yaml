@@ -12,6 +12,7 @@ pinout:
     R-: 6
     G-: 5
     B-: 4
+  PAD: 7
 
 properties:
   passive: ANODE, CATHODE
@@ -20,6 +21,7 @@ schematic:
   symbol: IC
   left: ANODE
   right: CATHODE
+  bottom: PAD
 
 housing:
   pattern: SOP
