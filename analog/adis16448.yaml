@@ -54,15 +54,8 @@ housing:
 
   holeDiameter2: 0.56
   padDiameter2: 0
-  pitch2: 1
-  rowCount2: 10
-  columnCount2: 2
-  columnDX2: -15.54
+  padPosition2: -15.54, -4, -15.54, 4
 
-  holeDiameter3: 0.56
+  holeDiameter3: 3
   padDiameter3: 0
-  padPosition3: -15.54, -4, -15.54, 4
-
-  holeDiameter4: 3
-  padDiameter4: 0
-  padPosition4: -16.55, -9.775, -16.55, 9.775, 16.85, -10.075, 16.85, 10.075
+  padPosition3: -16.55, -9.775, -16.55, 9.775, 16.85, -10.075, 16.85, 10.075
