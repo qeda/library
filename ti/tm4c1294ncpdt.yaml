@@ -36,7 +36,7 @@ pinout:
     PP0-5: 118, 119, 103-106
 
   CONTROL:
-    RST: 70
+    ~RST: 70
     G1: --
     OSC0-1: 88, 89
     G2: --
@@ -46,9 +46,9 @@ pinout:
   MISC:
     VBAT: 68
     G1: --
-    HIB: 65
+    ~HIB: 65
     G2: --
-    WAKE: 64
+    ~WAKE: 64
     G3: --
     VREFA+: 9
     G4: --
@@ -188,6 +188,7 @@ properties:
   in: CONTROL
   bidir: PORTA, PORTB, PORTC, PORTD, PORTE, PORTF, PORTG, PORTH, PORTJ, PORTK, PORTL, PORTM, PORTN, PORTQ, PORTP
   passive: MISC
+  inverted: ~RST, ~HIB, ~WAKE
   power: POWER, EPOWER
   ground: GROUND, EGROUND
 
