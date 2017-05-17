@@ -1,0 +1,34 @@
+name: SSG-32.768K-12.5P
+description: “SSG” series 32.768 KHz Surface Mount Crystal
+datasheet: http://www.mecxtal.com/pdf/x_ssg-32.768k.pdf
+keywords: Crystal
+
+pinout:
+  X1: 1
+  X2: 4
+  NC: 2, 3
+
+properties:
+  passive: X1-2
+  nc: NC
+
+schematic:
+  symbol: crystal
+  left: X1
+  right: X2
+
+housing:
+  pattern: SOJ
+  bodyWidth: 3.2
+  bodyLength: 8
+  height: 2.5
+  leadWidth: 0.5
+  leadLength: 0.9
+  leadSpan: 3.8
+  leadCount: 4
+  pitch: 5.5
+
+
+  padWidth: 1.9
+  padHeight: 1.3
+  padSpace: 1.3
