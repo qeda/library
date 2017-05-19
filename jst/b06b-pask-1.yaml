@@ -1,0 +1,7 @@
+base: B06B-PASK
+name: B06B-PASK-1
+
+housing:
+  holeDiameter1: 1.2
+  padDiameter1: 0
+  padPosition1: -6.5, 2.15

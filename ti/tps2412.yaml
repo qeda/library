@@ -1,0 +1,43 @@
+name: TPS2412
+variations: TSSOP, SOIC
+description: N+1 and OR-ing Power Rail Controller
+datasheet: http://www.ti.com/lit/ds/symlink/tps2412.pdf
+keywords: IC, Analog, Driver
+
+pinout:
+  VDD: 1
+  RSET: 2
+  RSVD: 3
+  GND: 4
+  GATE: 5
+  C: 6
+  A: 7
+  BYP: 8
+
+properties:
+  in: RSET, A, C
+  out: GATE
+  power: VDD
+  ground: GND, RSVD
+
+schematic:
+  symbol: IC
+  left: RSET
+  right: VDD, C, GATE, BYP, A
+  bottom: GND, RSVD
+
+housing@TSSOP:
+  suffix: PW
+  outline: JEDEC MO-153 AA
+
+  padWidth: 1.5
+  padHeight: 0.45
+  padDistance: 5.8
+
+housing@SOIC:
+  suffix: D
+  outline: JEDEC MS-012 AA
+
+  padWidth: 1.55
+  padHeight: 0.6
+  padDistance: 5.4

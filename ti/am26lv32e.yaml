@@ -1,0 +1,54 @@
+name: AM26LV32E
+description: Low-Voltage High-Speed Quadruple Differential Line Receiver With +/-15-kV IEC ESD Protection
+datasheet: http://www.ti.com/lit/ds/symlink/am26lv32e.pdf
+keywords: IC, Digital, Transciever, Differential
+
+pinout:
+  G: 4
+  ~G: 12
+
+  1Y: 3
+  2Y: 5
+  3Y: 11
+  4Y: 13
+
+  IN1:
+    1A: 2
+    1B: 1
+
+  IN2:
+    2A: 6
+    2B: 7
+
+  IN3:
+    3A: 10
+    3B: 9
+
+  IN4:
+    4A: 14
+    4B: 15
+
+  GND: 8
+  VCC: 16
+
+properties:
+  in: IN1-4
+  out: 1Y, 2Y, 3Y, 4Y
+  power: VCC
+  ground: GND
+  inverted: ~G, 1B, 2B, 3B, 4B
+
+schematic:
+  symbol: IC
+  left: G, ~G, IN1-4
+  right: 1Y, 2Y, 3Y, 4Y
+  top: VCC
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-153 AB
+  suffix: IPW
+
+  padWidth: 1.6
+  padHeight: 0.35
+  padDistance: 5.6

@@ -1,0 +1,54 @@
+name: AM26LV31E
+description: Low-Voltage High-Speed Quadruple Differential Line Driver With +/-15-kV IEC ESD Protection
+datasheet: http://www.ti.com/lit/ds/symlink/am26lv31e.pdf
+keywords: IC, Digital, Transciever, Differential
+
+pinout:
+  G: 4
+  ~G: 12
+
+  1A: 1
+  2A: 7
+  3A: 9
+  4A: 15
+
+  OUT1:
+    1Y: 2
+    1Z: 3
+
+  OUT2:
+    2Y: 6
+    2Z: 5
+
+  OUT3:
+    3Y: 10
+    3Z: 11
+
+  OUT4:
+    4Y: 14
+    4Z: 13
+
+  GND: 8
+  VCC: 16
+
+properties:
+  in: 1A, 2A, 3A, 4A
+  out: OUT1-4
+  power: VCC
+  ground: GND
+  inverted: ~G, 1Z, 2Z, 3Z, 4Z
+
+schematic:
+  symbol: IC
+  left: G, ~G, 1A, 2A, 3A, 4A
+  right: OUT1-4
+  top: VCC
+  bottom: GND
+
+housing:
+  outline: JEDEC MO-153 AB
+  suffix: IPW
+
+  padWidth: 1.6
+  padHeight: 0.35
+  padDistance: 5.6
