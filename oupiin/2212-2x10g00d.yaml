@@ -1,0 +1,24 @@
+name: 2212-2X10G00D
+description: Pin Header 1.27mmX2.54mm (0.050"X0.100")
+datasheet: http://www.oupiin.com/download_ii.html?dID=73
+keywords: Connector, Male
+
+pinout: 1-20
+
+schematic:
+  symbol: connector
+  options: square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 5
+  bodyLength: 12.5
+  height: 6.57
+
+  padWidth: 3.73
+  padHeight: 0.7
+  rowCount: 10
+  columnCount: 2
+  verticalPitch: 1.27
+  horizontalPitch: 4.8
