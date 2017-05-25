@@ -1,0 +1,31 @@
+name: MBI6651
+description: Step-Down, 1A LED Driver
+datasheet: http://www.mblock.com.tw/downfile.php?Code=854d9fca60b4bd07f9bb215d59ef5561
+keywords: IC, Analog, Driver
+
+pinout:
+  SW: 1
+  GND: 2
+  DIM: 3
+  SEN: 4
+  NC: 5
+  VIN: 6
+
+properties:
+  in: DIM
+  out: SW
+  passive: SEN
+  power: VIN
+  ground: GND
+  nc: NC
+
+schematic:
+  symbol: IC
+  left: DIM, NC
+  right: SEN, SW
+  top: VIN
+  bottom: GND
+
+housing:
+  suffix: GST
+  outline: JEDEC MO-178 AB
