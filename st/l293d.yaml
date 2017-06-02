@@ -1,0 +1,42 @@
+name: L293D
+description: Quadruple Half-H Driver
+datasheet: http://www.ti.com/lit/ds/symlink/l293.pdf
+keywords: IC, Driver
+variations: SO-16, DIP-16
+
+pinout:
+  ENABLE:
+    ENABLE1: 1
+    ENABLE2: 9
+  OUT:
+    OUT1: 3
+    OUT2: 6
+    OUT3: 11
+    OUT4: 14
+  INPUT:
+    IN1: 2
+    IN2: 7
+    IN3: 10
+    IN4: 15
+  VCC1: 16
+  VCC2: 8
+  GND1: 4, 5
+  GND2: 12, 13
+
+properties:
+  power: VCC1, VCC2
+  ground: GND1, GND2
+  in: IN1, IN2, IN3, IN4, ENABLE1, ENABLE2
+  out: OUT1, OUT2, OUT3, OUT4
+
+schematic:
+  symbol: IC
+  left: ENABLE1, IN1, OUT1, GND1, OUT2, IN2, VCC2
+  right: VCC1, IN4, OUT4, GND2, OUT3, IN3, ENABLE2
+
+housing@DIP-16:
+  outline: JEDEC MS-001 AB
+
+housing@SO-16:
+  suffix: D
+  outline: JEDEC MS-012 AC
