@@ -1,0 +1,66 @@
+name: ATtiny2313A
+description: 8-bit AVR Microcontroller
+variations: SO-20, DIP-20
+datasheet: http://www.atmel.com/images/doc8246.pdf
+keywords: IC, Digital, Microcontroller, MCU
+
+pinout:
+  PORT:
+    PA0: 5
+    PA1: 4
+    PA2: 1
+    PD0: 2
+    PD1: 3
+    PD2: 6
+    PD3: 7
+    PD4: 8
+    PD5: 9
+    PD6: 11
+    PB0: 12
+    PB1: 13
+    PB2: 14
+    PB3: 15
+    PB4: 16
+    PB5: 17
+    PB6: 18
+    PB7: 19
+  MISO/DO/PCINT6: 18
+  MOSI/DI/SDA/PCINT5: 17
+  USCK/SCL/SCK/PCINT7: 19
+  OC0A/PCINT2: 14
+  PCINT16/OC0B/T1: 9
+  OC1A/PCINT3: 15
+  OC1B/PCINT4: 16
+  AINT1/PCINT1: 13
+  AIN0/PCINT0: 12
+  ICPI/PCINT17: 11
+  PCINT15/T0: 8
+  PCINT14/INT1: 7
+  PCINT13/CKOUT/XCK/INT0: 6
+  PCINT8/CLKI/XTAL1: 5
+  PCINT9/XTAL2: 4
+  PCINT12/TXD: 3
+  PCINT11/RXD: 2
+  PCINT10/~RESET~/dW: 1
+  VCC: 20
+  GND: 10
+
+properties:
+  bidir: PB0-7, PD0-6, PA0-2
+  power: VCC
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: PA0-2, PD0-5
+  right: PB0-7, PD6
+  top: VCC
+  bottom: GND
+
+housing@DIP-20:
+  suffix: -PU
+  outline: JEDEC MS-001 AD
+
+housing@SO-20:
+  suffix: -SU
+  outline: JEDEC MS-013 AC
