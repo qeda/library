@@ -1,0 +1,32 @@
+name: DF12-4.0-36DP-0.5V
+description: 0.5mm Pitch SMT Board-to-Board Connector, 36 pin
+datasheet: https://www.hirose.com/product/en/download_file/key_name/DF12%284.0%29%2D20DP%2D0.5V%2886%29/category/Drawing%20(2D)/doc_file_id/38463/?file_category_id=6&item_id=05370053486&is_series=
+keywords: Connector, Female
+
+pinout: 1-36
+
+schematic:
+  symbol: connector
+  options: square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 3.6-4
+  bodyLength: 11-11.4
+  height: 3.1-3.5
+
+  padWidth1: 2.6
+  padHeight1: 0.3
+  rowCount1: 18
+  columnCount1: 2
+  verticalPitch1: 0.5
+  horizontalPitch1: -4.6
+
+  padWidth2: 1.8
+  padHeight2: 0.8
+  padPosition2: 0, -6, 0, 6
+
+  holeDiameter3: 0.6
+  padDiameter3: 0
+  padPosition3: 1.5, -5.3, 1.5, 5.3
