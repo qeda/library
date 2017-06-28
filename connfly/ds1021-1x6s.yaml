@@ -1,0 +1,22 @@
+name: DS1021-1x6S
+description: 2.54 mm Pin Header Single Row, 6 Circuits
+datasheet: http://www.connfly.com/userfiles/image/UpLoadFile/File/2015/1/29/DS1021.pdf
+keywords: Connector, Male
+
+pinout: 1-6
+
+schematic:
+  symbol: connector
+  options: single
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 2.54
+  bodyLength: 15.24
+  height: 8.35
+
+  holeDiameter: 1
+  pitch: 2.54
+  rowCount: 6
+  columnCount: 1
