@@ -1,0 +1,32 @@
+name: TLV1117
+variations: SOT-223
+description: Single Output LDO, 800mA, Fixed and Adj., Internal Current Limit, Thermal Overload Protection
+datasheet: http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+keywords: IC, Analog, LDO, Regulator
+
+pinout:
+  INPUT: 3
+  OUTPUT: 2, 4
+  GND: 1
+
+properties:
+  in: INPUT
+  out: OUTPUT
+  power: INPUT, OUTPUT
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: INPUT
+  right: OUTPUT
+  bottom: GND
+
+housing@SOT-223:
+  outline: JEDEC TO-261 AA
+  suffix: -15CDCY, -15IDCY, -18CDCY, -18IDCY, -25CDCY, -25IDCY, -33CDCY, -33IDCY, -50CDCY, -50IDCY, CDCY, IDCY
+
+  padWidth1: 2.15
+  padHeight1: 0.95
+  padWidth2: 2.15
+  padHeight2: 3.25
+  padDistance: 5.8
