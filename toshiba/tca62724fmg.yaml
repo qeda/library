@@ -1,0 +1,49 @@
+name: TCA62724FMG
+description: 3-Channel Constant-Current LED Driver
+datasheet: http://www.mouser.com/ds/2/408/21212-21811.pdf
+keywords: IC, Digital, Driver
+
+pinout:
+  CONTROL:
+    ~RESET: 4
+    ~SHDN: 1
+
+  I2C:
+    SCL: 3
+    SDA: 2
+
+  OUT:
+    OUT0-2: 9-7
+
+  REXT: 6
+
+  VIN: 10
+  GND: 5
+
+properties:
+  in: CONTROL, SCL
+  out: OUT
+  bidir: SDA
+  power: VIN
+  ground: GND
+  passive: REXT
+  inverted: ~RESET, ~SHDN
+
+schematic:
+  symbol: IC
+  left: CONTROL, I2C
+  right: OUT, REXT
+  top: VIN
+  bottom: GND
+
+housing:
+  pattern: SOPFL
+  bodyWidth: 2.7-2.9
+  bodyLength: 2.8-3
+  height: 0.75-0.9
+  pitch: 0.5
+  leadWidth: 0.2-0.35
+  leadLength: 0.1-0.3
+  leadHeight: 0.12-0.13
+  leadSpan: 2.9-3.1
+  leadCount: 10
