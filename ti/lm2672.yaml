@@ -1,0 +1,31 @@
+name: LM2672
+variations: SOIC
+description: Power Converter High Efficiency 1-A Step-Down Voltage Regulator with Features
+datasheet: http://www.ti.com/lit/ds/symlink/lm2672.pdf
+keywords: IC, Analog, DC-DC
+
+pinout:
+  CB: 1
+  SS: 2
+  SYNC: 3
+  FB: 4
+  ON/~OFF: 5
+  GND: 6
+  VIN: 7
+  VSW: 8
+
+properties:
+  in: VIN, ON/~OFF, SYNC, FB, SS, CB
+  out: VSW
+  power: VIN
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: VIN, ON/~OFF, SYNC, SS
+  right: CB, VSW, FB
+  bottom: GND
+
+housing@SOIC:
+  suffix: M-12, M-3.3, M-5.0, M-ADJ
+  outline: JEDEC MS-012 AA
