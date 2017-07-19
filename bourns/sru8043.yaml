@@ -1,0 +1,18 @@
+name: SRU8043
+description: Shielded SMD Power Inductor
+datasheet: http://www.bourns.com/pdfs/SRU8043.pdf
+keywords: Inductor
+
+schematic:
+  symbol: inductor
+
+housing:
+  pattern: chip
+  bodyWidth: 7.7-8.3
+  bodyLength: 7.7-8.3
+  height: 4-4.6
+  leadLength: 1
+
+  padWidth: 2
+  padHeight: 3.2
+  padSpace: 5.8
