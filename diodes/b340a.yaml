@@ -1,0 +1,16 @@
+name: B340A
+description: 3.0A Surface Mount Schottky Barrier Rectifier
+datasheet: https://www.diodes.com/assets/Datasheets/ds30891.pdf
+keywords: Diode, Schottky
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  outline: JEDEC DO-214 AC
+  options: polarized
+
+  padWidth: 2.5
+  padHeight: 1.7
+  padDistance: 4
