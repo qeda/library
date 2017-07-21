@@ -1,0 +1,22 @@
+name: 70246-3404
+description: 2.54mm Pitch Header, Low Profile, Dual Row, Vertical, Shrouded, 34 Circuits
+datasheet: http://www.molex.com/pdm_docs/sd/702463404_sd.pdf
+keywords: Connector, Male
+
+pinout: 1-34
+
+schematic:
+  symbol: connector
+  options: square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 8.89
+  bodyLength: 50.8
+  height: 7.11
+
+  holeDiameter: 1.14
+  rowCount: 17
+  columnCount: 2
+  pitch: 2.54
