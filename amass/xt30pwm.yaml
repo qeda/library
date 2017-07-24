@@ -4,12 +4,8 @@ keywords: Connector, Male
 
 pinout:
   POWER:
-    +: 1
-    -: 2
-  NC: 3, 4
-
-properties:
-  nc: NC
+    +: 2
+    -: 1
 
 schematic:
   symbol: connector

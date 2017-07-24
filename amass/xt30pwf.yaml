@@ -4,12 +4,8 @@ keywords: Connector, Female
 
 pinout:
   POWER:
-    +: 1
-    -: 2
-  NC: 3, 4
-
-properties:
-  nc: NC
+    +: 2
+    -: 1
 
 schematic:
   symbol: connector
@@ -24,7 +20,7 @@ housing:
   courtyard: 1
 
   holeDiameter1: 2.5
-  padPosition1: 8.9, -2.5, 8.9, 2.5
+  padPosition1: 8.9, 2.5, 8.9, -2.5
 
   holeDiameter2: 1.2
-  padPosition2: 3.9, -5.5, 3.9, 5.5
+  padPosition2: 3.9, 5.5, 3.9, -5.5

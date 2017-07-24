@@ -3,8 +3,8 @@ description: Battery Connector
 keywords: Connector
 
 pinout:
-  +: 1
-  -: 2
+  +: 2
+  -: 1
 
 schematic:
   symbol: connector
@@ -15,7 +15,7 @@ housing:
   bodyWidth: 9.9
   bodyLength: 20.8
   height: 21.1
-  silkscreen: M -4.95 7.4 -1.95 10.4 M 4.95 7.4 1.95 10.4
+  silkscreen: M -4.95 -7.4 -1.95 -10.4 M 4.95 -7.4 1.95 -10.4
   holeDiameter: 6
   padDiameter: 9
   padPosition: 0, -5.5, 0, 5.5
