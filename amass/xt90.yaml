@@ -3,12 +3,13 @@ description: Battery Connector
 keywords: Connector
 
 pinout:
-  +: 2
-  -: 1
+  POWER:
+    +: 2
+    -: 1
 
 schematic:
   symbol: connector
-  options: single
+  right: POWER
 
 housing:
   pattern: custom
