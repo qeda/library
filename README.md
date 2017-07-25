@@ -16,6 +16,7 @@ Abbreviation                            | Name
 [ALLEGRO](./allegro/)                   | Allegro Micro
 [ALTERA](./altera/)                     | Altera
 [AMASS](./amass/)                       | Amass
+[AMPHENOL](./amphenol/)                 | Amphenol
 [AMPHENOLCA](./amphenolca/)             | Amphenol Canada
 [ANALOG](./analog/)                     | Analog Devices
 [ATMEL](./atmel/)                       | Atmel

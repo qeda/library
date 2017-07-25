@@ -1,0 +1,51 @@
+name: RJMG16
+description: Single Port RJmag Connector, Shield, with R&C Termination, 10/100
+datasheet: http://www.amphenolinfocom.eu/NavData/Drawings/RJMG16XXXXXX1XX.pdf
+keywords: Connector, Female
+
+pinout:
+  TX:
+    TX+: 2
+    TCT: 1
+    TX-: 3
+  RX:
+    RX+: 4
+    RCT: 6
+    RX-: 5
+  LED1:
+    LED1+: 8
+    LED1-: 7
+  LED2:
+    LED2+: 10
+    LED2-: 9
+  CASE: 11, 12
+
+schematic:
+  symbol: connector
+  left: TX, RX
+  right: LED1-2
+  bottom: CASE
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 16.6-17
+  bodyLength: 25.5-25.9
+  height: 13.41-13.81
+  basePoint: 0, 5.06
+
+  holeDiameter1: 0.89
+  rowCount1: 1
+  columnCount1: 6
+  pitch1: -2.03
+  rowDY1: -14.35
+
+  holeDiameter2: 0.89
+  padPosition2: 7.23, -16.8, 4.69, -16.8, -4.69, -16.8, -7.23, -16.8
+
+  holeDiameter3: 1.57
+  padPosition3: 8.065, 0, -8.065, 0
+
+  holeDiameter4: 3.25
+  padDiameter4: 0
+  padPosition4: 6.35, -3.17, -6.35, -3.17
