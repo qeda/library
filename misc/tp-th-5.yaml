@@ -1,0 +1,10 @@
+name: TP-TH-5
+description: Through-hole Test Point, 5 mm diameter hole
+keywords: Test point
+
+schematic:
+  symbol: test-point
+
+housing:
+  pattern: test-point
+  holeDiameter: 5
