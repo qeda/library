@@ -1,0 +1,27 @@
+name: XT90PSV
+description: Battery Connector, Side Mounting, Vertical
+keywords: Connector
+
+pinout:
+  POWER:
+    +: 2
+    -: 1
+
+schematic:
+  symbol: connector
+  right: POWER
+
+housing:
+  pattern: custom
+  bodyWidth: 10
+  bodyLength: 21
+  height: 21
+  courtyard: 1
+  silkscreen: M -5 -2.5 -5.5 -2.5 -5.5 -3.5 -5 -3.5 M 5 -2.5 5.5 -2.5 5.5 -3.5 5 -3.5
+
+  holeDiameter1: 5
+  padPosition1: 0, -26
+
+  padWidth2: 8
+  padHeight2: 8
+  padPosition2: 0, -15
