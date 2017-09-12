@@ -1,6 +1,6 @@
-name: TPS76701
+name: TPS76701Q
 variations: SOIC
-alias: TPS76715, TPS76718, TPS76725, TPS76727, TPS76728, TPS76730, TPS76733, TPS76750
+alias: TPS76715Q, TPS76718Q, TPS76725Q, TPS76727Q, TPS76728Q, TPS76730Q, TPS76733Q, TPS76750Q
 description: Fast-Transient-Response 1-A Low-Dropout Linear Regulators
 datasheet: http://www.ti.com/lit/ds/symlink/tps767.pdf
 keywords: IC, Digital, LDO, Regulator
