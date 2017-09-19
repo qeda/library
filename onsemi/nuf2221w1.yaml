@@ -1,0 +1,32 @@
+name: NUF2221W1
+description: USB Upstream Terminator with ESD Protection
+datasheet: http://www.onsemi.com/pub/Collateral/NUF2221W1T2-D.PDF
+keywords: IC, Analog, ESD, Protection
+
+pinout:
+  D1I: 1
+  D2I: 3
+  D1C: 6
+  D2C: 4
+
+  VBUS: 5
+  GND: 2
+
+properties:
+  bidir: D1I, D2I, D1C, D2C
+  power: VBUS
+  ground: GND
+
+schematic:
+  symbol: IC
+  left: D1C, D2C
+  right: D1I, D2I
+  top: VBUS
+  bottom: GND
+
+housing:
+  outline: JEITA SC-88
+
+  padWidth: 0.5
+  padHeight: 0.4
+  padDistance: 1.9
