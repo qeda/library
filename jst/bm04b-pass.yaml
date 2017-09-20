@@ -1,0 +1,31 @@
+name: BM04B-PASS
+description: PA 4-pin 2.0mm Pitch Wire-to-board (Crimp style/IDC) / Wire-to-wire (Crimp style/IDC) Connector
+datasheet: http://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf
+keywords: Connector, Male
+
+pinout: 1-4
+
+schematic:
+  symbol: connector
+  options: single, square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 12
+  bodyLength: 5.7
+  height: 8.9
+
+  padWidth1: 1
+  padHeight1: 2.9
+  pitch1: 2
+  rowCount1: 1
+  columnCount1: 4
+  rowDY1: -3.3
+
+  padWidth2: 1.8
+  padHeight2: 3.6
+  pitch2: 10.7
+  rowCount2: 1
+  columnCount2: 2
+  rowDY2: 1.35

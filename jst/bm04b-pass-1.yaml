@@ -1,0 +1,11 @@
+base: BM04B-PASS
+name: BM04B-PASS-1
+
+housing:
+  holeDiameter3: 1.8
+  padDiameter3: 0
+  padPosition3: -5.2, -2.05
+
+  holeDiameter4: 0.8
+  padDiameter4: 0
+  padPosition4: 5.2, -2.05
