@@ -1,0 +1,38 @@
+name: TXS0108E
+variations: TSSOP
+description: 8-Bit Bi-directional, Level-Shifting, Voltage Translator for Open-Drain and Push-Pull Applications
+datasheet: http://www.ti.com/lit/ds/symlink/txs0108e.pdf
+keywords: IC, Digital, Translator, Transceiver
+
+pinout@TSSOP:
+  A:
+    A1-8: 1, 3-9
+  VCCA: 2
+
+  B:
+    B1-8: 20, 18-12
+  VCCB: 19
+
+  OE: 10
+
+  GND: 11
+
+properties:
+  power: VCCA, VCCB
+  ground: GND
+  in: OE
+  bidir: A, B
+
+schematic:
+  symbol: IC
+  left: A, OE, VCCA
+  right: B, VCCB
+  bottom: GND
+
+housing@TSSOP:
+  outline: JEDEC MO-153 AC
+  suffix: PW
+
+  padWidth: 1.6
+  padHeight: 0.3
+  padDistance: 5.6
