@@ -1,7 +1,7 @@
 name: AM26LV31E
 description: Low-Voltage High-Speed Quadruple Differential Line Driver With +/-15-kV IEC ESD Protection
 datasheet: http://www.ti.com/lit/ds/symlink/am26lv31e.pdf
-keywords: IC, Digital, Transciever, Differential
+keywords: IC, Digital, Transceiver, Differential
 
 pinout:
   G: 4
