@@ -1,7 +1,7 @@
 name: MUSBB15134
 description: MUSB Series Rugged Mini-B USB Receptacle, Right Angle PCB
 datasheet: https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?PartNum=MUSBB15134
-keywords: Connactor, Female
+keywords: Connector, Female
 
 pinout:
   USB:

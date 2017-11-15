@@ -1,7 +1,7 @@
 name: ADM4168E
 description: ±15 kV ESD Protected Dual RS-422 Transceiver
 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/ADM4168E.PDF
-keywords: IC, Digital, Transciever, Differential
+keywords: IC, Digital, Transceiver, Differential
 
 pinout:
   RI1:

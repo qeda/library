@@ -1,7 +1,7 @@
 name: AM26LV32E
 description: Low-Voltage High-Speed Quadruple Differential Line Receiver With +/-15-kV IEC ESD Protection
 datasheet: http://www.ti.com/lit/ds/symlink/am26lv32e.pdf
-keywords: IC, Digital, Transciever, Differential
+keywords: IC, Digital, Transceiver, Differential
 
 pinout:
   G: 4
