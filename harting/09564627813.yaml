@@ -1,0 +1,38 @@
+name: '09564627813'
+description: D-Sub HD 62P Male Angled Screw Locks
+datasheet: https://b2b.harting.com/files/download/PRD/PDF_TS/0956462X813_100510358DRW001D.pdf
+keywords: Connector, Male
+
+pinout:
+  ROW1:
+    '': 1-21
+  ROW2:
+    '': 22-42
+  ROW3:
+    '': 43-64
+
+parts:
+  Row 1: ROW1
+  Row 2: ROW2
+  Row 3: ROW3
+
+schematic:
+  symbol: connector
+  right: ROW1-3
+
+housing:
+  pattern: custom
+  bodyWidth: 69.4
+  bodyLength: 16.1
+  height: 12.55
+  bodyPosition: 0, -3.38
+
+  holeDiameter1: 1
+  rowCount1: 3
+  columnCount1: 21, 21, 20
+  horizontalPitch1: -2.41
+  verticalPitch1: -2.54
+  rowDX1: -0.58, 0.62, 0.62
+
+  holeDiameter2: 3.4
+  padPosition2: -31.75, 0, 31.75, 0

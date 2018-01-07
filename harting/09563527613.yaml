@@ -1,0 +1,38 @@
+name: '09563527613'
+description: D-Sub HD 44P Female Angled Screw Locks
+datasheet: https://b2b.harting.com/files/download/PRD/PDF_TS/0956352X613_100510346DRW001D.pdf
+keywords: Connector, Female
+
+pinout:
+  ROW1:
+    '': 1-15
+  ROW2:
+    '': 16-30
+  ROW3:
+    '': 31-46
+
+parts:
+  Row 1: ROW1
+  Row 2: ROW2
+  Row 3: ROW3
+
+schematic:
+  symbol: connector
+  right: ROW1-3
+
+housing:
+  pattern: custom
+  bodyWidth: 53.05
+  bodyLength: 16.2
+  height: 12.55
+  bodyPosition: 0, -3.33
+
+  holeDiameter1: 1
+  rowCount1: 3
+  columnCount1: 15, 15, 14
+  horizontalPitch1: 2.29
+  verticalPitch1: -2.54
+  rowDX1: 0.51, -0.64, -0.64
+
+  holeDiameter2: 3.4
+  padPosition2: -23.5, 0, 23.5, 0

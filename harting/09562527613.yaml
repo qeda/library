@@ -1,0 +1,29 @@
+name: '09562527613'
+description: D-Sub HD 26P Female Angled Screw Locks
+datasheet: https://b2b.harting.com/files/download/PRD/PDF_TS/0956252X613_100510343DRW001D.pdf
+keywords: Connector, Female
+
+pinout: 1-28
+
+schematic:
+  symbol: connector
+  right: 1-26
+  top: 27
+  bottom: 28
+
+housing:
+  pattern: custom
+  bodyWidth: 39.2
+  bodyLength: 16.2
+  height: 12.55
+  bodyPosition: 0, -3.33
+
+  holeDiameter1: 1
+  rowCount1: 3
+  columnCount1: 9, 9, 8
+  horizontalPitch1: 2.29
+  verticalPitch1: -2.54
+  rowDX1: 0.51, -0.64, -0.64
+
+  holeDiameter2: 3.4
+  padPosition2: -16.65, 0, 16.65, 0
