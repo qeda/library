@@ -1,0 +1,31 @@
+name: IM17TS
+description: Signal Relay
+datasheet: http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf%7F4-1462039-6
+keywords: Relay
+
+pinout:
+  +: 1
+  '-': 8
+  A: 3
+  AOUT:
+    A0: 2
+    A1: 4
+  B: 6
+  BOUT:
+    B0: 7
+    B1: 5
+
+schematic:
+  symbol: IC
+  left: +, A, B
+  right: -, AOUT, BOUT
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 5.92-6.08
+  bodyLength: 9.92-10.08
+  height: 5.45-5.85
+
+  holeDiameter: 0.75
+  padPosition: -2.54, -3.8, -2.54, -0.6, -2.54, 1.6, -2.54, 3.8, 2.54, 3.8, 2.54, 1.6, 2.54, -0.6, 2.54, -3.8

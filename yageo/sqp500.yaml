@@ -1,0 +1,18 @@
+name: SQP500
+description: Axial Lead Type Cement Resistor
+datasheet: http://www.yageo.com/documents/recent/Yageo%20LR_SQP%20NSP_2013.pdf
+keywords: Resistor, 5W
+
+pinout: 1-2
+
+schematic:
+  symbol: resistor
+
+housing:
+  pattern: custom
+  bodyWidth: 8.5-10.5
+  bodyLength: 20.5-23.5
+  height: 8-10
+
+  holeDiameter: 1
+  padPosition: 0, -16, 0, 16

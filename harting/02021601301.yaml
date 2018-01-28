@@ -1,0 +1,44 @@
+name: '02021601301'
+description: Har-Bus 64 Female Press-In with Flange 160-Pole
+datasheet: https://b2b.harting.com/files/download/PRD/PDF_TS/0202160X301_100070213DRW017D.pdf
+keywords: Connector, Female
+
+pinout:
+  ROW1:
+    '': 1-32
+  ROW2:
+    '': 33-64
+  ROW3:
+    '': 65-96
+  ROW4:
+    '': 97-128
+  ROW5:
+    '': 129-160
+
+parts:
+  Row 1: ROW1
+  Row 2: ROW2
+  Row 3: ROW3
+  Row 4: ROW4
+  Row 5: ROW5
+
+schematic:
+  symbol: connector
+  right: ROW1-5
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 94.7-94.9
+  bodyLength: 15.8-16
+  height: 11.56-12
+
+  holeDiameter1: 1
+  rowCount1: 5
+  columnCount1: 32
+  horizontalPitch1: -2.54
+  verticalPitch1: 2.54
+
+  holeDiameter2: 2.8
+  padDiameter2: 0
+  padPosition2: -45, 0, 45, 0
