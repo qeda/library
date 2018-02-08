@@ -3,8 +3,6 @@ description: Axial Lead Type Cement Resistor
 datasheet: http://www.yageo.com/documents/recent/Yageo%20LR_SQP%20NSP_2013.pdf
 keywords: Resistor, 5W
 
-pinout: 1-2
-
 schematic:
   symbol: resistor
 
