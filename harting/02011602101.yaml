@@ -1,0 +1,45 @@
+name: '02011602101'
+description: Har-Bus 64 Male Solder SMC 160-Pole
+datasheet: https://b2b.harting.com/files/download/PRD/PDF_TS/0201160X101_100174916DRW028B.pdf
+keywords: Connector, Male
+
+pinout:
+  ROWA:
+    '': A1-A32
+  ROWB:
+    '': B1-B32
+  ROWC:
+    '': C1-C32
+  ROWD:
+    '': D1-D32
+  ROWZ:
+    '': Z1-Z32
+
+parts:
+  Row A: ROWA
+  Row B: ROWB
+  Row C: ROWC
+  Row D: ROWD
+  Row Z: ROWZ
+
+schematic:
+  symbol: connector
+  right: ROWA, ROWB, ROWC, ROWD, ROWZ
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 93.8-94
+  bodyLength: 12.97-13.17
+  height: 10.9-11.1
+  bodyPosition: 0, 8.67
+
+  holeDiameter1: 1
+  rowCount1: 5
+  columnCount1: 32
+  pitch1: -2.54
+  numbers1: Z1-Z32, A1-A32, B1-B32, C1-C32, D1-D32
+
+  holeDiameter2: 2.8
+  padDiameter2: 0
+  padPosition2: -44.45, 5.08, 44.45, 5.08
