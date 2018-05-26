@@ -1,0 +1,37 @@
+name: EVQ
+suffixes: PLMA15, PLDA15, PT5A15, PLHA15, PT9A15, 3PLA15
+description: Microminiature SMT Top Actuated Pushbutton
+datasheet: https://datasheet.octopart.com/EVQ-PLMA15-Panasonic-datasheet-13284722.pdf
+keywords: Pushbutton
+
+pinout:
+  S1: 1, 2
+  S2: 3, 4
+  CASE: 5, 6
+
+schematic:
+  symbol: pushbutton
+  left: S1
+  right: S2
+  bottom: CASE
+
+housing:
+  pattern: custom
+  bodyWidth: 4.9
+  bodyLength: 4.9
+  height: 1.5
+
+  padWidth: 1.2
+  padHeight: 2
+  rowCount: 2
+  columnCount: 2
+  horizontalPitch: 4.3
+  verticalPitch: 5.4
+
+  padWidth1: 0.9
+  padHeight1: 1
+  padPosition1: 2.45, 0
+
+  padWidth2: 0.9
+  padHeight2: 1
+  padPosition2: -2.45, 0
